@@ -1,0 +1,14 @@
+# Site settings
+title: Lucas Andrey
+email: andreybleme@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+ Seja bem vindo ao meu blog. Aqui e onde eu falo sobre assuntos relacionados a
+ desenvolvimento de software e computaçao.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://andreybleme.com" # the base hostname & protocol for your site
+twitter_username: andreybleme
+github_username:  andreybleme
+linkedin_username: lucas.andrey
+
+# Build settings
+markdown: kramdown
