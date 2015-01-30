@@ -55,7 +55,7 @@ Após instalarmos o Jekyll, podemos iniciar um novo projeto em qualquer diretór
 
 Dessa forma será criada a seguinte estrutura de arquivos:
 
-![img-estrutura-arquivos]()
+![Estrutura de arquivos](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/estrutura_de_arquivos.png "Estrutura de arquivos")
 
 Todos os arquivos com um *_ underline* na frente do nome serão ignorados no pacote final gerado pelo Jekyll.
 
