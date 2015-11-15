@@ -1,12 +1,11 @@
 # Site settings
 title: Lucas Andrey
-email: andreybleme@gmail.com
+email: andreybleme1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Seja bem vindo ao meu blog. Aqui é onde eu falo sobre assuntos 
  relacionados a desenvolvimento de software e computação.
 baseurl: "" # the subpath of your site, e.g. /blog/
-meta-description: Olá, meu nome é Lucas Andrey(andreybleme), sou um desenvolvedor web de Belo Horizonte/MG, 
- atualmente trabalho na CI&T.
+meta-description: Bem vindo! Esse blog foi criado para compartilhar conhecimentps :)
 url: "http://andreybleme.com" # the base hostname & protocol for your site
 twitter_username: andreybleme
 github_username:  andreybleme

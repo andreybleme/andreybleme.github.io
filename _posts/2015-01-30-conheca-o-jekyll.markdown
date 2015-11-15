@@ -24,7 +24,7 @@ Chega de falar e vamos ver como o Jekyll funciona na prática. Nesse post vou te
 
 
 ### Instalação
-O Jekyll foi escrito em [ruby][ruby-link] e usa as [ruby gems][ruby-gems], então vamos precisar do ruby instalado pra começar a usa-lo.
+O Jekyll foi escrito em [ruby][ruby-link], ele é uma gem (o que são [ruby gems][ruby-gems]?), então vamos precisar do ruby instalado pra começar a usa-lo.
 
 Para instalar o ruby:
 
@@ -118,16 +118,10 @@ Tendo feito isso,  acesse seu repositório local onde se encontram os arquivos d
 git remote add origin https://github.com/username/username.github.io.git
 ```
 
-Depois, adicionamos nossos arquivos do repositório local à area de stage do repositório remoto:
+Depois, adicionamos nossos arquivos do repositório local ao remoto:
 
 ```
 git push -u origin master
-```
-
-E agora é só adicionar ao repositório remoto os commits e mudanças que sincronizamos:
-
-```
-git pull origin master
 ```
 
 Agora sempre que você alterar seu repositório local e commitar as alterações ao repositório remoto do github, as alterações vão ser feitas e seu projeto vai estar acessível ao mundo todo pelo seu endereço `username.github.io`!
