@@ -78,7 +78,7 @@ O resultado da operação, é o arquivo fora da área de stage e com conteúdo i
 Bem legal!
 Agora vamos dar uma olhada no **`checkout`**.
 
-O bpm e velho *git checkout* que usamos para alternar entre branches, quando usado com um caminho para um arquivo, faz o git apontar para esse arquivo. Sem atualizar a branch atual.
+O bom e velho *git checkout* que usamos para alternar entre branches, quando usado com um caminho para um arquivo, faz o git apontar para esse arquivo. Sem atualizar a branch atual.
 
 ```
 $ git checkout HEAD jedi.js
