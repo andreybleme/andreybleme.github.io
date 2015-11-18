@@ -78,13 +78,13 @@ O resultado da operação, é o arquivo fora da área de stage e com conteúdo i
 Bem legal!
 Agora vamos dar uma olhada no **`checkout`**.
 
-O *git checkout* que usamos para alternar entre branches, quando usamos com o caminho para um arquivo, o git aponta para esse arquivo, mas sem atualizar a branch atual.
+O bpm e velho *git checkout* que usamos para alternar entre branches, quando usado com um caminho para um arquivo, faz o git apontar para esse arquivo. Sem atualizar a branch atual.
 
 ```
 $ git checkout HEAD jedi.js
 ```
 
-Agora nosso arquivo `"jedi.html"`está igual ao arquivo presente em *HEAD*, e a nova versão do arquivo não está na área de stage.
+Agora nosso arquivo **"jedi.html"** está igual ao arquivo presente em *HEAD*, e a nova versão do arquivo não está na área de stage.
 
 ![Checkout File](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/checkoutfile.png "git checkout file")
 
