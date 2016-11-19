@@ -72,6 +72,7 @@ Escrevemos mais código, mas assim escrevemos código reutilizável.
 Sentiremos saudades (?)
 -------------
  Muita gente desaprovou a mudança nos Filters. O argumento principal é: 
+ 
  > Fazer coisas como filtrar coleções em um template de forma simples (sem lógicas adicionais) exige mais esforço no Vue 2.0.
  
  Particularmente acho que o caminho, em termos de **evolução**, é esse mesmo. 
@@ -91,4 +92,4 @@ Referências e links úteis
 
 - [I'm going to miss filters in Vue 2.0?](https://forum-archive.vuejs.org/topic/3896/i-m-going-to-miss-filters-in-vue-2-0/2)
 
-- [Announcing Vue.js 2.0 public preview](https://forum-archive.vuejs.org/topic/3891/announcing-vue-js-2-0-public-preview)
+- [ Announcing Vue.js 2.0 public preview](https://forum-archive.vuejs.org/topic/3891/announcing-vue-js-2-0-public-preview)
