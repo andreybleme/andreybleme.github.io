@@ -84,7 +84,7 @@ Uma consideração importantíssima de Design é que: Filters são realmente út
 O Filter agora é simplesmente uma função Javascript, e isso significa:
 
 - Poder importar suas funções e utiliza-las em qualquer lugar que tenha código Javascript no seu projeto.
-- Conseguir aproveitar o paradigma funcional do Javascript. Exemplo aqui.
+- Conseguir aproveitar o paradigma funcional do Javascript. [Exemplo aqui](https://gist.github.com/andreybleme/8986b787fe0c8a6067f3ffde40b90bfa).
 
 **Resumindo:** Os aspectos que guiaram a equipe na tomada de decisão no momento de retirar os Filters da versão 2, me convencem.
 
