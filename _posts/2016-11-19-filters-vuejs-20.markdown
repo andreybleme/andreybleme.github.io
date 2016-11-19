@@ -5,19 +5,21 @@ date:   2016-11-19 14:00:00
 categories: vuejs javascript
 ---
 
-Falando de  [Vue 2](https://vuejs.org/v2/guide/), muita coisa mudou em relação à [v1.0](http://v1.vuejs.org/guide/) do framework. É tanta coisa nova, que criaram uma página [Migration](https://vuejs.org/v2/guide/migration.html) com itens que te ajudam a entender melhor exatamente as mudanças que aconteceram, a página tem inclusive [alguns "extras"](https://vuejs.org/v2/guide/migration.html#FAQ) sobre tempo de migração de uma aplicação que usa a v1 pra v2, e até por onde se começar a migração pra nova versão.
+Falando de  [Vue 2](https://vuejs.org/v2/guide/), muita coisa mudou em relação à [v1.0](http://v1.vuejs.org/guide/) do framework. É tanta coisa nova, que criaram uma página [Migration](https://vuejs.org/v2/guide/migration.html) com itens que te ajudam a entender as mudanças que aconteceram. 
+
+A página tem inclusive [alguns "extras"](https://vuejs.org/v2/guide/migration.html#FAQ) sobre tempo de migração de uma aplicação que usa a v1 pra v2, e até por onde se começar a migração pra nova versão.
  
  Como muita gente, também usei a versão anterior o suficiente pra ter confusões tentando usar coisas que não estão mais presentes na nova versão. Começando com a mudança nos Filters.
 
 
-Filters do Vue 1 (Angular 1.x like)
+Filters do Vue 1.0
 -------------
 Com uma sintaxe bem similar aos [Filters do Angular 1.x](https://docs.angularjs.org/api/ng/filter/filter), na primeira versão do Vue.js, algo como isso funcionava:
 
     <input type="text" v-model="filter">
 	<ul>
 	    <li v-for="item in items | filterBy filter">
-		    {{ item }}
+		    {{item}}
 		</li>
 	</ul>
 	
@@ -26,7 +28,7 @@ Muito simples e em casos onde queremos filtrar itens sem nenhum tipo de lógica 
 Quem já usou os Filters do Angular (1.x), esse estilo com certeza já é bem familiar.
 
 
-Filters no Vue 2
+Filters no Vue 2.0
 -------------------
 
 A ideia agora é usar o [método .filter](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filtro) nativo do Javascript. Assim conseguimos implementar regras adicionais ao filtro facilmente:
@@ -72,7 +74,7 @@ Escrevemos mais código, mas assim escrevemos código reutilizável.
 Sentiremos saudades (?)
 -------------
  Muita gente desaprovou a mudança nos Filters. O argumento principal é: 
- 
+
  > Fazer coisas como filtrar coleções em um template de forma simples (sem lógicas adicionais) exige mais esforço no Vue 2.0.
  
  Particularmente acho que o caminho, em termos de **evolução**, é esse mesmo. 
