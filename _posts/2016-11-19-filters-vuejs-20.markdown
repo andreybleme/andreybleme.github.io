@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vue.js - Novos Filters"
+title:  "Novos Filters do Vue.js 2"
 date:   2016-11-19 14:00:00
 categories: vuejs javascript
 ---

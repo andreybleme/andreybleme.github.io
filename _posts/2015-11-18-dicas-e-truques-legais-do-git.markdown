@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Diquinhas e truques legais pra usar no git"
+title:  "Diquinhas e truques legais pra usar no Git"
 date:   2015-11-18 00:13:52
 categories: git dicas
 ---
