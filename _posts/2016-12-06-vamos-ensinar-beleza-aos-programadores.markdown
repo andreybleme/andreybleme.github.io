@@ -18,6 +18,7 @@ A relativização da beleza
 O conceito de beleza é entendido por muita gente como algo relativo. Algo que depende da formação social do observador para ser notada.
 
 Vejamos a definição de beleza:
+
 > Algo agradável que caracteriza formosura ou uma coisa bela. Característica ou um conjunto de características que são agradáveis à vista e que são capazes de cativar o observador.
  
 Então não se pode provar que algo é belo ou não, certo? Mais ou menos. O que se pode fazer na verdade, é apontar alguns indícios reveladores de simplicidade e eficiência.
