@@ -46,7 +46,7 @@ Não tem a ver com matemática
 ----
 O Físico [Richard Feynman](https://pt.wikipedia.org/wiki/Richard_Feynman), pioneiro da física quântica diz que qualquer pessoa que deseje analisar e resolver problemas reais, preferirá começar anotando equações e tentará resolvê-las matematicamente. Embora haja quem tente utilizar essa abordagem, essas pessoas causam os fracassos nos seus respectivos campos de atuação. 
 
-Os verdadeiros sucessos pertencem aos que começam de um ponto de vista físico, **estético**, pessoas que tem uma ideia do lugar para onde onde estão indo e começam a fazer os **tipos adequados de aproximação**. Isso tem pouco a ver com formalismo, e muito menos com aquela cara séria que atribuímos à ciência, e se aproxima bastante da arte.
+Os verdadeiros sucessos pertencem aos que começam de um ponto de vista físico, **estético**, pessoas que tem uma ideia do lugar para onde onde estão indo e começam a fazer os **tipos adequados de aproximação**. Isso tem pouco a ver com formalismo, e muito menos com aquela cara séria que atribuímos à ciência, e se aproxima muito mais, da Arte.
 
 
 Referências
