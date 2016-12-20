@@ -57,6 +57,9 @@ Refatorar o código toda vez que um desses pontos de atenção lhe aparecer, nã
 [Maurício Aniche](https://twitter.com/mauricioaniche), ao final de um dos capítulos de seu excelente livro [Teste e Design no Mundo Real](https://www.casadocodigo.com.br/products/livro-tdd), deixa um recado que cai bem aqui: "Lembre-se que esses pontos de atenção **não dão nenhuma certeza** sobre a existência de problemas. Eles são **apenas indícios**. O programador ao encontrar um deles, deve revisar o próprio trabalho e efetivamente comprovar que existe um problema, seja ele de encapsulamento, coesão ou acoplamento."
 
 
+A quem interessar, criei um repositório no Github com vários exemplos pra cada um dos tópicos citados no post: [http://bit.ly/2hQQmOZ](http://bit.ly/2hQQmOZ)
+
+
 
 Referências e links úteis
 -------------
