@@ -2,7 +2,7 @@
 layout: post
 title:  "Diga adeus ao Wordpress. Conheça o Jekyll!"
 date:   2015-01-27 13:13:52
-categories: blog jekyll
+categories: jekyll
 ---
 O [Jekyll][jekyll] é um gerador de páginas estáticas. A ideia do Jekyll é permitir que você crie páginas estáticas utilizando apenas marcação com HTML e Markdown. O sistema utiliza o padrão de template [Liquid][liquid] e formato [YAML][yaml] para armazenar variáveis e facilitar a reutilizo de código.
 

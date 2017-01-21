@@ -2,7 +2,7 @@
 layout: post
 title:  "Novos Filters do Vue.js 2"
 date:   2016-11-19 14:00:00
-categories: vuejs javascript
+categories: javascript
 ---
 
 Falando de  [Vue 2](https://vuejs.org/v2/guide/), muita coisa mudou em relação à [v1.0](http://v1.vuejs.org/guide/) do framework. É tanta coisa nova, que criaram uma página [Migration](https://vuejs.org/v2/guide/migration.html) com itens que te ajudam a entender as mudanças que aconteceram. 

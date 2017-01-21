@@ -2,7 +2,7 @@
 layout: post
 title:  "Vamos ensinar beleza aos programadores"
 date:   2016-12-06 01:00:00
-categories: developers software
+categories: offtopic
 ---
 
 Na semana passada me encontrei com alguns amigos desenvolvedores, alguns das antigas, outros não, que sempre soltam as mesmas "chorumelas" em conversas sobre trabalho e coisas do dia dia. No assunto aparece o "absurdo" que o colega programador do trampo fez no projeto e todo mundo se diverte falando da **feiura do código alheio** (eu também, claro). 

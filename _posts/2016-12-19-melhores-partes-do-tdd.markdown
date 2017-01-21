@@ -2,7 +2,7 @@
 layout: post
 title:  "Melhores partes do TDD"
 date:   2016-12-19 22:00:00
-categories: test tdd patterns
+categories: test
 ---
 
 
@@ -63,7 +63,7 @@ A quem interessar, criei um repositório no Github com vários exemplos pra cada
 
 Referências e links úteis
 -------------
-- [Livro - Test-Driven Development: Teste e Design no Mundo Real](https://www.casadocodigo.com.br/products/livro-tdd) (foda!)
+- [Livro - Test-Driven Development: Teste e Design no Mundo Real](https://www.casadocodigo.com.br/products/livro-tdd)
 
 - [TellDontAsk](http://martinfowler.com/bliki/TellDontAsk.html)
 
