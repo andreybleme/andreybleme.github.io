@@ -39,7 +39,7 @@ Sei menos que nada sobre psicologia, mas acho que não precisa saber pra se irri
 
 > Por que não testam minhas capacidades nesse contexto então? 
 
-De duas uma: simplesmente não sabem fazer isso ou acham cato demais. Acredito mais na primeira opção. Já vi avaliações extremamente eficientes no que diz respeito à avaliação lógica e nenhuma delas envolvia questões confusas de múltipla escolha (falo disso daqui a pouco).
+De duas uma: simplesmente não sabem fazer isso ou acham caro demais. Acredito mais na primeira opção. Já vi avaliações extremamente eficientes no que diz respeito à avaliação lógica e nenhuma delas envolvia questões confusas de múltipla escolha (falo disso daqui a pouco).
 
 Não acho justo que pessoas se sintam burras por tirar notas horríveis em testes assim. Enquanto empresas não tiverem pessoas intelectualmente capazes de testar competências lógicas com um teste descente, um diálogo ou qualquer coisa que faça sentido, vamos continuar sofrendo com essa bobagem. É importante saber que existem sim maneiras diferentes de se testar esse tipo de capacidade, então, paciência... Esteja pronto pra chutar a maioria das questões nesse caso, e relax.
 
