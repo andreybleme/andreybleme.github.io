@@ -21,7 +21,7 @@ Máquina de café, ping pong, no dress code (nossa), são coisas superficiais e 
 
 > Então por que empresas destacam essas coisas muito mais do que os benefícios que me interessam realmente (plano de carreira, por exemplo)?
 
-Simples: **distrações para encontrar mão de obra barata**. E funciona. Conheço umas 5 pessoas que trabalham em empresas e startups cheias de diversão e happy hour (uhul), mas vivem insatisfeitas com o plano de carreira extremamente mal definido, falta de perspectiva em relação a novos desafios e nunca se quer ouviram falar sobre aumentos salariais ou mudança de cargo.
+Simples: **distrações para encontrar mão de obra barata**. E funciona. Conheço umas 5 pessoas que trabalham em empresas e startups cheias de diversão e happy hour (uhul), mas vivem insatisfeitas com o plano de carreira extremamente mal definido, falta de perspectiva em relação a novos desafios e nunca sequer ouviram falar sobre aumentos salariais ou mudança de cargo.
 
 Essa infantilização é **intencional** e **venenosa**. Essas mesmas pessoas que conheço começam a pensar: "Poxa, eu trabalho as vezes em home office, trabalho de bermuda no escritório e bebendo cerveja. Talvez eu esteja sendo ingrato." Não. **Você não está sendo ingrato**. Se você pensa dessa forma, a tática funcionou com você.
 
@@ -41,7 +41,7 @@ Sei menos que nada sobre psicologia, mas acho que não precisa saber pra se irri
 
 De duas uma: simplesmente não sabem fazer isso ou acham caro demais. Acredito mais na primeira opção. Já vi avaliações extremamente eficientes no que diz respeito à avaliação lógica e nenhuma delas envolvia questões confusas de múltipla escolha (falo disso daqui a pouco).
 
-Não acho justo que pessoas se sintam burras por tirar notas horríveis em testes assim. Enquanto empresas não tiverem pessoas intelectualmente capazes de testar competências lógicas com um teste descente, um diálogo ou qualquer coisa que faça sentido, vamos continuar sofrendo com essa bobagem. É importante saber que existem sim maneiras diferentes de se testar esse tipo de capacidade, então, paciência... Esteja pronto pra chutar a maioria das questões nesse caso, e relax.
+Não acho justo que pessoas se sintam burras por tirar notas horríveis em testes assim. Enquanto empresas não tiverem pessoas intelectualmente capazes de testar competências lógicas com um teste decente, um diálogo ou qualquer coisa que faça sentido, vamos continuar sofrendo com essa bobagem. É importante saber que existem sim maneiras diferentes de se testar esse tipo de capacidade, então, paciência... Esteja pronto pra chutar a maioria das questões nesse caso, e relax.
 
 Binary search, bubble sort e árvores
 ----
@@ -61,7 +61,7 @@ Quando descubro que desafios desse tipo vão acontecer em algum processo que est
 
 Vai ser sempre assim?
 ----
-Contratar um desenvolvedor é **sempre complicado** e **talvez** (com sorte) não é demorado. O processo é caro porque precisa ser. Grande parte do aspecto sem sentido e desagradável em processos de contratação, são fruto de economias burras feitas por empresas com medo de investir em um processo descente, e na minha opinião, isso deveria ser feito. 
+Contratar um desenvolvedor é **sempre complicado** e **talvez** (com sorte) não é demorado. O processo é caro porque precisa ser. Grande parte do aspecto sem sentido e desagradável em processos de contratação, são fruto de economias burras feitas por empresas com medo de investir em um processo decente, e na minha opinião, isso deveria ser feito. 
 
 Enquanto se tem um mercado mal educado e imaturo, acreditando em serviços de terceirização de RH e produtos milagrosos que simplesmente "encontram" desenvolvedores de forma rápida e indolor (mágica), sofreremos com processos longos, sem sentido e cheios de inutilidade. Contratantes querem rápido e barato, o fato é que isso não existe sem  antes investir em se ter pessoas altamente capacitadas a contratar programadores. 
 
@@ -72,7 +72,7 @@ Por fim, a dica é: gaste um tempo consumindo conteúdo informativo, veja como f
 Referências e links úteis
 -------------
 
-**Obs.:** Não achei conteúdo descente sobre processos de contratação de desenvolvedores. A maioria é conteúdo propagandístico da upworks, geek hunter e outros serviços "milagrosos" de contratação. Se você tem um link maneiro de um livro/post/video, por favor poste nos comentários! :)
+**Obs.:** Não achei conteúdo decente sobre processos de contratação de desenvolvedores. A maioria é conteúdo propagandístico da upworks, geek hunter e outros serviços "milagrosos" de contratação. Se você tem um link maneiro de um livro/post/video, por favor poste nos comentários! :)
 
 - [Hiring great developers](http://www.infoworld.com/article/2609792/it-careers/7-simple-rules-for-hiring-great-developers.html)
 
