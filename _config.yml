@@ -2,7 +2,7 @@
 title: andreybleme
 email: andreybleme1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- Bem vindo! Aqui você encontra conteúdo sobre software, e coisas genéricas, dignas de serem compartilhadas (ou não).
+ Bem vindo! Aqui você encontra conteúdo sobre software, internet e coisas genéricas dignas de serem compartilhadas (ou não).
 baseurl: "" # the subpath of your site, e.g. /blog/
 meta-description: Bem vindo! Aqui você encontra conteúdo sobre software, e coisas genéricas, dignas de serem compartilhadas (ou não). 
 url: "http://andreybleme.com" # the base hostname & protocol for your site

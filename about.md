@@ -3,8 +3,10 @@ layout: page
 title: Sobre
 permalink: /about/
 ---
-Esse blog foi criado para servir como fonte de armazenamento para qualquer aprendizado digno de ser compartilhado obtidos em experiências por aí. 
+Olá! Sou [Lucas Andrey](https://www.linkedin.com/in/andreybleme/) (andreybleme), um desenvolvedor de software de Belo Horizonte responsável por tudo nesse site. 
 
-Pra bater um papo, fique a vontade pra mandar um email, tweet ou comentar aqui no blog mesmo!
+Esse blog existe para discutir e compartilhar coisas interessantes percebidas/aprendidas em experiências com desenvolvimento de software, novas tecnologias e internet.
+
+Para entrar em contato, fique a vontade pra mandar um email, tweet ou comentar aqui no blog.
 
 <i class="fa fa-rss"></i> Assine o feed <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS </a>
