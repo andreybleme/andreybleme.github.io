@@ -18,19 +18,19 @@ Cloudflare é um provedor de serviços de segurança para DNS, CDN, e DDoS.
 
 Depois de criar sua conta gratuitamente, o primeiro passo é garantir que todo tráfego do seu site passará pelo cloudflare fazendo um scan no seu DNS.
 
-![Scan](https://github.com/andreybleme/andreybleme.github.io/tree/master/assets/img/cf-scan.png "Scan DNS information")
+![Scan](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cf-scan.png "Scan DNS information")
 
 O Cloudflare vai mostrar todas as informações do seu DNS, caso esteja tudo certinho continue e em seguida escolha o plano gratuito.
 
-![Transfer DNS](https://github.com/andreybleme/andreybleme.github.io/tree/master/assets/img/cf-transfer-dns.png "Transfering DNS")
+![Transfer DNS](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cf-transfer-dns.png "Transfering DNS")
 
 Copie os novos Nameservers do Cloudflare, vá até o seu provedor de DNS atual e substitua sues Nameservers atuais pelos novos conforme as instruções.
 
-![Change DNS](https://github.com/andreybleme/andreybleme.github.io/tree/master/assets/img/cf-change-dns.png "Changing DNS")
+![Change DNS](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cf-change-dns.png "Changing DNS")
 
 Agora sim, pra ativar o SSL compartilhado vá na sessão "crypto" e marque a opção de SSL certificate como "Full".
 
-![SSL](https://github.com/andreybleme/andreybleme.github.io/tree/master/assets/img/cf-ssl-full.png "SSL Full")
+![SSL](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cf-ssl-full.png "SSL Full")
 
 All done. O Cloudflare demora em torno de 24 horas pra gerar o certificado e tudo estar funcionando perfeitamente. Aqui nosso site já deve ser capaz de responder a chamadas com HTTPS!.
 
