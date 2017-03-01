@@ -24,7 +24,7 @@ O Cloudflare vai mostrar todas as informações do seu DNS, caso esteja tudo cer
 
 ![Transfer DNS](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cf-transfer-dns.png "Transfering DNS")
 
-Copie os novos Nameservers do Cloudflare, vá até o seu provedor de DNS atual e substitua sues Nameservers atuais pelos novos conforme as instruções.
+Copie os novos Nameservers do Cloudflare, vá até o seu provedor de DNS atual e substitua seus Nameservers atuais pelos novos conforme as instruções.
 
 ![Change DNS](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cf-change-dns.png "Changing DNS")
 
