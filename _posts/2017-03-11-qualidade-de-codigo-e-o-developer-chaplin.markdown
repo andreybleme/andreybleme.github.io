@@ -2,7 +2,7 @@
 layout: post
 title:  "Qualidade de código e o developer Chaplin"
 date:   2017-03-11 19:00:00
-categories: offtopic business
+categories: offtopic business developers
 ---
 
 Como desenvolvedores de software, estamos na maior parte do tempo preocupados em estudar técnicas de refatoração, modelos de escalabilidade, padrões de implementação (design patterns) e coisas relacionadas a qualidade de código. 
