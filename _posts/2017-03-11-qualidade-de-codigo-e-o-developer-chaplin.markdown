@@ -42,7 +42,7 @@ Sendo assim, faz sentido **abrir mão da qualidade do código**? Ás vezes sim.
 
 Em pequenas startups ou grandes empresas lançando produtos rapidamente para competir, eu diria que essas não só podem negligenciar a qualidade do código, como na maioria dos casos devem. Desenvolvedores podem não gostar de ler isso, mas é o retrato do conceito de [Débito Técnico](https://martinfowler.com/bliki/TechnicalDebt.html). Em momentos específicos faz sentido pra uma startup estrategicamente assumir uma série de débitos técnicos, a fim de lançar um produto ou uma nova feature rapidamente para ganhar em timing.
 
-Se ao invés disso você escolhe ter 100% de cobertura em testes unitários e refatorar seu código toda vez que encontrar um code smell, provavelmente perderá boas oportunidades e em 3 meses ainda não terá um negócio com seu produto rodando, experiência própria. Como qualquer negócio saudável que no futuro atinge seu payback e paga suas dívidas, haverá tempo para colocar os débitos técnicos em dia a fim de não ter uma codebase de má qualidade desacelerando o negócio. 
+Se ao invés disso você escolhe ter 100% de cobertura em testes unitários e refatorar seu código toda vez que encontrar um code smell, provavelmente perderá boas oportunidades e em 3 meses ainda não terá um negócio com seu produto rodando, experiência própria. Como qualquer negócio saudável que no futuro atinge seu payback e paga suas dívidas, haverá tempo para colocar os débitos técnicos em dia, a fim de não ter uma codebase de má qualidade desacelerando o negócio. 
 
 ![Problemas imaginários](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/problemas-imaginarios.jpg "Problemas imaginários")
 
@@ -51,7 +51,7 @@ Defendo que **manter a qualidade do código é regra**, com exceções. O ponto 
 
 Developers developers, negócios à parte?
 -------------
-Ainda existem desenvolvedores que se incomodam em participar ativamente de decisões de negócio. Pra muita gente, é confortável simplesmente "apertar parafusos" (exatamente como em Tempos Modernos filme de Chaplin) e seguir com a mentalidade de que desenvolvedor não tem nada a ver com business.
+Ainda existem desenvolvedores que se incomodam em participar ativamente de decisões de negócio. Pra muita gente, é confortável simplesmente "apertar parafusos" (exatamente como em Tempos Modernos, filme de Chaplin) e seguir com a mentalidade de que desenvolvedor não tem nada a ver com business.
 
 É necessário articular com o business, negociar, defender pontos de vista sob uma perspectiva técnica para que decisões de negócio sejam bem tomadas. A balança do que pode ou não virar um débito técnico é delicada e possui nuances técnicas que o time (obviamente) deve apresentar, sugerir opções e fazer recomendações.
 
