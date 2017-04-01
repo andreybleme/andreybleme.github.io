@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Autenticação com JWTs no Spring Boot"
+title:  "Autenticação com JWT no Spring Boot"
 date:   2017-04-01 12:00:00
 categories: spring security
 ---
