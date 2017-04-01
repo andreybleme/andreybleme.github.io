@@ -93,7 +93,7 @@ Para criar e verificar nossos tokens, vamos criar a classe `TokenAuthenticationS
 <script src="https://gist.github.com/andreybleme/036ce00169c70e12d3032d45390705dc.js"></script>
 
 
-Autenticando com os JWTs
+Autenticando os JWTs
 -----------
 Já temos tudo que precisamos para usar os JWTs no processo de autenticação. Agora vamos criar a classe `JWTLoginFilter` para interceptar as requisições do tipo POST feitas em `/login` e tentar autenticar o usuário. Quando o usuário for autenticado com sucesso, um método irá retornar um JWT com a autorização `Authorization` no cabeçalho da resposta.
 
