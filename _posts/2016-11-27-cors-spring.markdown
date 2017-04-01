@@ -2,7 +2,7 @@
 layout: post
 title:  "Lidando com CORS no Spring"
 date:   2016-11-27 22:00:00
-categories: java
+categories: java spring
 ---
 
 Quando projetamos APIs e queremos que todos seus recursos sejam disponíveis a qualquer cliente HTTP, o que vem na cabeça é [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) (Cross-Origin Resource Sharing).
