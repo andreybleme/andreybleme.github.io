@@ -84,7 +84,7 @@ Uma grande vantagem de estarmos utilizando o Spring boot aqui, é que em momento
 As classes `JWTLoginFilter` e `JWTAuthenticationFilter` serão responsáveis por lidar com login e validação da autenticação dos usuários quando acessarem outras rotas. Por tanto, antes nos preocuparmos com elas, vamos ter que criar as classes que irão lidar com os JWTs.
 
 
-Criando os JWT Services no Spring Boot
+Criando os JWT Services no Spring boot
 ----------
 Nossos JWT services serão responsáveis por gerara e validar nossos JWT tokens. Nesse exemplo vamos criar um token baseado em `username` e um `expiration_time`, em seguida iremos assiná-lo com uma palavra chave `secret`.
 
@@ -93,7 +93,7 @@ Para criar e verificar nossos tokens, vamos criar a classe `TokenAuthenticationS
 <script src="https://gist.github.com/andreybleme/036ce00169c70e12d3032d45390705dc.js"></script>
 
 
-Autenticado os JWTs
+Autenticando com os JWTs
 -----------
 Já temos tudo que precisamos para usar os JWTs no processo de autenticação. Agora vamos criar a classe `JWTLoginFilter` para interceptar as requisições do tipo POST feitas em `/login` e tentar autenticar o usuário. Quando o usuário for autenticado com sucesso, um método irá retornar um JWT com a autorização `Authorization` no cabeçalho da resposta.
 
