@@ -5,16 +5,16 @@ date:   2017-04-01 12:00:00
 categories: spring security
 ---
 
-[JSON Web Token]() (JWT), é um padrão que define uma forma segura de transmitir mensagens, utilizando um token **compacto** e **self-contained** no formato de um objeto JSON.
+[JSON Web Token]() (JWT), é um padrão que define uma forma segura de transmitir mensagens utilizando um token **compacto** e **self-contained** no formato de um objeto JSON.
 
-É compacto porque além de leve, pode ser enviado através de um HTTP header, via URL, ou como parâmetro no corpo de uma requisição HTTP. Dizemos que um JWT é *self-contained* porque seu [payload](http://stackoverflow.com/questions/23118249/whats-the-difference-between-request-payload-vs-form-data-as-seen-in-chrome) possui toda informação necessária para autenticar um usuário, assim não é necessário fazer mais que uma única consulta na base de dados.
+É compacto porque além de leve, pode ser enviado através de um HTTP header, via URL, ou como parâmetro no corpo de uma requisição HTTP. Dizemos que um JWT é *self-contained* porque seu [payload](http://stackoverflow.com/questions/23118249/whats-the-difference-between-request-payload-vs-form-data-as-seen-in-chrome) possui toda informação necessária para autenticar um usuário, assim, não é necessário fazer mais que uma única consulta na base de dados.
 
-JSON Web Tokens são comumente utilizados quando precisamos de autenticação em arquiteturas stateless (REST por exemplo). JWTs nos permitem autenticar um usuário e garantir que as demais requisições serão feitas de forma autenticada, sendo possível restringir acessos a recursos e serviços com diferentes níveis de permissões. 
+JSON Web Tokens são comumente utilizados quando precisamos de autenticação em aplicações com arquiteturas stateless (REST por exemplo). JWTs nos permitem autenticar um usuário e garantir que as demais requisições serão feitas de forma autenticada, sendo possível restringir acessos a recursos e serviços com diferentes níveis de permissões. 
 
 
 Estrutura do JSON Web Token
 -------------
-Um JWT é composto por três partes separadas por ponto (.)
+Um JWT é composto por três partes separadas por ponto.
 
 `hhh.ppp.sss` 
 
@@ -22,7 +22,7 @@ Um JWT é composto por três partes separadas por ponto (.)
 - **P** ayload
 - **S** ignature
 
-O **header** consiste em duas partes diferentes: o tipo do token (no caso JWT), e o nome do algorítimo responsável pelo hashing, HMAC SHA256 ou RSA.
+O **header** consiste em duas partes diferentes: o tipo do token (no caso JWT), e o nome do algorítimo responsável pelo hashing, [HMAC SHA256](https://pt.wikipedia.org/wiki/HMAC) ou [RSA](https://pt.wikipedia.org/wiki/RSA).
 
 <script src="https://gist.github.com/andreybleme/6e1a4685b30d2bb6abf34e0adab5407c.js"></script>
 
@@ -34,7 +34,7 @@ O **payload** contém o que chamamos de *claims*. *Claims* são atributos da ent
 
 Essse JSON será *encoded* via Base64Url e irá compor a segunda parte do token.
 
-A **signature** verifica que o remetente do JWT é quem diz ser para garantir que a mensagem não foi alterada durante tráfego. Para criar a assinatura (signatire), utiliza-se o header Base64 *encoded*, o payload também Base64 *encoded*, e o algorítimo especificado no header. Utilizando o algorítimo HMAC SHA256, a signature ficaria assim:
+A **signature** verifica que o remetente do JWT é quem diz ser para garantir que a mensagem não foi alterada durante o tráfego. Para criar a assinatura (signature), utiliza-se o header Base64 *encoded*, o payload também Base64 *encoded*, e o algorítimo especificado no header. Utilizando o algorítimo HMAC SHA256, a signature ficaria assim:
 
 <script src="https://gist.github.com/andreybleme/cf63573ef6e2107ecb85f3b6aad97a2b.js"></script> 
 
@@ -45,10 +45,10 @@ Por fim teremos uma String em Base64 separada por pontos, compondo o JSON Web To
 Para testar esses conceitos e montar um JWT, você pode usar o [JWT Debugger](https://jwt.io/) e ver o token sendo formado na prática.
 
 
-Criando o projeto Springboot
+Criando o projeto Spring boot
 -------------
 
-A ideia é implementar autenticação para uma aplicação Springboot. Para criar um novo projeto spring boot basta acessar https://start.spring.io/ e no campo "dependencies", adicionar apenas "Web". Fazendo isso um novo projeto pronto para ser executado será criado, já com todas as dependências que precisamos para executar a aplicação.
+A ideia é implementar autenticação para uma aplicação Springboot. Para criar um novo projeto spring boot basta acessar [https://start.spring.io/](https://start.spring.io/) e no campo "dependencies", adicionar apenas "Web". Fazendo isso, um novo projeto pronto para ser executado será criado já com todas as dependências que precisamos para executar a aplicação.
 
 Feito isso, criaremos uma rota `/home` para verificarmos o funcionamento correto da nossa aplicação, mais tarde criaremos outras rotas. Quando queremos criar métodos que representem endpoints no Spring, precisamos criar um `RestController`. Por hora, vamos adicionar o endpoint na única classe que temos no projeto, a classe principal.
 
@@ -67,21 +67,21 @@ Como fizemos na nossa classe principal, aqui também criamos um endpoint. A dife
 
 Adicionando segurança às rotas
 -------------
-Até esse momento, os recursos da nossa aplicação estão expostos para todos. Qualquer pessoa pode acessar a lista de usuários do nosso servidor. Para que esse recurso seja restrito apenas para usuários autenticados, vamos adicionar segurança à nossa aplicação com JSON Web Tokens!
+Até esse momento, os recursos da nossa aplicação estão expostos para todos. Qualquer pessoa pode acessar a lista de usuários do nosso servidor. Para que esse recurso seja restrito apenas a usuários autenticados, vamos adicionar segurança à nossa aplicação com JSON Web Tokens!
 
-Nesse exemplo, vamos expor publicamente apenas os recursos disponíveis em `/home` e `/login`. Para acessar `/users` deve ser necessário que o usuário envie ao nosso servidor um token JWT válido. Para isso, vamos adicionar duas dependências no nosso `pom.xml`. A primeira é  `spring-boot-starter-security` que nos permite trabalhar com autenticação no Spring, e a segunda, é `jjwt` que vai gerenciar nossos JWTs.
+Nesse exemplo, vamos expor publicamente apenas os recursos disponíveis em `/home` e `/login`. Para acessar `/users` será necessário que o usuário envie ao nosso servidor um token JWT válido. Para isso, vamos adicionar duas dependências ao `pom.xml`. A primeira é  `spring-boot-starter-security` que nos permite trabalhar com autenticação no Spring, e a segunda, é `jjwt` que vai gerenciar nossos JWTs.
 
 <script src="https://gist.github.com/andreybleme/1a12be46452eb9170c30b2cbc2d1c9dd.js"></script>
  
- Adicionadas as dependências, a primeira coisa que queremos fazer é deixar de expor os recursos de `/users` publicamente. Por tanto, vamos criar uma configuração que restrinja esse acesso criando uma nova classe chamada `WebSecurityConfig`. Essa nova classe, vai ser uma classe filha da classe `WebSecurityConfigurerAdapter` do [Springsecurity](https://projects.spring.io/spring-security/). Nesse exemplo, vamos cria-la em um novo pacote `com.jwtme.security`.
+ Adicionadas as dependências, a primeira coisa que queremos fazer é deixar de expor os recursos de `/users` publicamente. Por tanto, vamos criar uma configuração que restrinja esse acesso criando uma nova classe chamada `WebSecurityConfig`. Essa nova classe vai ser uma classe filha da classe `WebSecurityConfigurerAdapter` do [Spring security](https://projects.spring.io/spring-security/). Nesse exemplo, vamos cria-la em um novo pacote `com.jwtme.security`.
 
 <script src="https://gist.github.com/andreybleme/cd4abdaa3736d43d22f4897d411c265f.js"></script>
 
-Nessa classe definimos que todos podem acessar `/home`, e que o endpoint `/login` está disponível apenas via requisições do tipo POST. Para todas as demais rotas a autenticação é necessária. Não se preocupe com erros de compilação, já que ainda não criamos as classes `JWTLoginFilter` e `JWTAuthenticationFilter`. Vamos cria-las em breve, elas serão as classes responsáveis por filtrar as requisições feitas em `/login` e em todas as outras rotas, para decidir como essas requisições deverão ser tratadas. Repare que também adicionamos uma conta default aqui, para testarmos o funcionamento da autenticação. 
+Nessa classe definimos que todos podem acessar `/home`, e que o endpoint `/login` está disponível apenas via requisições do tipo POST. Para todas as demais rotas a autenticação é necessária. Não se preocupe com erros de compilação, já que ainda não criamos as classes `JWTLoginFilter` e `JWTAuthenticationFilter`. Vamos cria-las em breve. Elas serão as classes responsáveis por filtrar as requisições feitas em `/login` e em todas as outras rotas, para decidir como essas requisições deverão ser tratadas. Repare que também adicionamos uma conta default aqui, para testarmos o funcionamento da autenticação. 
 
-Uma grande vantagem de estarmos utilizando o Spring aqui, é que em momento algum foi necessário mudar o código já existente das rotas, nem adicionar arquivos .xml de configuração! Tudo foi feito pragmaticamente com uma classe de configuração anotada com `@Configuration`.
+Uma grande vantagem de estarmos utilizando o Spring boot aqui, é que em momento algum foi necessário mudar o código já existente das rotas, nem adicionar arquivos .xml de configuração! Tudo foi feito pragmaticamente com uma classe de configuração anotada com `@Configuration`.
 
-As classes `JWTLoginFilter` e `JWTAuthenticationFilter` vão lidar com login e validação da autenticação dos usuários quando acessarem outras rotas. Por tanto, antes nos preocuparmos com elas, vamos ter que criar as classes que irão lidar com os JWTs.
+As classes `JWTLoginFilter` e `JWTAuthenticationFilter` serão responsáveis por lidar com login e validação da autenticação dos usuários quando acessarem outras rotas. Por tanto, antes nos preocuparmos com elas, vamos ter que criar as classes que irão lidar com os JWTs.
 
 
 Criando os JWT Services no Spring Boot
@@ -107,7 +107,7 @@ Agora sim, criaremos a classe `JWTAuthenticationFilter`.
 
 Nessa classe validamos a existência de um JWT nas requisições, com ajuda do service `TokenAuthenticationService`.
 
-Agora só falta criarmos a classe `AccountCredentials`, que será utilizada para enviarmos as credencias da conta a ser validada quando fizermos requisições do tipo POST à URL `/login`. Requests de login portanto, devem ser feitas com um objeto do tipo `AccountCredentials` em seu body.
+Agora só falta criarmos a classe `AccountCredentials`, que será utilizada para enviarmos as credenciais da conta a ser validada quando fizermos requisições do tipo POST à URL `/login`. Requests de login portanto, devem ser feitas com um objeto do tipo `AccountCredentials` em seu body.
 
 <script src="https://gist.github.com/andreybleme/b4b1878015c4551d153d987aec023071.js"></script>
 
@@ -122,6 +122,8 @@ Para nos autenticarmos corretamente, vamos enviar uma requisição do tipo POST 
 No header da resposta dessa requisição temos nosso token com o prefixo `Bearer`. Para buscar os usuários, agora precisamos enviar no header da requisição nosso token incluindo o cabeçalho `Authorization` com o JWT que recebemos quando realizamos a autenticação com sucesso.
 
 ![Users JWT](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/jwt-users.png "JWT User Access")
+
+-------------
 
 
 Referências e links úteis
