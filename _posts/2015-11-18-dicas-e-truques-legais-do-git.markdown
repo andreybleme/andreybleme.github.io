@@ -1,8 +1,12 @@
 ---
 layout: post
 title:  "Diquinhas e truques legais pra usar no Git"
+description: "Comandos úteis para salvar tempo."
 date:   2015-11-18 00:13:52
 categories: git
+tags: [git]
+comments: true
+share: true
 ---
 Esse post tem como motivação, uma semana difícil. 
 

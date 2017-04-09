@@ -1,9 +1,14 @@
 ---
 layout: post
-title:  "Diga adeus ao Wordpress. Conheça o Jekyll!"
+title:  "Diga adeus ao Wordpress, conheça o Jekyll"
+description: "Usando Jekyll para servir páginas estátiacas."
+tags: [jekyll]
 date:   2015-01-27 13:13:52
 categories: jekyll
+comments: true
+share: true
 ---
+
 O [Jekyll][jekyll] é um gerador de páginas estáticas. A ideia do Jekyll é permitir que você crie páginas estáticas utilizando apenas marcação com HTML e Markdown. O sistema utiliza o padrão de template [Liquid][liquid] e formato [YAML][yaml] para armazenar variáveis e facilitar a reutilizo de código.
 
 Quando começamos a produção de um site, geralmente separamos as partes do layout (header, footer e etc) e incluímos essas partes nas páginas onde for preciso evitando a repetição de código. Grande parte das pessoas (inclusive eu) escolhem algum [CMS][cms] (Wordpress, Drupal etc) e usam os includes pra resolver essa parte do problema. 
@@ -128,8 +133,6 @@ Agora sempre que você alterar seu repositório local e commitar as alterações
 
 > Esse "workflow" ainda contribui para que haja entregas bem mais contínuas nos seus projetos \o/
 
-
-Por enquanto é isso. Deixem um feedback nos comentários se possível, e até a próxima :) 
 
 
 

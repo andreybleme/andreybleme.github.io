@@ -1,62 +1,35 @@
-<footer class="site-footer">
+<!-- Documents about icons are here: http://fontawesome.io/icons/ -->
+<div class="footer">
+  <hr />
+  <div class="footer-link">
+    {% if site.author.facebook %}
+    <a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    {% endif %}
 
-  <div class="wrapper">
+    {% if site.author.twitter %}
+    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    {% endif %}
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    {% if site.author.github %}
+    <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Entre em contato:</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+    {% if site.author.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    {% endif %}
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            <i class="fa fa-github fa-6"></i>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">Github</span>
-            </a>
-          </li>
-          {% endif %}
+    {% if site.author.medium %}
+    <a href="https://medium.com/@{{ site.author.medium }}"><i class="fa fa-medium" aria-hidden="true"></i></a>
+    {% endif %}
 
-          {% if site.twitter_username %}
-          <li>
-            <i class="fa fa-twitter"></i>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">Twitter</span>
-            </a>
-          </li>
-          {% endif %}
+    {% if site.author.tumblr %}
+    <a href="https://{{ site.author.tumblr }}.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+    {% endif %}
 
-          {% if site.linkedin_username %}
-          <li>
-            <i class="fa fa-linkedin"></i>
-            <a href="https://linkedin.com/{{ site.linkedin_username }}">
-              <span class="username">Linkedin</span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
+    {% if site.author.email %}
+    <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    {% endif %}
 
   </div>
-
-</footer>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-59076774-1', 'auto');
-  ga('send', 'pageview');
-</script>
+  © {{ site.copyright.year }} {{ site.copyright.name }}. All rights reserved.
+</div>

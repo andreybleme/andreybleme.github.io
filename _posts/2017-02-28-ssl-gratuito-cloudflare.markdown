@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "SSL gratuito com Cloudflare"
+description: "Utilizando certificado SSL de forma gratuita."
 date:   2017-02-28 23:00:00
-categories: security
+tags: [security]
+comments: true
+share: true
 ---
 
 O [SSL](https://pt.wikipedia.org/wiki/Transport_Layer_Security) é um protocolo de segurança comumente utilizado por desenvolvedores para garantir que o conteúdo trafegado entre servidores e clientes (browsers) seja criptografado realizando uma autenticação entre as 2 partes envolvidas na comunicação baseando-se em certificados [digitais](https://pt.wikipedia.org/wiki/Certificado_digital).

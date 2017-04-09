@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Qualidade de código e o developer Chaplin"
+description: "O que qualidade de código tem  ver com business? Tudo."
 date:   2017-03-11 19:00:00
-categories: offtopic business developers
+tags: [offtopic]
+comments: true
+share: true
 ---
 
 Como desenvolvedores de software, estamos na maior parte do tempo preocupados em estudar técnicas de refatoração, modelos de escalabilidade, padrões de implementação (design patterns) e coisas relacionadas a qualidade de código. 

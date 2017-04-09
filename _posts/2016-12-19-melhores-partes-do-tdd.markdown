@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Melhores partes do TDD"
+description: "Mais que apenas uma estratégia de testes, TDD é uma ferramenta de design!"
 date:   2016-12-19 22:00:00
-categories: test
+tags: [test driven development]
+comments: true
+share: true
 ---
 
 

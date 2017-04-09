@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Autenticação com JWT no Spring Boot"
+description: "Autenticação em aplicações stateless com JSON Web Tokens."
 date:   2017-04-01 12:00:00
-categories: spring security
+tags: [java, spring, security]
+comments: true
+share: true
 ---
 
 [JSON Web Token]() (JWT), é um padrão que define uma forma segura de transmitir mensagens utilizando um token **compacto** e **self-contained** no formato de um objeto JSON.
