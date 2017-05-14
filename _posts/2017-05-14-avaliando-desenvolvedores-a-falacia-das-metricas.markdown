@@ -21,7 +21,7 @@ Métricas quantitativas
 -------------
 Uma forma atrativa de resolver esse problema, é criar métricas quantitativas. Já que não podemos medir quanto um developer gera de valor para a empresa, vamos achar alguma coisa que podemos medir com facilidade. [Nada pode dar errado](https://www.youtube.com/watch?v=z7k4-e5jwsY), certo? 
 
-![Code code code](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/todo-poderoso.png "Code code code")
+![Code code code](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/todo-poderoso.jpg "Code code code")
 
 Uma métrica comumente sugerida por pessoas que não tem conhecimento de programação é a **quantidade de linhas de código** por desenvolvedor. Essa métrica é doentia e burra porque a realidade é: código de alta qualidade geralmente possui poucas linhas. Vejamos um exemplo simples. Você quer exibir 5 produtos no seu e-commerce, então você escreveria algo como:
 
