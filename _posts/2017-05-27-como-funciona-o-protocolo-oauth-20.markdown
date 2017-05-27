@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Como funciona: Protocolo OAuth 2.0"
+title:  "Como funciona o protocolo OAuth 2.0"
 description: "Entendendo o protocolo OAUth 2.0 e seus principais aspectos."
 tags: [security, APIs]
 date:   2017-05-27 16:00:00
