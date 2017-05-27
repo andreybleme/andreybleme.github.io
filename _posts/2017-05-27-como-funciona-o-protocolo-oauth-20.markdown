@@ -2,7 +2,7 @@
 layout: post
 title:  "Como funciona: Protocolo OAuth 2.0"
 description: "Entendendo o protocolo OAUth 2.0 e seus principais aspectos."
-tags: [security]
+tags: [security, APIs]
 date:   2017-05-27 16:00:00
 categories: security
 comments: true
@@ -24,7 +24,7 @@ Pesquisando por "OAuth" no google, as fontes dizem todas basicamente: "O protoco
 
 - Os servidores das aplicações a serem consumidas também teriam de suportar autenticação por senha, apesar de existirem [alguns problemas com esse tipo de autenticação](http://searchsecurity.techtarget.com/tip/Problems-with-authentication).
 
-- Aplicações que desejam consumir recursos de terceiros ganhariam acesso muito amplo aos recursos. Seriam necessárias implementações adicionais para limitar tempo de acesso a recursos, acesso a subgrupos de recursos e etc. A granularidade da concessão de acesso seria de total responsabilidade da aplicação disponibilizadora de recursos.
+- Aplicações que desejam consumir recursos de terceiros ganhariam um acesso muito amplo aos recursos. Seriam necessárias implementações adicionais para limitar tempo de acesso a recursos, acesso a subgrupos de recursos e etc. A granularidade da concessão de acesso seria de total responsabilidade da aplicação disponibilizadora de recursos.
 
 Por esses e outros problemas listados na [especificação do protocolo](https://tools.ietf.org/html/rfc6749), o OAuth é necessário para fazermos autorização de forma segura e coerente no contexto atual de APIs e integrações.
 
@@ -85,10 +85,10 @@ A ideia aqui não é falar como cada **grant type** funciona. Veremos a seguir u
 Autenticando com Authorization Code
 ----------
 
-O fluxo de autenticação *Authorization Code* do OAuth 2.0 é o mais popular. Diversas plataformas como Github, Twitter e Google disponibilizam recursos como login, utilizando esse **grant type**. Sendo assim, vejamos na prática como funciona esse tipo de autenticação.
+O fluxo de autenticação *Authorization Code* do OAuth 2.0 é o mais popular. Diversas plataformas como Github, Twitter e Google disponibilizam recursos como login, utilizando esse **grant type**. Sendo assim, vejamos na prática os passos necessários para utilizar esse tipo de autenticação.
 
 ####  1. Capturar a autorização do usuário ####
-Para iniciar a autenticação, sua aplicação (Client) deve enviar o usuário à **authorization url**.
+Para iniciar a autenticação, sua aplicação (Client) deve enviar os dados do usuário à **authorization url**. Essa URL varia de acordo com a aplicação a ser consumida, e pode ser encontrada na documentação de utilização do OAuth com a aplicação em questão ([exemplo](https://dev.twitter.com/oauth/reference/post/oauth2/token).
 
 <script src="https://gist.github.com/andreybleme/ba5deae2d6dc0bc9740ad187a7f69cd1.js"></script>
 
@@ -97,8 +97,8 @@ Sendo:
 - `code`: diz que sua aplicação espera receber um Authorization Code.
 - `audience`: o identificador único da API que seu aplicativo deseja acessar. Esse valor geralmente é disponibilizado na documentação do endpoint no qual você quer utilizar.
 -  `client_id`: o ID que você recebeu quando criou sua aplicação no domínio requisitado. Seu Twitter App por exemplo.
-- `redirect_uri`: a URI para onde o usuário sera redirecionado após concluir a autenticação com sucesso.
-- `scope`: um ou mais valores de escopo indicando a quais recursos do usuário você deseja obter acesso.
+- `redirect_uri`: a URI para onde o usuário será redirecionado após concluir a autenticação com sucesso.
+- `scope`: um ou mais valores de escopo indicando quais recursos do usuário você deseja obter acesso.
 - `state`: uma string aleatória gerada pela sua aplicação ou seu registro na API do sistema de terceiro no qual você deseja obter acesso.
 
 Exemplo:
@@ -108,7 +108,7 @@ O objetivo da chamada sendo feita no exemplo acima, é obter consentimento de um
 
 ####  2. Trocar o Authorization Code pelo Access Token ####
 
-Agora que temos o **authorization code** precisamos trocá-lo por um **access token** que será utilizado nas chamadas à API. Utilizando o valor `code` retornado na etapa anterior, devemos fazer uma requisição do tipo `POST`  à **token URL** da aplicação de terceiro que estamos querendo obter acesso. Vejamos um exemplo de requisição com cURL:
+Agora que temos o **authorization code** precisamos trocá-lo por um **access token**, que será utilizado nas chamadas à API. Utilizando o valor `code` retornado na etapa anterior, devemos fazer uma requisição do tipo `POST`  à **token URL** da aplicação de terceiro que estamos querendo obter acesso. Vejamos um exemplo de requisição com cURL:
 
 <script src="https://gist.github.com/andreybleme/ba1200c2787a4bfb96266a9dc9706748.js"></script>
 
@@ -140,15 +140,15 @@ OAuth 2.0 no mundo real
 
 Nesse post foram apresentados os principais conceitos do OAuth 2.0, portanto, conhecendo os *roles* e as etapas de autenticação que o protocolo utiliza, fica fácil integrar com quaisquer aplicações que utilizem o OAuth 2.0.
 
-Isso não significa que, não podemos esbarrar com algumas coisas diferentes em aplicações no mundo real. A maioria das grandes plataformas que oferecem integrações via OAuth 2.0, utilizam **access tokens** que expiram após um determinado tempo. Para lidar com cenários onde é necessário utilizar tokens por um tempo maior, existem os **refresh tokens**.
+Isso não significa que, não podemos esbarrar com algumas coisas diferentes em aplicações no mundo real. A maioria das grandes plataformas que oferecem integrações via OAuth 2.0, utilizam **access tokens** que expiram após um determinado tempo. Para lidar com cenários onde é necessário utilizar tokens por um tempo maior existem os **refresh tokens**.
 
 ####  Obtendo um refresh token ####
 
-Basicamente, um refresh token possui as informações necessárias para que possamos gerar um novo access token. Para obter um refresh token basta adicionar à requisição que fizemos na primeira etapa da autenticação Authorization Code, o parâmetro `offline_access`. A requisição ficaria assim:
+Basicamente, um refresh token possui as informações necessárias para que possamos gerar um novo access token. Para obter um refresh token, basta adicionar à requisição que fizemos na etapa 1 da seção "Autenticação com Authorization Code" o parâmetro `offline_access`. A requisição ficará assim:
 
 <script src="https://gist.github.com/andreybleme/1f7b70c202ec08dcb994e596b7bf0db5.js"></script>
 
-Após obter o **authorization code** e trocá-lo pelo **access token** (como descrevemos no passo 2 da seção "Autenticando com Authorization Code"), o refesh token estaria na resposta da requisição:
+Após obter o **authorization code** e trocá-lo pelo **access token** (como descrevemos no passo 2 da seção "Autenticando com Authorization Code"), o refesh token estará na resposta da requisição:
 
 <script src="https://gist.github.com/andreybleme/f065bf59b5c8cd986a58f740aa7fac97.js"></script>
 
@@ -160,18 +160,19 @@ Agora que já obtemos o **refresh token**, precisamos utilizá-lo para renovar n
 
 <script src="https://gist.github.com/andreybleme/70d3d55584ea36a2e6b3ff5524c8f934.js"></script>
 
-Como resposta, temos um **novo access token** com um novo período de expiração:
+Como resposta, temos um **novo access token** com um novo período de expiração em milissegundos:
 
 <script src="https://gist.github.com/andreybleme/226f06706647c756baf6898f30ac5a98.js"></script>
 
 > **Importante:** Somente faça requisições para obter um novo access token quando o token expirar. Várias APIs possuem **rate limits** que funcionam como um limite de requisições permitidas por minuto, ou por hora. 
 Fazer uma requisição de um novo access token sempre que for utilizar um recurso qualquer da API que exija o access token, é uma **péssima prática**.
 
----------------------
+That's it!
+----------
 
 Exitem ainda mais coisas a serem ditas sobre o OAuth 2.0, mas acredito que até aqui cobrimos as coisas mais importantes. Se quiser ver mais detalhes e exemplos de outros grant types não abordados no post, coloquei aqui em baixo alguns links que podem ser úteis. Se esqueci de alguma coisa durante os exemplos ou algo do tipo, **favor** comentar me avisando.
 
-Pretendo aumentar a frequência dos posts aqui no blog nas próximas semanas, então: sugestões de post são bem vindas.
+Pretendo aumentar a frequência dos posts aqui no blog nas próximas semanas, então: sugestões de post são bem vindas (não se acanhe, pode sugerir nos comentários mesmo).
 
 Referências e links úteis
 -------------
