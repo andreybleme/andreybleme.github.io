@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-Um [Port Scanner](https://en.wikipedia.org/wiki/Port_scanner) é um software que detecta portas disponíveis em um servidor ou em um host. O software mais famoso com essa finalidade é o [nmap](https://nmap.org/), que dentre várias coisas, também possui uma funcionalidade de port scan. Para utilizarmos, basta especificar o IP da máquina a ser escaneada. No exemplo abaixo, utilizamos localhost `127.0.0.1`.
+Um [Port Scanner](https://en.wikipedia.org/wiki/Port_scanner) é um software que detecta portas disponíveis em um servidor ou em um host. O software mais famoso com essa finalidade é o [nmap](https://nmap.org/), que dentre várias coisas, também possui uma funcionalidade de port scan. Para utilizar essa função do nmap, basta especificar o IP da máquina a ser escaneada. No exemplo abaixo, utilizamos localhost `127.0.0.1`.
 
 ![Port Scanner nmap](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/port-scanner-nmap.png "Port Scanner nmap")
 
