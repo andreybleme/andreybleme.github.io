@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Port Scanner Chatbot - Parte 1: Construindo o Port Scanner com Java"
+title:  "Port Scanner Chatbot - Parte 1: Construindo um Port Scanner com Java"
 description: "No primeiro post da série, veremos a construção do serviço que escanea portas de um servidor utilizando APIs de concorrência do Java."
 tags: [java, port scanner]
 date:   2017-06-18 16:00:00
