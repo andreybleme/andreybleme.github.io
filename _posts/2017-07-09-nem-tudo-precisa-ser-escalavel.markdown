@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nem tudo precisa ser Escalável"
-description: "Quanto custa desenvolver uma feature escalável?"
+description: "Entendendo quanto custa desenvolver uma feature escalável, e porque isso importa"
 date:   2017-07-09 16:00:00
 tags: [offtopic]
 comments: true
