@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nem tudo precisa ser Escalável"
-description: "Entendendo quanto custa desenvolver features que realmente escalam. Spoiler: É caro."
+description: "Reflexões sobre o preço de features que realmente escalam. Spoiler: Custam caro."
 date:   2017-07-09 16:00:00
 tags: [offtopic]
 comments: true
