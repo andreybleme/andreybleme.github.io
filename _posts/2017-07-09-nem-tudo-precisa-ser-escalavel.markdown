@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nem tudo precisa ser Escalável"
+title:  "Nem tudo precisa ser escalável"
 description: "Reflexões sobre o preço de features que realmente escalam. Spoiler: Custam caro."
 date:   2017-07-09 16:00:00
 tags: [offtopic]
