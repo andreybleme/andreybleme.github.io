@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-Nem toda funcionalidade precisa ser escalável. Eis uma linha de pensamento ingenua que segui durante muito tempo: "Sem escalar a aplicação vai cair! Todo dinheiro gasto na aquisição de usuários não pode ser desperdiçado! Esse mecanismo tem que ser escalável!". 
+Nem toda funcionalidade precisa ser escalável. Eis uma linha de pensamento ingênua que segui durante muito tempo: "Sem escalar a aplicação vai cair! Todo dinheiro gasto na aquisição de usuários não pode ser desperdiçado! Esse mecanismo tem que ser escalável!". 
 
 **Features populares** precisam suportar acessos de milhares, talvez milhões de usuários. **Features populares** devem escalar. Essas são afirmações simples, e corretas. E como todas as respostas simples pra questões complexas, também não bastam.
 
