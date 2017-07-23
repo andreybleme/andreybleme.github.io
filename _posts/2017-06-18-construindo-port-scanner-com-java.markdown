@@ -82,7 +82,7 @@ A estrutura do método `main()` pode ser alterada para exibirmos quais são as p
 
 Esse foi o primeiro post da construção do nosso Port Scanner. Nos próximos posts vamos adicionar mais valor ao scanner até que possamos perguntar a um bot do slack, quais são as portas disponíveis em um servidor e quais serviços estão sendo expostos nelas!
 
-[Link pro repositório no Github.](https://github.com/andreybleme/portscanner-slackapp).
+[Link pro repositório no Github.](https://github.com/andreybleme/portscanner-slackapp)
 
 Na sequencia iremos:
 
