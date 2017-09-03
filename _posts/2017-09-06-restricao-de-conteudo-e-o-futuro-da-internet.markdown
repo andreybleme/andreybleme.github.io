@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restrição de conteúdo e o futuro da internet"
-description: "Nacionalistas e alt-right em Charlottesville nos mostraram quem deve ser responsável por restringir conteúdo na internet?"
+description: "Nacionalistas e a extrema-direita em Charlottesville nos mostraram quem deve ser responsável por restringir conteúdo na internet?"
 date:   2017-09-03 15:00:00
 tags: [offtopic]
 comments: true
@@ -12,14 +12,14 @@ Tudo começou depois que um grupo de pessoas de extrema direita nos Estados Unid
 
 Durante a marcha [um cidadão de carro atropelou quase 40 pessoas, uma mulher foi morta](http://www.em.com.br/app/noticia/internacional/2017/08/12/interna_internacional,891453/eua-manifestacao-da-direita-radical-em-charlottesville-termina-em-vio.shtml). Foi então que o portal de notícias neonazistas [The Daily Stormer](https://en.wikipedia.org/wiki/The_Daily_Stormer) publicou uma coluna tirando sarro do ocorrido com demonstrações de ódio e apoio ao causador do atentado. No texto publicado havia inclusive uma convocação aos leitores para que comparecessem ao funeral e tratassem de forma violenta os familiares e amigos da vítima. A ideia era entrar em conflito com todos os que lamentavam o ocorrido.
 
-Com toda a polêmica em torno das publicações no The Daily Stormer, hashtags surgiram no Twitter em compaixão às vítimas, várias pessoas lamentavam o ocorrido e o mais importante em relação ao título do post: **As pessoas exigiam que sites como o Daily Stormer não tivessem lugar na internet**.
+Com toda a polêmica em torno das publicações no The Daily Stormer, hashtags surgiram no Twitter em compaixão às vítimas, várias pessoas lamentavam o ocorrido e o mais importante em relação ao título do post: **as pessoas exigiam que sites como o Daily Stormer não tivessem lugar na internet**.
 
 Muita coisa aconteceu desde esse episódio. Grandes empresas responsáveis por fazer da internet o que ela é hoje (Google, Facebook, Cloudflare, GoDaddy e outras), tiveram de se posicionar em relação a tanta pressão feita para que conteúdo pro-nazista fosse removido da internet. Vejamos então o que aconteceu, o que não aconteceu e refletir sobre aspectos importantíssimos, pouco discutidos em relação a neutralidade e a responsabilidade de empresas provedoras da internet.
 
 Onde se regula conteúdo na internet?
 -------------
 
-Existem várias organizações que trabalham para que a internet como conhecemos, chegue até nós:
+Existem várias organizações que trabalham para que a internet como conhecemos chegue até nós:
 
 - Criadores de conteúdo (criam o conteúdo disponível online).
 - Plataformas (Facebook, Twitter, Wordpress e etc), onde o conteúdo é publicado.
@@ -46,7 +46,7 @@ Um exemplo: sites como o YouTube começaram a oferecer conteúdo livre de vídeo
  
  - Oposição à Legislação
 
- Muitos questionam a capacidade do governo de bem regular a Internet de forma a causar avanço e ao invés problemas (eu também). A legislação convencional torna difícil para os provedores de Internet tomar ações como filtrar informações, para prevenir [ataques DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o), prevenir disseminação de vírus e filtragem de spams. Alguns pontos da legislação tornam ilegais a priorização dos pacotes baseados em critérios que diferem dos pré-fixados. 
+ Muitos questionam a capacidade do governo de bem regular a Internet de forma a causar avanço ao invés problemas (eu também). A legislação convencional torna difícil para os provedores de Internet tomar ações como filtrar informações, para prevenir [ataques DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o), prevenir disseminação de vírus e filtragem de spams. Alguns pontos da legislação tornam ilegais a priorização dos pacotes baseados em critérios que diferem dos pré-fixados. 
 
 Apesar das preocupações dos opositores ao princípio, a grande maioria das empresas capazes de regular conteúdo na internet defendem a ideia e se posicionam de forma a seguir o princípio à risca. Foi então que uma empresa chamada [CloudFlare](cloudflare.com), responsável por, dentre várias coisas, proteger websites contra ataques DDoS, 
 começou a receber mensagens de hackers do mundo inteiro que tentavam derrubar o site Daily Stormer através de ataques desse tipo. O problema que os tais "hackers do bem" diziam nas mensagens, era que a ação estava muito difícil por conta de um proxy cloudflare que o site usava para se proteger. Pediam para que a empresa desabilitasse o funcionamento do serviço para que fosse possível remover o The Daily Stormer da internet sobrecarregando seus servidores.
