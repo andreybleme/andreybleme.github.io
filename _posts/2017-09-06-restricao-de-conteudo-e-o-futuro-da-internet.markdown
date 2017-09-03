@@ -58,7 +58,7 @@ Imediatamente após o recebimento das mensagens a empresa se posicionou como o e
 ![Twitter Daily Stormer](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/neutrality-daily-storm.png "Twitter Daily Stormer")
 
 
-Depois de muita pressão, a [GoDaddy removeu o serviço de DNS para o site](https://techcrunch.com/2017/08/13/godaddy-tells-white-supremacist-site-daily-stormer-to-find-a-new-domain-provider/) e Zoho cancelou o plano de utilização gratuito dos serviços de email. As duas empresas afirmaram que o portal The Daily Stormer violou os termos de serviço e por isso, estavam removendo acesso aos respectivos serviços. 
+Depois de muita pressão a [GoDaddy removeu o serviço de DNS para o site](https://techcrunch.com/2017/08/13/godaddy-tells-white-supremacist-site-daily-stormer-to-find-a-new-domain-provider/) e Zoho cancelou o plano de utilização gratuito dos serviços de email. As duas empresas afirmaram que o portal The Daily Stormer violou os termos de serviço e por isso, estavam removendo acesso aos respectivos serviços. 
 
 ![Twitter CloudFlare](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/neutrality-daily-storm-cf.png "Twitter CloudFlare")
 
@@ -67,7 +67,7 @@ Poucos dias depois, finalmente: [CloudFlare desativou o security layer que imped
 Posso, mas será que devo?
 -------------
 
-Das várias empresas capazes de remover conteúdo da internet, algumas deveriam, outras não. Vi algumas pessoas mostrando que a [Airbnb desativou contas de pessoas relacionadas a grupos neo-nazistas de Charlottesville](https://techcrunch.com/2017/08/08/airbnb-ban-white-supremacist-rally/), utilizando esse fato como argumento para que empresas como GoDaddy e CloudFlare desabilitassem os serviços para o The Daily Stormer. 
+Das várias empresas capazes de remover conteúdo da internet, algumas deveriam, outras não. Vi algumas pessoas no Twitter mostrando que a [Airbnb desativou contas de pessoas relacionadas a grupos neo-nazistas de Charlottesville](https://techcrunch.com/2017/08/08/airbnb-ban-white-supremacist-rally/), utilizando esse fato como argumento para que empresas como GoDaddy e CloudFlare desabilitassem os serviços para o The Daily Stormer. 
 
 O senso comum diz que assim como a atitude do pessoal da Airbnb, o ato de desativar o security layer por parte da CloudFlare foi igualmente justo. O que vejo como problemático é: depois da decisão tomada em relação ao episódio de Charlottesville, será ainda mais difícil para empresas que prestam serviços de segurança, argumentar com governos de algum lugar que não gostem do conteúdo presente em sites de seus clientes. Imagine se passam a transferir chaves SSL de seus clientes para instituições de segurança de governos para colaborar com investigações de alguma natureza? Não seria loucura já que empresas assim oferecem serviços de SSL também. E se, por pressão, essas mesmas empresas tiverem de fornecer um feed mostrando o conteúdo do tráfego de rede de algum de seus clientes? Essas são ações que, segundo as políticas de privacidade dessas empresas jamais acontecerão. Desativar um serviço de proteção contra ataques DDoS também é um aspecto presente nos termos, e ainda assim, vimos o que aconteceu.
 
