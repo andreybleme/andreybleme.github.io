@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Port Scanner Chatbot - Parte 2: Criando a API e configurando o Slack App"
-description: "No segundo e último post da série, criamos uma API para expor nosso serviço de port scan e configuramos o Slack App."
+description: "No segundo e último post da série, criamos uma API para expor nosso serviço de port scan e configuramos o slack app."
 tags: [java, port scanner]
 date:   2017-12-08 00:10:00
 categories: java
