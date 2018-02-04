@@ -117,7 +117,10 @@ Total unique users on [16/11/2018, 17/11/2018, 18/11/2018, 19/11/2018, 20/11/201
 
 ---
 
-As we have seen, by getting known of the different data structures supported by Redis, we can easily implement solutions for quickly storing and retrieving many types of data. For counting, we have alternatives that better fits when we are dealing with a hight amount of data (Bitmaps), and data structures with simpler operations such as Strings with commands `INCR` and `INCRBY`. 
+As we have seen, by getting known of the different data structures supported by Redis, we can easily implement solutions for quickly storing and retrieving many types of data. For counting, we have alternatives that better fits when we are dealing with a hight amount of data (Bitmaps), and data structures with simpler operations such as Strings with commands `INCR` and `INCRBY`.
+
+For more examples like this, see my github repository [discovering-redis](https://github.com/andreybleme/discovering-redis/tree/master/src/main/java/com/discovering/redis).
+
 
 
 References and useful links
