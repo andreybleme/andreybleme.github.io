@@ -13,7 +13,7 @@ There are a lot of use cases where redis can be a good choice (caching, queues, 
 
 Creating a real-time access counter to generate statistics for a website might seem to be a complex task involving different systems or something like this. By using redis, we can do it quickly, without any performance negative impact and using a tiny memory space.
 
-For this example, let's store statistics about daily visited pages This way we'll be able to know how many times a page was visited for each day. Consider a website called "Redis expert" containing the pages:
+For this example, let's store statistics about daily visited pages This way we'll be able to know how many times a page was visited for each day. Consider a website "Redis expert" containing the pages:
 
 ``` 
 /home
