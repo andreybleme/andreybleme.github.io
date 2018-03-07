@@ -3,7 +3,7 @@ layout: post
 title:  "OAuth Github web flow doesn't support CORS"
 description: "When exchanging a code for an access token, there are an additional set of errors that can occur. Here is a workaround for a common one."
 date:   2018-02-24 15:00:00
-tags: [api, javascript]
+tags: [apis, javascript]
 comments: true
 share: true
 
