@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The shame of being a non-passionate developer"
-description: "Thoughts about an emerging obsession of being passionate about coding"
+description: "Thoughts about an emerging obsession of being passionate about coding."
 date:   2018-03-24 15:00:00
 tags: [offtopic]
 comments: true
