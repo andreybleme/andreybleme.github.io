@@ -28,7 +28,7 @@ I noticed while dealing with programmers on many different situations that 40 ho
 
 The idea that the only way you can avoid stagnation is to let your work consume your life is perverse. Personal growth matters. This kind of thought often comes from employers who can’t (or simply don’t want to) give us the minimum required for being professional software developers.
 
-Working with mentally healthy people is much better than dealing with sick geniuses. I know some brilliant guys who make me feel exhausted when dealing with them and it sucks! I just feel terrible imagining myself (ou "It just feels terrible to imagine myself") becoming a high skilled developer with no sense of peopleware stuff. It gets even more sad and tragic when these sick people reach management roles and(/or) become responsible for hiring (it happens often). That’s exactly where this sense of “you need to be passionate” comes from: people without a healthy social life occupying key management positions.
+Working with mentally healthy people is much better than dealing with sick geniuses. I know some brilliant guys who make me feel exhausted when dealing with them and it sucks! It just feels terrible to imagine myself becoming a high skilled developer with no sense of peopleware stuff. It gets even more sad and tragic when these sick people reach management roles or become responsible for hiring (it happens often). That’s exactly where this sense of “you need to be passionate” comes from: people without a healthy social life occupying key management positions.
 
 ----
 
