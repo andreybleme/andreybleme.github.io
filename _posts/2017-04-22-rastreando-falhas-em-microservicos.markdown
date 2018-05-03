@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dicas para rastrear falhas em Microserviços"
+title:  "Dicas para rastrear falhas em microserviços"
 description: "Dicas para evitar o caos na identificação de falhas em microserviços."
 date:   2017-04-22 16:00:00
 tags: [microservices]
@@ -55,9 +55,6 @@ Em casos onde existe algum tipo de suporte à clientes, se o client sempre receb
 -------------------------
 
 Rastrear falhas em instâncias que nascem e morrem todo o tempo é uma tarefa árdua. Utilizar boas práticas no tratamento de logs nos ajuda bastante a economizar tempo. Conhecer ferramentas adequadas e saber quando utilizá-las pode ser determinante para uma estratégia de sucesso de rastreamento de falhas em microserviços. 
-
-Se você conhece alguma prática ou ferramenta que também pode ser útil, deixe seu comentário!
-
  
 
 ----------
