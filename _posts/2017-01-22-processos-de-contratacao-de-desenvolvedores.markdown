@@ -3,7 +3,7 @@ layout: post
 title:  "Desventuras em processos de contratação"
 description: "Refletindo sobre algumas coisas curiosas presentes em recrutamentos na área de software."
 date:   2017-01-22 01:00:00
-tags: [offtopic, mercado]
+tags: [offtopic]
 comments: true
 share: true
 ---
