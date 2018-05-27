@@ -39,7 +39,7 @@ In [many countries](https://www.statista.com/statistics/271412/most-visited-us-w
 
 Source: [https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/](https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/)
 
-You might be thinking: "wait, media websites still have significant participation on traffic influence". Yes, in fact they do. But... How do they get page views? In 2018, the Media depends on both Google and Facebook for their own page visits, since [it’s the majority of their traffic](https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/).
+You might be thinking: "wait, media websites still have significant participation on traffic influence". Yes, in fact they do. But how do they get page views? In 2018, the Media depends on both Google and Facebook for their own page visits, since [it’s the majority of their traffic](https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/).
 
 The relationship between media sites and these 2 tech giants is quite difficult. They both have already tried to increase control over news media. In 2014 Facebook created Instant Articles, described as a service “for any publisher to create fast, interactive articles on Facebook”. Instant Articles kept people within the Facebook app, rather than sending readers through to a publisher’s own sites, where they can monetize them way much more effectively and have better control of readers data. [Some publishers appearead to be cooling on Facebook Instant Articles](https://digiday.com/media/publishers-appear-cooling-facebook-instant-articles/) and started pulling out from these services.
 
