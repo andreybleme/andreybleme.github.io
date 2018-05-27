@@ -19,13 +19,13 @@ The last 4~5 years was marked by a huge growth wave from some of the most famous
 
 ![Top Traffic Referral Sources](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/ims-top-traffic-referrals-sources.png "Top Traffic Referral Sources")
 
-Source: https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/
+Source: [https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/](https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/)
 
 This is a graph representing where most of website traffic comes from. As you can see *more than 70% comes from Google and Facebook*. Together they make more influence over web traffic than all another existing referral source together (that’s huge). This is data from 2015, maybe we should take a look at 2017~2018 data:
 
 ![Facebok and Google influence over pageviews](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/ims-facebook-google-influence-pageviews.png "Facebok and Google influence over pageviews")
 
-Source: https://www.recode.net/2017/12/11/16748026/google-facebook-publisher-traffic-2017-increase
+Source: [https://www.recode.net/2017/12/11/16748026/google-facebook-publisher-traffic-2017-increase](https://www.recode.net/2017/12/11/16748026/google-facebook-publisher-traffic-2017-increase)
 
 Yes, Google and Facebook are kind of "internet traffic owners" by referring 70% of visits of most of websites.
 
@@ -33,9 +33,9 @@ An interesting way understand Google and Facebook dominance, is to look among me
 
 In [many countries](https://www.statista.com/statistics/271412/most-visited-us-web-properties-based-on-number-of-visitors/), the most visited websites are Google sites youtube, drive, and so on), followed by Facebook. Right after, we have local media websites. Here in Brazil for example we have some famous news websites, such as Globo, IG and UOL.
 
-<a href="https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/" rel="nofollow"><img src="http://www.statista.com/graphic/1/254727/most-visited-web-properties-in-brazil.jpg" alt="Statistic: Most popular digital properties in Brazil as of January 2016, based on number of unique visitors (in millions) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a><br />Find more statistics at  <a href="https://www.statista.com" rel="nofollow">Statista</a>
+<a href="https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/" rel="nofollow"><img src="http://www.statista.com/graphic/1/254727/most-visited-web-properties-in-brazil.jpg" alt="Statistic: Most popular digital properties in Brazil as of January 2016, based on number of unique visitors (in millions) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>
 
-Source: https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/
+Source: [https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/](https://www.statista.com/statistics/254727/most-visited-web-properties-in-brazil/)
 
 You might be thinking: "wait, media websites still have significant participation on traffic influence". Yes, in fact they do. But... How do they get page views? In 2018, the Media depends on both Google and Facebook for their own page visits, since [it’s the majority of their traffic](https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/).
 
@@ -45,9 +45,9 @@ These 2 companies are not only internet companies anymore. What they have learne
 
 Take a look at Amazon's revenue growth and its net income graph:
 
-<a href="https://www.statista.com/chart/4298/amazons-long-term-growth/" title="Infographic: Amazon's Impressive Long-Term Growth | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_4298_amazons_long_term_growth_n.jpg" alt="Infographic: Amazon's Impressive Long-Term Growth | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> You will find more infographics at <a href="https://www.statista.com/chartoftheday/">Statista</a>
+<a href="https://www.statista.com/chart/4298/amazons-long-term-growth/" title="Infographic: Amazon's Impressive Long-Term Growth | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_4298_amazons_long_term_growth_n.jpg" alt="Infographic: Amazon's Impressive Long-Term Growth | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a>
 
-Source: https://www.statista.com/chart/4298/amazons-long-term-growth/
+Source: [https://www.statista.com/chart/4298/amazons-long-term-growth/](https://www.statista.com/chart/4298/amazons-long-term-growth/)
 
 It gets clear: for Amazon, monopoly > market profit. They are not focused on making profit. Amazons' mission seems to be to seek the absolute market leadership while dismantle the retail industry. Scott Gallowey has [a brilliant talk specifically about Amazon business strategy](https://www.youtube.com/watch?v=3MOwRTTq1bY) where he shows how and why investors and shareholders are increasingly looking for growth, even at the expense of profitability. It's a "need for speed" game for billionaires only.
 
