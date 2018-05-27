@@ -21,7 +21,9 @@ The last 4~5 years was marked by a huge growth wave from some of the most famous
 
 Source: [https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/](https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/)
 
-This is a graph representing where most of website traffic comes from. As you can see *more than 70% comes from Google and Facebook*. Together they make more influence over web traffic than all another existing referral source together (that’s huge). This is data from 2015, maybe we should take a look at 2017~2018 data:
+This is a graph representing where most of website traffic comes from. As you can see *more than 70% comes from Google and Facebook*. Together they make more influence over web traffic than all another existing referral source together (that’s huge). 
+
+The above data is from 2015, maybe we should take a look at more recent data (2017):
 
 ![Facebok and Google influence over pageviews](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/ims-facebook-google-influence-pageviews.png "Facebok and Google influence over pageviews")
 
