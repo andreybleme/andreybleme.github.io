@@ -21,7 +21,7 @@ The last 4~5 years was marked by a huge growth wave from some of the most famous
 
 Source: [https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/](https://blog.parse.ly/post/3476/yahoo-tops-twitter-traffic-referral-source-digital-publishers/)
 
-This is a graph representing where most of website traffic comes from. As you can see *more than 70% comes from Google and Facebook*. Together they make more influence over web traffic than all another existing referral source together (that’s huge). 
+This is a graph representing where most of website traffic comes from. As you can see **more than 70% comes from Google and Facebook**. Together they make more influence over web traffic than all another existing referral source together (that’s huge). 
 
 The above data is from 2015, maybe we should take a look at more recent data (2017):
 
@@ -51,7 +51,7 @@ Take a look at Amazon's revenue growth and its net income graph:
 
 Source: [https://www.statista.com/chart/4298/amazons-long-term-growth/](https://www.statista.com/chart/4298/amazons-long-term-growth/)
 
-It gets clear: for Amazon, monopoly > market profit. They are not focused on making profit. Amazons' mission seems to be to seek the absolute market leadership while dismantle the retail industry. Scott Gallowey has [a brilliant talk specifically about Amazon business strategy](https://www.youtube.com/watch?v=3MOwRTTq1bY) where he shows how and why investors and shareholders are increasingly looking for growth, even at the expense of profitability. It's a "need for speed" game for billionaires only.
+It gets clear: for Amazon, **monopoly > market profit**. They are not focused on making profit. Amazons' mission seems to be to seek the absolute market leadership while dismantle the retail industry. Scott Gallowey has [a brilliant talk specifically about Amazon business strategy](https://www.youtube.com/watch?v=3MOwRTTq1bY) where he shows how and why investors and shareholders are increasingly looking for growth, even at the expense of profitability. It's a "need for speed" game for billionaires only.
 
 
 These companies seems to be pretty much satisfied with their own dominance of specific parts of the web while we are increasingly losing diversity of choices as users, content producers, developers, entrepreneurs. The internet market is getting less diverse.
