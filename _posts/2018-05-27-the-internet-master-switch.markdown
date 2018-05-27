@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The internet master switch"
-description: "How Google, Facebook and Amazon are creating internet monopolies, and how their huge influece are causing irreversible damages."
+description: "How Google, Facebook and Amazon are creating internet monopolies, and how their huge influence is causing irreversible damages."
 date: 2018-05-27 15:00:00
 tags: [offtopic]
 comments: true
