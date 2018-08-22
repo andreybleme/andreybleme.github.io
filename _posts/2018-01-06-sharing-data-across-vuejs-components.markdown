@@ -42,14 +42,14 @@ First thing we'll do to implement it, is to create the event bus in our root mod
 <script src="https://gist.github.com/andreybleme/9c4dbe4c34a473b4fd28d8a176e51afb.js"></script>
 All we need to do here is to import the Vue library and export a Vue instance (we named it eventBus).
 
-#### Seding events
-Now we have to use the Event Bus in the component we want to send data from. Here we'll use as an example two components: *Server* and *ServerDetail*. What we want is to pass information about a server to a component called *ServerDetail*. The *ServerDetail* component will render the server information according to the server clicked by the user on the *Server* component.
+#### Sending events
+Now we have to use the Server Bus in the component we want to send data from. Here we'll use as an example two components: *Server* and *ServerDetail*. What we want is to pass information about a server to a component called *ServerDetail*. The *ServerDetail* component will render the server information according to the server clicked by the user on the *Server* component.
 
-First we need to import the Event Bus, and then we can emit events with the data we want to share with another component:
+First we need to import the Server Bus, and then we can emit events with the data we want to share with another component:
 
 <script src="https://gist.github.com/andreybleme/f2d08a71c0b568d78ddc0ffbb11e3ab2.js"></script>
 
-> The **props** is being used here on line 15 just because this components also receives a server property from another component. Pros is not required for using the Event Bus and they are not related. Props can be replaced by a common data property returning a "server" object with the "id" attribute.
+> The **props** is being used here on line 15 just because this components also receives a server property from another component. Pros is not required for using the Server Bus and they are not related. Props can be replaced by a common data property returning a "server" object with the "id" attribute.
 
 #### Receiving events
 Now, any other component of your app can listen to the "serverSelected" event, and use the data passed to its event by using `serverBus.$on`. See the *ServerDetails* component:
