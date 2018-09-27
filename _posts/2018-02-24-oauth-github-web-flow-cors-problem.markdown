@@ -30,7 +30,7 @@ Why does it happen?
 Hard-coding your *client_id* and *client_secret* into a webpage or some .js file loaded into your app for everyone to see is not recomended. This can cause security concerns, since the *client_secret*  should be kept secret. If someone got hold of your *client_id* and *client_secret*, they could easily impersonate you application, for example, wiping all the tokens for that application using a [Revoke Authorization request](https://developer.github.com/v3/oauth_authorizations/#revoke-all-authorizations-for-an-application).
 
 There is a github issue that explains this security concern, see:
-https://github.com/isaacs/github/issues/330
+[https://github.com/isaacs/github/issues/330](https://github.com/isaacs/github/issues/330)
 
 Workaround (maybe definitive solution?)
 -------
