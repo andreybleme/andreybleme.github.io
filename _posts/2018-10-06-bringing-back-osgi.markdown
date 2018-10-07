@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting back with OSGi"
+title:  "Bringing back OSGi"
 description: "The basics about Open Services Gateway Initiative with a practical guide to create modular applications using Apache Felix OSGi container."
 date:   2018-10-06 21:00:00
 tags: [java, OSGi]
