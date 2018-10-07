@@ -166,6 +166,6 @@ I strongly suggest you to go on and try some technologies built on top of OSGi t
 References and useful links
 -------------
 
-- [The Dynamic Module System for Java - OSGI Alliance](https://www.osgi.org/developer/architecture/)
+- [The Dynamic Module System for Java - OSGi Alliance](https://www.osgi.org/developer/architecture/)
 - [Bundles for beginners](https://www.javaworld.com/article/2077837/application-development/java-se-hello-osgi-part-1-bundles-for-beginners.html)
 - [Bndtools official site](https://bndtools.org/index.html)
