@@ -110,7 +110,7 @@ We will create a class that implements the `Billing` interface. When the project
 
 Here we used the **@Component** annotation to enable our bundle to use OSGi Declarative Services to declare the API implementation class. This means that instances of the class will be automatically created and registered with the OSGi service registry. 
 
-We can (and should) write a test case to ensure the implementation class works as expected. In the test folder, a test case class already exists named `org.example.ExampleTest`. Write a test method as follows:
+We can (and should) write a test case to ensure the implementation class works as expected. In the test folder, a test case class already exists named `org.store.ExampleTest`. Write a test method as follows:
 
 <script src="https://gist.github.com/andreybleme/de984b0cc440312f6aeea9d0a466d411.js"></script>
 
