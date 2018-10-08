@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-Since it's creation back in 1999, OSGi has evolved a lot. I haven't seen much content about it arround. Since it's often appearing to me (AEM CMS, Apache Sling and now on Apache Felix) I decided to create this post. Here I will try to cover the basics about Open Services Gateway Initiative (OSGi) and show a practical example of how to create modular applications using Apache Felix OSGi container.
+Since it's creation back in 1999, OSGi has evolved a lot. I haven't seen much content about it around. Since it's often appearing to me (AEM CMS, Apache Sling and now on Apache Felix) I decided to create this post. Here I will try to cover the basics about Open Services Gateway Initiative (OSGi) and show a practical example of how to create modular applications using Apache Felix OSGi container.
 
 What's OSGi?
 ----
