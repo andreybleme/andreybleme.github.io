@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Criando uma CLI para deploy de sites estáticos"
+title:  "Theros: CLI para deploy de sites estáticos"
 description: "Usando Nodejs para criar uma interface de linha de comando para facilitar o processo de deploy de sites estáticos no S3."
 date:   2019-04-11 22:00:00
 tags: [javascript, nodejs]
