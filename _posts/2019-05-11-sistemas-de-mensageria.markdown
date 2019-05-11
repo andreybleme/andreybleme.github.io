@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sistemas de mensageria"
-description: "Conhecendo conceitos básicos, pontos fortes e fracos, variações, alternativas e suas motivações."
+description: "Conhecendo a história dos sistemas de mensageria, seus conceitos básicos, pontos fortes e seus principais problemas."
 date:   2019-05-11 17:00:00
 tags: [microservices]
 comments: true
@@ -97,15 +97,22 @@ Não pense que sistemas trabalhando com mensageria são livres problemas. Pensar
 A nova camada de integração que desacopla os sistemas conectados também carrega consigo uma série de novos conceitos bem particulares que precisam ser compreendidos para bem projetarmos sistemas de mensageria, vejamos:
 
 \- Como um sistema envia um pacote de dados para outro?
+
 O sender (sistema criando a mensagem) envia a mensagem a um canal (**Message Channel**) para que outro sistema se conecte ao canal e receba a mensagem.
 
+
 \- Como um sistema sabe para onde deve enviar a mensagem?
+
+
 Se o sistema não sabe para onde a mensagem deve ser enviada, ele pode enviar os dados a um roteador (**Message Router**) que irá direcionar a mensagem ao devido recebedor.
 
 \- Como um sistema sabe qual deve ser o formado dos dados?
+
  Quando o sender e o receiver não trabalham com um formato de dados comum, o sender deve enviar a mensagem a um tradutor (**Message Translator**) que irá converter os dados recebidos em um formato que o receiver compreenda.
 
+
 \- Como conectar minha aplicação a um sistema de mensageria?
+
 Você precisa implementar um endpoint para enviar ou receber mensagens. Não um endpoint como o de uma API REST, um tipo mais abstrado que chamamos de **Message Endpoint**.
 
 Muitos novos conceitos. São estes nomes em negrito os componentes básicos de qualquer aplicação que funcione com sistemas de mensageria. Se você entender cada um deles de forma agnóstica a tecnologias específicas, será capaz de trabalhar com qualquer sistema de mensageria moderno: Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, Amazon SNS e outros.
@@ -113,7 +120,7 @@ Muitos novos conceitos. São estes nomes em negrito os componentes básicos de q
 Componentes básicos de um sistema de mensageria
 ----
 
-## Channel
+### Channel
 
 Uma aplicação não envia uma nova mensagem de forma aleatória a um sistema de mensageria esperando que ela mágicamente seja entregue ao sistema de destino. Como vimos, a aplicação envia os dados a um canal de mensagens, este canal de mensagens tem um nome, e o sistema que deseja receber uma mensagem deve conhecer o nome que identifica este canal. Imagine um sistema A que receba os dados de compra de um cliente e deve enviar estes dados ao sistema B para que este, envie um email notificando o cliente que a compra foi recebida e está sendo processada. O sistema A deve criar uma mensagem contendo os dados da compra, e enviar a mensagem ao canal "email.selling". O sistema B deve escutar mensagens disponíveis no canal "email.selling" e assim que encontrar, realizar o processamento (no caso, enviar o email contendo os dados presentes na mensagem).
 
@@ -124,7 +131,7 @@ Canais são baratos (em termos de consumo de recursos computacionais) mas não s
 Por último, os canais de mensagem podem ser básicamente de dois tipos: **Point-to-Point Channels** ou **Publish-Subscribe Channels**. Talvez em outro post podemos discutir seus detalhes e casos de utilização, mas de forma resumida: um canal Point-to-Point garante que uma mensagem recebida é entregue a um único sistema consumidor. Por outro lado, um canal do tipo Publish-Subscribe possui um único ponto de entrada por onde recebe mensagens e entrega a mesma mensagem a vários sistemas interessados. Canais Publish-Subscribe são comumente utilizados para enviar notificações push a apps instalados em diferentes celulares por exemplo.
 
 
-## Message
+### Message
 
 Entendemos que um canal de mensagens é como um cano por onde trafégam os dados. Diferente de um cano no mundo real por onde a água passa de forma contínua, um canal de mensagem transmite unidades de dados em forma de registros, objetos e etc. A cada uma destas unidades trafegando por um canal damos o nome de mensagem.
 
@@ -140,7 +147,7 @@ Esta estrutura não é única a mensagens. Pacotes transmitidos em uma rede Ethe
 
 Para sistemas de mensageria todas as mensagens são iguais: um cabeçalho e um corpo contendo dados que devem ser entres a seu destino. No entanto, para nós desenvolvedores existem de forma geral três tipos de mensagem. **Command Message**: utilizada para invocar funções em outros sistemas. Lembra do RPC? Sistemas de mensageria modernos utilizam Command Messages para simular uma chamada remota, [o RabbitMQ por exemplo funciona assim](https://www.rabbitmq.com/tutorials/tutorial-six-python.html). **Document Message**: tipo mais comum, utilizado quando queremos simplesmente enviar um dado de um sistema pra outro. **Event Message**: mensagens desse tipo são utilizadas para notificar outras aplicações de uma mudança. Lembra do famigerado [Event Sourcing](https://eventuate.io/whyeventsourcing.html)? Utiliza mensagens desse tipo, sem mistério.
 
-## Endpoint
+### Endpoint
 
 A aplicação que envia mensagens e o sistema de mensageria são componentes separados. Um sistema de mensageria é um tipo de servidor que recebe e responde a requests, tem seus próprios recursos e é executado em um ambiente isolado. Um sistema que utiliza mensagens por outro lado pode ser considerado um cliente deste servidor. Clientes precisam de uma forma de se conectar a seu servidor, para isso sistemas de mensageria fornecem APIs específicas.
 
