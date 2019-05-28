@@ -39,7 +39,9 @@ To find a better approach, let's revisit the Docker architecture concept:
 
 ![Docker architecture](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/docker-onion.png "Docker architecture")
 
-As software developers we often tend to think that the CLI must provide all the resources we need to take the full potential of Docker. But remember: Docker has an API. Not everything needs to be done through the CLI. With this in mind, we can choose a SDK for our favorite language to programmatically provide our containers while running our integration tests:
+As software developers we often tend to think that the CLI must provide all the resources we need to take the full potential of Docker. But remember: Docker has an API. Not everything needs to be done through the CLI and this is not their idea. 
+
+With this in mind, we can choose an API SDK for our favorite language to programmatically provide our containers while running our integration tests:
 
 <script src="https://gist.github.com/andreybleme/f383950338bda9a399e99839735cb39a.js"></script>
 
