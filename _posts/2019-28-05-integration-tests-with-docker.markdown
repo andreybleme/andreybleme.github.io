@@ -10,6 +10,8 @@ share: true
 
 I have recently engaged into a new project. Once again, I thought tests were a solved issue given the big existing code base. Unfortunately, we have different repositories built with the same technology stack, each containing a different setup strategy for its integration tests (aka: a mess). Maybe unity tests can considered a solved issue. In the last years we have seen a lot of people talking about TDD and BDD, and I think that unity test frameworks evolved a lot, we have a great ecosystem of tools for mocking as well. But with applications getting more and more complex, nowadays we have too many integration points and cannot rely on having only unity tests.
 
+This is how many modern applications looks like nowadays:
+
 ![Modern architecture](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/modern-aws-architecture.png "Modern architecture")
 
 So if you want to have automated tests that really make use of all your components, keep in mind that the "mock everything" was is over. 
