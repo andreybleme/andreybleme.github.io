@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Refactoring an RPG Game"
+title:  "Refactoring a RPG Game"
 description: "Refactoring the RPG Game project that I have implemented a time ago for a job interview and documenting some lessons learned."
 date:   2019-02-05 20:00:00
 tags: [java]
