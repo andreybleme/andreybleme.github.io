@@ -38,7 +38,7 @@ TODO
 
 In order to keep the project with less dependencies as possible, in the `readme.md` file there is a simple script that needs to be ran in order to setup the database for the first time:
 
-https://gist.github.com/andreybleme/e5f93d14e9d67ad2f60fa2c2c6d0c7f1
+<script src="https://gist.github.com/andreybleme/e5f93d14e9d67ad2f60fa2c2c6d0c7f1.js"></script>
 
 The feedback I got: **"Creation of database, tables and etc. can be done by Flyway, Liquibase or similar tools automatically."**
 
@@ -63,7 +63,7 @@ To do so, the first strategy that came up to my mind was basically: each time a 
 
 <script src="https://gist.github.com/andreybleme/6e049b268c9b3c84e6bcd699b1291b4a.js"></script>
 
-Finally, an `ExplorationServiceImpl` class picks randomly one of the Exploration records, based on its ID:
+Finally, the `ExplorationServiceImpl` class picks randomly one of the Exploration records, based on its ID:
   
 <script src="https://gist.github.com/andreybleme/68a0c6cd22292a1296f13c33664cc4ff.js"></script>
 
