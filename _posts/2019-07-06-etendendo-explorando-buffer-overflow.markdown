@@ -50,7 +50,6 @@ Sabendo disso, suponha que tenhamos um simples programa que aloca em memória um
 
 O stack para um programa deste tipo fica assim:
 
-[stack com o buffer 8:17]
 ![Stack horizontal](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/buffer-overflow-stack-horizontal-buffer.png "Stack horizontal")
 
 Temos a mesma estrutura anterior porém com um espaço reservado para 5 caracteres. Para compilar nosso programa, vamos utilizar o gcc, executando:
