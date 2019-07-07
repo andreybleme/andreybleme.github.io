@@ -8,11 +8,13 @@ comments: true
 share: true
 ---
 
-[JSON Web Token]() (JWT), é um padrão que define uma forma segura de transmitir mensagens utilizando um token **compacto** e **self-contained** no formato de um objeto JSON.
+[JSON Web Token](https://jwt.io/) (JWT), é um padrão que define uma forma segura de transmitir mensagens utilizando um token **compacto** e **self-contained** no formato de um objeto JSON.
 
 É compacto porque além de leve, pode ser enviado através de um HTTP header, via URL, ou como parâmetro no corpo de uma requisição HTTP. Dizemos que um JWT é *self-contained* porque seu [payload](http://stackoverflow.com/questions/23118249/whats-the-difference-between-request-payload-vs-form-data-as-seen-in-chrome) possui toda informação necessária para autenticar um usuário, assim, não é necessário fazer mais que uma única consulta na base de dados.
 
 JSON Web Tokens são comumente utilizados quando precisamos de autenticação em aplicações com arquiteturas stateless (REST por exemplo). JWTs nos permitem autenticar um usuário e garantir que as demais requisições serão feitas de forma autenticada, sendo possível restringir acessos a recursos e serviços com diferentes níveis de permissões. 
+
+**O código fonte completo do exemplo apresentado neste post pode ser encontrado neste repositório do Github: [https://github.com/andreybleme/jwt-me](https://github.com/andreybleme/jwt-me)**
 
 
 Estrutura do JSON Web Token
