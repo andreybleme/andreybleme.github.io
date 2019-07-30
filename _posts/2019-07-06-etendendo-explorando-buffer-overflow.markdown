@@ -166,7 +166,7 @@ Se pretende avançar nos estudos nesta área com certeza vale a pena conhecer as
 
 Qualquer um que se interesse por arquitetura de computadores ou programação em baixo nível provavelmente já ouviu falar de buffer overlows, mas é interessante conhecer o que realmente acontece por baixo dos panos. Mesmo sendo uma vulnerabilidade conhecida há muito tempo e com métodos de prevenção amplamente divulgados, buffer overflows são encontrados com certa frequência em softwares escritos em C e C++ por aí como [VLC](https://github.com/videolan/vlc), [OpenSSH](https://github.com/OpenVPN/openvpn), [ImageMagic](https://github.com/ImageMagick/ImageMagick) e outros. 
 
-Métodos de prevenção a buffer overflows não são foco deste post, mas como você pode deduzir, quase tudo se resume a validação de input de usuários, randomização de endereços de memória e principalmente manter seu código Memory Safe (explicarei em detalhes este aspecto em outro post).
+Métodos de prevenção a buffer overflows não são foco deste post, mas como você pode deduzir, quase tudo se resume a validação de input de usuários, randomização de endereços de memória e principalmente [manter seu código Memory Safe](http://andreybleme.com/2019-07-24/o-que-e-memory-safety/).
 
 
 Referências e links úteis
