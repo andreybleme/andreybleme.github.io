@@ -11,6 +11,8 @@ share: true
 
 When creating VueJs components, there are always concerns about how they can communicate with each other. With that in mind, let's see some different approaches for solving this problem.
 
+> **If you want the complete source code, check [this Github repository](https://github.com/andreybleme/discovering-vuejs2/tree/master/communicating-between-components).**
+
 
 Passing data through props
 -------------
