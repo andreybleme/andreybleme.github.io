@@ -134,7 +134,11 @@ Having the encrypted URL, now we want to put it into our configuration file. To 
 
 <script src="https://gist.github.com/andreybleme/69fb6508e1d72c7b8ebab83e82c2681e.js"></script>
 
-it is very important that the encrypted value is not embraced with quotes, so our server application will be able to decrypt this value when some client application request for it. And that's it. There is nothing else we need to do in our client applications, now we have our configs properly secured and stored encrypted in our git repository.
+It is very important that the encrypted value is not embraced with quotes, so our server application will be able to decrypt this value when some client application request for it. And that's it. There is nothing else we need to do in our client applications, now we have our configs properly secured and stored encrypted in our git repository.
+
+The encrypted key is automatically decrypted as we can see accessing the config endpoint:
+
+![Spring cloud Config](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/config-server-secured.png "Spring cloud Config")
 
 
 Going further: service discovery and security in depth
