@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Securing Vuejs applications with ACL"
+title:  "Securing Vuejs applications with Access Control List"
 description: "Creating an Access Control List to secure your Vuejs application routes."
 date:   2020-01-11 14:00:00
 tags: [security, javascript, vuejs]
