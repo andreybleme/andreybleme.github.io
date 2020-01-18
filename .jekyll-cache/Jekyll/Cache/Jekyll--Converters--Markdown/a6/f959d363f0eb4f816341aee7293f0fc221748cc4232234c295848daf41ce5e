@@ -1,0 +1,131 @@
+I"m$<p>O <a href="http://jekyllrb.com">Jekyll</a> é um gerador de páginas estáticas. A ideia do Jekyll é permitir que você crie páginas estáticas utilizando apenas marcação com HTML e Markdown. O sistema utiliza o padrão de template <a href="http://liquidmarkup.org/">Liquid</a> e formato <a href="http://pt.wikipedia.org/wiki/YAML">YAML</a> para armazenar variáveis e facilitar a reutilizo de código.</p>
+
+<p>Quando começamos a produção de um site, geralmente separamos as partes do layout (header, footer e etc) e incluímos essas partes nas páginas onde for preciso evitando a repetição de código. Grande parte das pessoas (inclusive eu) escolhem algum <a href="http://pt.wikipedia.org/wiki/Sistema_de_gerenciamento_de_conte%C3%BAdo">CMS</a> (Wordpress, Drupal etc) e usam os includes pra resolver essa parte do problema.</p>
+
+<h3 id="e-qual-é-o-problema-disso">E qual é o problema disso?</h3>
+<p>O primeiro problema é que, nem sempre é possível entregar pro cliente (em um freela por exemplo), pacotes com arquivos <code class="highlighter-rouge">.php</code> ou qualquer outra extensão para arquivos de linguagens server-side. Pode ser que seu cliente não tenha um servidor preparado para hospedar suas páginas desenvolvidas utilizando aquela sua ferramenta tão querida.</p>
+
+<p>Segundo, mesmo que seja para um projeto pessoal (um blog por exemplo), se você quiser ter uma maior liberdade e customizar temas, usar plugins do Wordpress, os recursos oferecidos no <a href="http://wordpress.com">wordpress.com</a> provávelmente não vão ser o suficiente pra você customizar tudo “na mão” e aí, você vai ter usar a versão instalada do Wordpress.
+A versão instalada do Wordpress é pesada. Se você parar pra medir a quantidade de chamadas ao banco de dados a cada requisição, vai ver que eu não estou mentindo…</p>
+
+<p>Fora isso, escrever seu post tendo que se preocupar com a formatação é bem chato e falando particularmente, usar <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code">markdown</a> pra escrever é bem mais elegante.</p>
+
+<blockquote>
+  <p>Não estou falando pra você parar de usar o wordpress ou seu CMS preferido no seu blog, pra trabalhar ou o que quer que seja. Se ele te atende, use!</p>
+</blockquote>
+
+<p>Chega de falar e vamos ver como o Jekyll funciona na prática. Nesse post vou tentar explicar em um passo a passo bem simples com o exemplo de um blog com o Jekyll.</p>
+
+<h3 id="baby-steps-do-jekyll">Baby steps do Jekyll</h3>
+
+<h3 id="instalação">Instalação</h3>
+<p>O Jekyll foi escrito em <a href="http://pt.wikipedia.org/wiki/Ruby_%28linguagem_de_programa%C3%A7%C3%A3o%29">ruby</a>, ele é uma gem (o que são <a href="https://rubygems.org/">ruby gems</a>?), então vamos precisar do ruby instalado pra começar a usa-lo.</p>
+
+<p>Para instalar o ruby:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ~ $ sudo apt-get install ruby
+</code></pre></div></div>
+
+<blockquote>
+  <p>Se você usa o windows, o <a href="https://twitter.com/fnando">@fnando</a> tem um <a href="http://simplesideias.com.br/configurando-ruby-rails-mysql-e-git-no-windows">post</a> bem completo explicando a instalação do ruby no windows.</p>
+</blockquote>
+
+<p>Tendo o ruby instalado, podemos instalar a gem do Jekyll:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ $ gem install jekyll
+</code></pre></div></div>
+
+<blockquote>
+  <p>Sobre problemas na instalação, a <a href="http://jekyllrb.com/docs/installation/">documentação</a> é bem completa e com certeza vai te ajudar.</p>
+</blockquote>
+
+<p>Pronto! Aqui já temos o Jekyll já está instalado e pronto para ser usado.</p>
+
+<h3 id="iniciando-um-projeto">Iniciando um projeto</h3>
+<p>Após instalarmos o Jekyll, podemos iniciar um novo projeto em qualquer diretório:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ~ $ jekyll new my_blog
+</code></pre></div></div>
+
+<p>Dessa forma será criada a seguinte estrutura de arquivos:</p>
+
+<p><img src="https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/estrutura_de_arquivos.png" alt="Estrutura de arquivos" title="Estrutura de arquivos" /></p>
+
+<p>Todos os arquivos com um <em>_ underline</em> na frente do nome serão ignorados no pacote final gerado pelo Jekyll.</p>
+
+<ul>
+  <li>
+    <p>Na pasta <code class="highlighter-rouge">_includes</code> são colocados os elementos de página que se repetem (header, footer etc).</p>
+  </li>
+  <li>
+    <p>Na pasta <code class="highlighter-rouge">_layouts</code> ficam os padrões de layout das páginas, voce pode criar vários de acordo com a necessidade de se ter diferentes layouts para grupos de páginas.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Os layouts e includes normalmente usam variáveis YAML como <code class="highlighter-rouge">page.title</code> para evitar a repetição de conteúdo. <a href="http://jekyllrb.com/docs/frontmatter/">Entenda melhor +</a></p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Em <code class="highlighter-rouge">_posts</code> ficam seus arquivos <code class="highlighter-rouge">.markdown</code> com o conteúdo dos seus posts. O Jekyll usa por padrão nomes do tipo: <em>2015-29-01-nome-do-post.markdown</em>, sendo o nome e a data contidas no arquivo usados na construção da URL.</p>
+  </li>
+  <li>
+    <p>O arquivo <code class="highlighter-rouge">_config.yml</code> contém as informação referentes ao site, essas informações são lidas sempre que o Jekyll é iniciado.</p>
+  </li>
+  <li>
+    <p>Quando o build do projeto for feito pelo Jekyll, o pacote final se encontra na pasta <code class="highlighter-rouge">_site</code>. É lá que está o projeto pronto para ser publicado.</p>
+  </li>
+</ul>
+
+<h3 id="criando-um-post">Criando um post</h3>
+<p>Para criar um novo post, basta adicionar um novo arquivo na pasta <code class="highlighter-rouge">_posts</code> com o nome seguindo os padrões do Jekyll:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2015-29-01-bem-vindo-ao-jekyll.markdown
+</code></pre></div></div>
+
+<p>Ao editar o arquivo, podemos digitar nosso post normalmente utilizando a <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet">sintaxe markdown</a> para formatar o conteúdo do post.</p>
+
+<p>O Jekyll vai transformar o arquivo em HTML e adicionar ao pacote do projeto junto ao layout, especificado no cabeçalho do arquivo do post.</p>
+
+<p>O Jekyll ainda adiciona pastas no pacote <code class="highlighter-rouge">_site</code> automaticamente de acordo com as categorias especificadas em <code class="highlighter-rouge">categories</code> uma variavel no cabeçalho do arquivo do post, coisa fina. Seguindo o exemplo do blog, isso faria com que a URL ficasse assim:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>meublog.com/blog/jekyll/2015/01/27/bem-vindo-ao-jekyll.html
+</code></pre></div></div>
+
+<h3 id="deploy">Deploy</h3>
+<p>Agora que já temos nosso post, queremos fazer o deploy e publicar!</p>
+
+<p>Podemos fazer build do pacote final no mesmo diretório do projeto, onde o Jekyll gera o pacote final na pasta <code class="highlighter-rouge">_site</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ $ jekyll build
+</code></pre></div></div>
+
+<p>Ou podemos fazer build e gerar o pacote final em outro diretório:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ $ jekyll build --destination /home/projects/
+</code></pre></div></div>
+
+<p>Assim teremos nosso pacote final, pronto para ser publicado.</p>
+
+<h3 id="integração-com-github-pages">Integração com Github Pages</h3>
+<p>Uma coisa muito legal do Jekyll, é que com ele você pode hospedar suas páginas gratuitamente (pra sempre) com o serviço do Github, o <a href="https://pages.github.com/">github pages</a>. 
+Pra usar o serviço, você precisa ter um repositório remoto no github com o nome: <code class="highlighter-rouge">username.github.io</code> onde <em>username</em> é o seu nome de usuário no github.</p>
+
+<p>Tendo feito isso,  acesse seu repositório local onde se encontram os arquivos do seu projeto Jekyll (se o diretório ainda não for um repositório git, basta executar <code class="highlighter-rouge">git init</code>), e sincronize o repositório local com seu repositório remoto:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/username/username.github.io.git
+</code></pre></div></div>
+
+<p>Depois, adicionamos nossos arquivos do repositório local ao remoto:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push -u origin master
+</code></pre></div></div>
+
+<p>Agora sempre que você alterar seu repositório local e commitar as alterações ao repositório remoto do github, as alterações vão ser feitas e seu projeto vai estar acessível ao mundo todo pelo seu endereço <code class="highlighter-rouge">username.github.io</code>!</p>
+
+<blockquote>
+  <p>Esse “workflow” ainda contribui para que haja entregas bem mais contínuas nos seus projetos \o/</p>
+</blockquote>
+
+:ET
