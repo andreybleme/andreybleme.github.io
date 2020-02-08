@@ -8,6 +8,8 @@ comments: true
 share: true
 
 ---
+
+> English version: [https://dev.to/andreybleme/theros-the-cli-tool-to-deploy-static-websites-3p76](https://dev.to/andreybleme/theros-the-cli-tool-to-deploy-static-websites-3p76)
  
 Usar a [hospedagem de conteúdo estático do S3](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/dev/WebsiteHosting.html) é sem dúvida uma das formas mais baratas e simples de hospedar sites simples e estáticos na internet. Tenho 5 sites desse tipo hospedados em buckets diferentes, pago uma média de 1 real por mês (nada mal). O problema é toda vez ter que manualmente criar um bucket usando o console da AWS, definir as políticas de hospedagem de site estático, fazer upload dos arquivos e finalmente, torná-los públicos. Esse processo repetitivo fica ainda mais chato quando precisamos fazer upload apenas de alguns arquivos específicos de um site, ao invés de todos.
 

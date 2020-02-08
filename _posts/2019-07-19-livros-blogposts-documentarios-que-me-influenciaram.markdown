@@ -27,6 +27,7 @@ Livros
 
 - [Bullshit Jobs: A Theory -  David Graeber](https://www.amazon.com.br/Bullshit-Jobs-Theory-David-Graeber/dp/0241263883)
 
+
 Blog posts
 ---
 
