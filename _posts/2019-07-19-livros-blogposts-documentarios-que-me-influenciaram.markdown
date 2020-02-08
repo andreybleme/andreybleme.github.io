@@ -17,15 +17,15 @@ Somos todos moldados pelo que vivemos, vemos e ouvimos. Aqui vou listar os blog 
 Livros
 ---
 
-- [The Attention Merchants: The Epic Scramble to Get Inside Our Heads - Tim Wu](https://www.amazon.com.br/Attention-Merchants-Scramble-Inside-Heads/dp/0385352018)
+- [The Attention Merchants: The Epic Scramble to Get Inside Our Heads - Tim Wu](https://www.amazon.com.br/gp/product/B01AEPSWB4/ref=as_li_tl?ie=UTF8&tag=andreybleme-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01AEPSWB4&linkId=55ffcb3cf1b8d5d3c6450293bdba92d5)
 
-- [The Master Switch: The Rise and Fall of Information Empires - Tim Wu](https://www.amazon.com.br/Master-Switch-Rise-Information-Empires/dp/0307390993)
+- [The Master Switch: The Rise and Fall of Information Empires - Tim Wu](https://amzn.to/3bssP2f)
 
-- [Peopleware: Productive Projects and Teams -  Tom DeMarco, Timothy Lister, Dorset House](https://www.amazon.com.br/Peopleware-Productive-Projects-Tom-DeMarco/dp/0321934113)
+- [Peopleware: Productive Projects and Teams -  Tom DeMarco, Timothy Lister, Dorset House](https://amzn.to/2UDKbD4)
 
--  [Zero to One: Notes on Startups, or How to Build the Future - Peter Thiel](https://www.amazon.com.br/Zero-One-Notes-Startups-Future/dp/0804139296)
+-  [Zero to One: Notes on Startups, or How to Build the Future - Peter Thiel](https://amzn.to/2ulGFTl)
 
-- [Bullshit Jobs: A Theory -  David Graeber](https://www.amazon.com.br/Bullshit-Jobs-Theory-David-Graeber/dp/0241263883)
+- [Bullshit Jobs: A Theory -  David Graeber](https://amzn.to/2vUsxAC)
 
 
 Blog posts
