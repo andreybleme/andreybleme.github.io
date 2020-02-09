@@ -93,6 +93,8 @@ Só assim, todos os métodos HTTP são habilitados a acessar os recursos da apli
 
 Nas versões mais novas do Spring Boot, não é necessário declarar todos os métodos HTTP de forma explicita.
 
+Se quiser aprender mais sobre Spring Framework, recomendo os livros [Spring in Action](https://amzn.to/2SC0nlU) da editora Manning, e [Vire o jogo com Spring](https://amzn.to/2vmRYKP) do Henrique Lobo, publicado pela Casa do Código.
+
 Referências e links úteis
 -------------
 - [CORS support in Spring Framework](https://spring.io/blog/2015/06/08/cors-support-in-spring-framework)

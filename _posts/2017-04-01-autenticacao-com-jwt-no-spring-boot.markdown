@@ -82,6 +82,8 @@ Nesse exemplo, vamos expor publicamente apenas os recursos disponíveis em `/hom
 
 <script src="https://gist.github.com/andreybleme/cd4abdaa3736d43d22f4897d411c265f.js"></script>
 
+Aqui estamos usando anotações do Spring Security e do próprio Spring Boot. Se quiser aprender mais sobre estas anotações e outras features interessantes do Spring, recomendo este livro do [Henrique Lobo: Vire o jogo com Spring](https://amzn.to/2vmRYKP) e [Spring in Action](https://amzn.to/2SC0nlU).
+
 Nessa classe definimos que todos podem acessar `/home`, e que o endpoint `/login` está disponível apenas via requisições do tipo POST. Para todas as demais rotas a autenticação é necessária. Não se preocupe com erros de compilação, já que ainda não criamos as classes `JWTLoginFilter` e `JWTAuthenticationFilter`. Vamos cria-las em breve. Elas serão as classes responsáveis por filtrar as requisições feitas em `/login` e em todas as outras rotas, para decidir como essas requisições deverão ser tratadas. Repare que também adicionamos uma conta default aqui, para testarmos o funcionamento da autenticação. 
 
 Uma grande vantagem de estarmos utilizando o Spring boot aqui, é que em momento algum foi necessário mudar o código já existente das rotas, nem adicionar arquivos .xml de configuração! Tudo foi feito pragmaticamente com uma classe de configuração anotada com `@Configuration`.
@@ -96,6 +98,8 @@ Nossos JWT services serão responsáveis por gerara e validar nossos JWT tokens.
 Para criar e verificar nossos tokens, vamos criar a classe `TokenAuthenticationService` dentro do mesmo pacote `com.jwtme.security`.  Nela vamos utilizar a classe que incluímos como dependência `io.jsonwebtoken.Jwts` para validar os tokens.
 
 <script src="https://gist.github.com/andreybleme/036ce00169c70e12d3032d45390705dc.js"></script>
+
+Recomendo o livro [Spring in Action](https://amzn.to/2SC0nlU) para mais detalhes sobre as classes do Spring Security.
 
 
 Autenticando os JWTs
@@ -127,6 +131,12 @@ Para nos autenticarmos corretamente, vamos enviar uma requisição do tipo POST 
 No header da resposta dessa requisição temos nosso token com o prefixo `Bearer`. Para buscar os usuários, agora precisamos enviar no header da requisição nosso token incluindo o cabeçalho `Authorization` com o JWT que recebemos quando realizamos a autenticação com sucesso.
 
 ![Users JWT](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/jwt-users.png "JWT User Access")
+
+E é isso! Se quiser ir além e aprender mais sobre Spring Framework, indico a leitura dos livros:
+
+<a target="_blank"  href="https://www.amazon.com.br/gp/product/1617294942/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617294942&linkCode=as2&tag=andreybleme-20&linkId=f79acef1aceb814981c20b4a9ec713c9"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=BR&ASIN=1617294942&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreybleme-20" ></a><img src="//ir-br.amazon-adsystem.com/e/ir?t=andreybleme-20&l=am2&o=33&a=1617294942" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<a target="_blank"  href="https://www.amazon.com.br/gp/product/B00VRS7X3Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00VRS7X3Q&linkCode=as2&tag=andreybleme-20&linkId=910c1ec0986f1389aaad506e4258d548"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=BR&ASIN=B00VRS7X3Q&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreybleme-20" ></a><img src="//ir-br.amazon-adsystem.com/e/ir?t=andreybleme-20&l=am2&o=33&a=B00VRS7X3Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 -------------
 
