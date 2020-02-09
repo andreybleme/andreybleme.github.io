@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The joy of learning new stuff has been stolen"
-description: "When did developers started feeling so anxious about learning new things? Why learning is not as joyful as it seems before we start?"
+description: "When did developers start feeling so anxious about learning new things? Why learning is not as joyful as it seems before we start?"
 date:   2020-02-08 17:00:00
 tags: [offtopic]
 comments: true
