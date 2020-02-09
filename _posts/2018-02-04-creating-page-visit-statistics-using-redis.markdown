@@ -112,8 +112,11 @@ Total unique users on [05/11/2018] was: 27
 
 Total unique users on [16/11/2018, 17/11/2018, 18/11/2018, 19/11/2018, 20/11/2018, 21/11/2018, 22/11/2018] was: 246
 ```
-
 > **Remember:** we have generated the data randomly, so the output content may variate.
+
+**If you want to dive deeper into Redis, this is the book I recommend you to read:**
+
+<a target="_blank"  href="https://www.amazon.com.br/gp/product/B00ZXFCFLO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00ZXFCFLO&linkCode=as2&tag=andreybleme-20&linkId=1526685db73946e52ac9d96cdc5317e2"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=BR&ASIN=B00ZXFCFLO&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=andreybleme-20" ></a><img src="//ir-br.amazon-adsystem.com/e/ir?t=andreybleme-20&l=am2&o=33&a=B00ZXFCFLO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ---
 
