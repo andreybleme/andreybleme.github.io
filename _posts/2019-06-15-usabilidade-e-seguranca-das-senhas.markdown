@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tradução - A usabilidade e segurança das senhas"
+title:  "A usabilidade e segurança das senhas"
 description: "Senhas seguras não precisam ser altamente complexas e difíceis de memorizar."
 date:   2019-06-15 17:00:00
 tags: [security]
