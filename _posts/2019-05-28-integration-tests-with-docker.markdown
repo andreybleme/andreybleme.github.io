@@ -64,7 +64,7 @@ Before the test execution begin, we start a Postgre container at the `beforeAll(
 
 Another tricky thing that was necessary to do here, see line 18: when we create a new container, we want our application to use it instead of using the regular one, used when the application is running in a non-test environment (local, staging or production for example). So I had to change de `PG_URL` environment variable to point to the new container URL. If we don't do this, the queries of our application will try to access a postgre database different from the one we created using testcontainers. Make sure to have you application running using the URLs of the new containers you have created during your test setup, otherwise, you won't be able to run your tests and you will probably face database access failure issues.
 
-If you want to learn more about Docker, I stringl recommend these books:
+If you want to learn more about Docker, I strongly recommend these books:
 
 <a target="_blank"  href="https://www.amazon.com.br/gp/product/B01LXWQUFF/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01LXWQUFF&linkCode=as2&tag=andreybleme-20&linkId=611671b9469a9eac18340c6e5782599a"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=BR&ASIN=B01LXWQUFF&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=andreybleme-20" ></a><img src="//ir-br.amazon-adsystem.com/e/ir?t=andreybleme-20&l=am2&o=33&a=B01LXWQUFF" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
