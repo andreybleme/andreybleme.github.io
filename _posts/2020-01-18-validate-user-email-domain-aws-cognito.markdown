@@ -3,7 +3,7 @@ layout: post
 title:  "Validating user email domains with AWS Cognito"
 description: "Here we will see how can we control users' sign-in using only allowed email domains, by using Cognito and Lambda Functions."
 date:   2020-01-18 14:00:00
-tags: [security, aws]
+tags: [security, aws, devops]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Securely centralized configuration with Spring Cloud Config"
 description: "How to create a secure configuration server to centralize and externalize your configurations"
 date:   2019-08-15 23:00:00
-tags: [spring, security, microservices]
+tags: [spring, security, microservices, devops]
 comments: true
 share: true
 ---
