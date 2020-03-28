@@ -2,7 +2,7 @@
 layout: post
 title: "Boost your Cypress end-to-end Tests"
 description: "4 simple tips to improve the speed and the maintainability of your cypress tests."
-date: 2020-02-27 22:00:00
+date: 2020-03-27 22:00:00
 tags: [devops, javascript]
 comments: true
 share: true
@@ -10,7 +10,7 @@ share: true
 
 I have been working with cypress recently, and every day I learn new stuff about it.
 
-In the previous post I have shared [how to configure continuous integration with Github actions and cypress][https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/](https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/)
+In the previous post I have shared [how to configure continuous integration with Github actions and cypress](https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/](https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/)
 
 Now I will share some tips and tricks that may help you to boost the performance and the maintainability of your cypress tests.
   
@@ -44,7 +44,7 @@ It's important to guarantee that the application being tested is up and running 
 
 This kind of error happens when we try to reach a URL `cy.visit('http://localhost:8080');`, and the server `localhost:8080` is still not ready.
 
-To avoid this, use the [wait-on npm module](https://github.com/jeffbski/wait-on](https://github.com/jeffbski/wait-on). Wait-on is a npm command line utility which will wait for files, ports, sockets, and http resources to become available. To add this at our cypress tests workflow at Github Actions CI is pretty simple:
+To avoid this, use the [wait-on npm module](https://github.com/jeffbski/wait-on). Wait-on is a npm command line utility which will wait for files, ports, sockets, and http resources to become available. To add this at our cypress tests workflow at Github Actions CI is pretty simple:
 
 <script src="https://gist.github.com/andreybleme/5dbd3d2aba8ce88039689055ce9b3c95.js"></script>
 
