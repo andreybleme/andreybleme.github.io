@@ -10,7 +10,7 @@ share: true
 
 I have been working with cypress recently, and every day I learn new stuff about it.
 
-In the previous post I have shared [how to configure continuous integration with Github actions and cypress](https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/](https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/)
+In the previous post I have shared [how to configure continuous integration with Github actions and cypress](https://andreybleme.com/2020-02-29/continuous-Integration-with-github-actions-and-cypress-end-to-end-tests/)
 
 Now I will share some tips and tricks that may help you to boost the performance and the maintainability of your cypress tests.
   
