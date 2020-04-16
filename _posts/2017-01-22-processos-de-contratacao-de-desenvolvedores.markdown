@@ -36,7 +36,7 @@ Enigmas e labirintos. Pra que?!
 ----
 Depois de conversar com alguém por telefone/skype, a primeira etapa da maioria dos processos é um teste de lógica. Acho até justo. Como recrutador, não quero conversar com um sujeito que não consegue resolver **problemas triviais** de lógica, certo? Mais ou menos.
 
-O que era pra ser um teste de lógica, vira algo como um exame psicotécnico. Ao invés de receber uma prova que desafie sua capacidade de raciocínio lógico e resolução de problemas, as vezes você recebe um labirinto, um jogo da memória ou até uma especie de hieroglifo. Coisas do tipo "qual será a próxima figura?" onde existem outras três completamente sem sentido. Ou "qual será a próxima cor?" onde existem um quadrado vermelho, verde e um azul. 
+O que era pra ser um teste de lógica, vira algo como um exame psicotécnico pra não habilitados (tipo daqueles pra tirar carteira mesmo). Ao invés de receber uma prova que desafie sua capacidade de raciocínio lógico e resolução de problemas, as vezes você recebe um labirinto, um jogo da memória ou até uma especie de hieroglifo. Coisas do tipo "qual será a próxima figura?" onde existem outras três fotos completamente abstratas e sem sentido. Ou "qual será a próxima cor?" onde existem um quadrado vermelho, verde e um azul... 
 
 Sei menos que nada sobre psicologia, mas acho que não precisa saber pra se irritar com testes desse tipo. Como desenvolvedor, estou sendo contratado pra resolver problemas usando software, tecnologia e técnicas que de alguma forma envolvem **atividades relacionadas ao processo de desenvolvimento de software**. 
 
@@ -68,7 +68,7 @@ Contratar um desenvolvedor é **sempre complicado** e **talvez** (com sorte) nã
 
 Enquanto se tem um mercado mal educado e imaturo, acreditando em serviços de terceirização de RH e produtos milagrosos que simplesmente "encontram" desenvolvedores de forma rápida e indolor (mágica), sofreremos com processos longos, sem sentido e cheios de inutilidade. Contratantes querem rápido e barato, o fato é que isso não existe sem  antes investir em se ter pessoas altamente capacitadas a contratar programadores. 
 
-Por fim, a dica é: gaste um tempo consumindo conteúdo informativo, veja como foram experiencias de outros desenvolvedores durante processos em empresas específicas no [Love Mondays](https://www.lovemondays.com.br/) e no [Glassdoor](https://www.glassdoor.com), converse com as pessoas no LinkedIn e **desconfie sempre**, de posts como esse, de propostas nebulosas, **desconfie de tudo** pra não ser mais um sedado por falácias travestidas de verdades irrefutáveis.
+Por fim, a dica é: gaste um tempo consumindo conteúdo informativo, veja como foram experiencias de outros desenvolvedores durante processos em empresas específicas no [Love Mondays](https://www.lovemondays.com.br/) e no [Glassdoor](https://www.glassdoor.com), converse com as pessoas no LinkedIn e **desconfie sempre** de propostas nebulosas, de empresas perfeitas e ambientes coloridos demais (risos).
 
 
 
