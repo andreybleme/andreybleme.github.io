@@ -3,9 +3,9 @@ title: About
 permalink: /about/
 ---
 
-Hi. I'm [Lucas Bleme](https://www.linkedin.com/in/andreybleme/), a brazilian software engineer.
+Hello. I'm [Lucas Bleme](https://www.linkedin.com/in/andreybleme/), a Brazilian software engineer.
 
-I have been designing and building software since 2014. In the past years I have worked at some fotune 500 companies' projects, and at my own startup during one year, building a [job search web platform](https://vulpi.com.br/).
+I have been designing and building software since 2014. In the past years I have worked at some fortune 500 companies' projects, and at my own startup for one year, building a [job search web platform](https://vulpi.com.br/).
 
 My areas of interest are Distributed Systems and Security. I'm also enthusiastic about History and Socioeconomics stuff, so I'm always curious about how technology relates to it all.
 
