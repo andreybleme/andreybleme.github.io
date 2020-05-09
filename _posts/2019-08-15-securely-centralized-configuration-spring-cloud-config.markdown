@@ -8,9 +8,9 @@ comments: true
 share: true
 ---
 
-Every software application needs some configuration: database URLs, passwords, usernames, links and such. If we think of single monolith applications, the first approach that comes to our minds is to store these configurations in some XML, YAML, properties file, or even in a database table where we can retrieve configuration at run time (dynamically). So whenever your project needs some new configuration parameter you can simply create it in your config file or insert it on the database table. But when we think of distributed architectures composed by dozens of micro services, managing configuration using this same approach is no easy task: if using simple config files, we would have to keep copies of them in every execution environment for each of our services. If using configurations stored in a database, we would have to map our domain in every service just for them to be able to use some simple configuration parameter such as "MYSQL_URL".
+Every software application needs some configuration: database URLs, passwords, usernames, links, and such. If we think of single monolith applications, the first approach that comes to our minds is to store these configurations in some XML, YAML, properties file, or even in a database table where we can retrieve configuration at run time (dynamically). So whenever your project needs some new configuration parameter you can simply create it in your config file or insert it on the database table. But when we think of distributed architectures composed by dozens of microservices, managing configuration using this same approach is no easy task: if using simple config files, we would have to keep copies of them in every execution environment for each of our services. If using configurations stored in a database, we would have to map our domain in every service just for them to be able to use some simple configuration parameter such as "MYSQL_URL".
 
-Modern distributed architectures demands for externalized and centralized configuration management. In a [twelve-factor app](https://12factor.net/config) configuration should be **independent** from code, **securely stored** and **available** so we can scale up without doing significant changes to tooling. This is what Spring Cloud Config helps us to achieve. It provides us support for externalized configuration offering a central place to manage external properties for applications that needs to consume it across different environments. As an application moves through the deployment pipeline, from dev to test and into production, we can easily manage the configuration between those environments and be certain that applications have everything they need to run.
+Modern distributed architectures demands for externalized and centralized configuration management. In a [twelve-factor app](https://12factor.net/config) configuration should be **independent** from code, **securely stored** and **available** so we can scale up without doing significant changes to tooling. This is what Spring Cloud Config helps us to achieve. It provides us support for externalized configuration offering a central place to manage external properties for applications that need to consume it across different environments. As an application moves through the deployment pipeline, from dev to test and into production, we can easily manage the configuration between those environments and be certain that applications have everything they need to run.
 
 In this post I will show you how to use spring cloud config to centralize configuration safely using symmetric key encryption.
 
@@ -22,7 +22,7 @@ Serving configurations
 
 The first thing we need to do is to create the Spring application that will serve our configurations to be consumed by clients.
 
-You can create a spring noot application anyway you want, but I strongly recommend you to create it from [start.spring.io](https://start.spring.io). You need to include the spring cloud config server dependencies: `org.springframework.cloud` and `spring-cloud-dependencies`.
+You can create a spring noot application any way you want, but I strongly recommend you to create it from [start.spring.io](https://start.spring.io). You need to include the spring cloud config server dependencies: `org.springframework.cloud` and `spring-cloud-dependencies`.
 
 In our main class, we must include the `@EnableConfigServer` to allow our application to expose configurations:
 
@@ -38,13 +38,13 @@ Now we are almost done. The last thing we need to do is to create the config fil
 
 Now commit and push the config file `crazy-client.properties` to the remote server.
 
-Having it done, we can now startup our application server as a common spring boot app (Run as Spring Boot App) and see if our configurations are being exposed:
+Having it done, we can now start up our application server as a common spring boot app (Run as Spring Boot App) and see if our configurations are being exposed:
 
 ![Spring cloud Config](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/config-server-server.png "Spring cloud Config")
 
 > If you have created the git remote repository you should see a different value for the "name" key in the request result. In the above example the "name" is pointing to my local machine where I have created the git repository containing the configuration.
 
-If everything was correctly setted up, the configuration can be properly accessed when we request for them accessing `localhost:8888/{application-name}/default`. 
+If everything was correctly set up, the configuration can be properly accessed when we request for them accessing `localhost:8888/{application-name}/default`. 
 
 By now, client applications can consume configs provided by our server application. Let's check how it can be done.
 
@@ -54,7 +54,7 @@ Consuming configuration
 
 Let's now create a client application just to show how easy it is to consume configurations served by a config server. To present it, I have generated a new spring boot project at [start.spring.io](https://start.spring.io) and included the `org.springframework.cloud` dependency.
 
-In order to allow the client application to read configurations from our config server, we have to add at the `bootstrap.properties` the URL of our server (my server is running at localhost:8888):
+To allow the client application to read configurations from our config server, we have to add at the `bootstrap.properties` the URL of our server (my server is running at localhost:8888):
 
 <script src="https://gist.github.com/andreybleme/f1c6708ab8471fa1207636af62e2b5e0.js"></script>
 
@@ -74,7 +74,7 @@ The same can be achieved with any client application built using any technology,
 Using environments
 ---
 
-Sometimes we want different configuration depending on the environment our application is running (development, staging, production). To achieve such a thing using our config server is pretty easy: all we need to do is to create a file for each environment.
+Sometimes we want different configurations depending on the environment our application is running (development, staging, production). To achieve such a thing using our config server is pretty easy: all we need to do is to create a file for each environment.
 
 By now we have only the `crazy-client.properties`, as we have seen, we can retrieve the configurations contained there by accessing `localhost:8888/{application-name}/default`.  Let's create two different files now, one for development environment `crazy-client-development.properties`:
 
@@ -92,7 +92,7 @@ After committing and pushing these new files to the git remote repository, we ca
 ![Spring cloud Config](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/config-server-prod.png "Spring cloud Config")
 
 
-By now, whenever our client application starts up using the "development" or "production" environment, the configuration will be retrieved from the corresponding file. In order to test it, we must change the `spring.profiles.active` in the `bootstrap.properties` file of our our client application:
+By now, whenever our client application starts up using the "development" or "production" environment, the configuration will be retrieved from the corresponding file. To test it, we must change the `spring.profiles.active` in the `bootstrap.properties` file of our client application:
 
 <script src="https://gist.github.com/andreybleme/694146a658640b58ea83a956e161909c.js"></script>
 
@@ -101,7 +101,7 @@ Now if we request GET /database endpoint, we receive the production URL in the r
 Adding security with symmetric key (JCE)
 ---
 
-It is important that our credentials are not exposed. Even if the git remote repository have some access restriction with authentication, it is a very important security practice to **do not store plain text anywhere. Never.** If you still think that there is no problem storing plain-text in a secured git repository or database you should [read this post](https://arstechnica.com/information-technology/2014/04/why-should-passwords-be-encrypted-if-theyre-stored-in-a-secure-database/), and then [read this one](https://blog.codinghorror.com/i-just-logged-in-as-you-how-it-happened/).
+It is important that our credentials are not exposed. Even if the git remote repository has some access restriction with authentication, it is a very important security practice to **do not store plain text anywhere. Never.** If you still think that there is no problem storing plain-text in a secured git repository or database you should [read this post](https://arstechnica.com/information-technology/2014/04/why-should-passwords-be-encrypted-if-theyre-stored-in-a-secure-database/), and then [read this one](https://blog.codinghorror.com/i-just-logged-in-as-you-how-it-happened/).
 
 So how can we protect our sensitive configuration URLs and credentials? We can encrypt them using a salt.
 
@@ -134,19 +134,19 @@ Having the encrypted URL, now we want to put it into our configuration file. To 
 
 <script src="https://gist.github.com/andreybleme/69fb6508e1d72c7b8ebab83e82c2681e.js"></script>
 
-It is very important that the encrypted value is not embraced with quotes, so our server application will be able to decrypt this value when some client application request for it. And that's it. There is nothing else we need to do in our client applications, now we have our configs properly secured and stored encrypted in our git repository.
+It is very important that the encrypted value is not embraced with quotes, so our server application will be able to decrypt this value when some client application requests for it. And that's it. There is nothing else we need to do in our client applications, now we have our configs properly secured and stored encrypted in our git repository.
 
 The encrypted key is automatically decrypted as we can see accessing the config endpoint:
 
 ![Spring cloud Config](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/config-server-secured.png "Spring cloud Config")
 
 
-Going further: service discovery and security in depth
+Going further: service discovery and security in-depth
 ---
 
-Externalizing configuration in a centralized storage not only makes much easier to manage and scale up configuration, but it is also the first step for achieving service discovery. Service discovery basically means that your applications should not know the exact location of all the services it needs to communicate with, it should only know its name and then a service discovery tool will find the service location/address/URL for you. It is achievable by registering the localization details from our applications at startup time in some service discovery tool. It is a broadly known technique that reduces a lot the responsibilities of a service and might be very handy when we are working with 10, 20 micro services or more. There are some good service discovery tools, such as [Netflix Eureka](https://github.com/Netflix/eureka) and [Consul](https://www.consul.io/) that works well with spring cloud config.
+Externalizing configuration in a centralized storage not only makes it much easier to manage and scale up configuration, but it is also the first step for achieving service discovery. Service discovery basically means that your applications should not know the exact location of all the services it needs to communicate with, it should only know its name and then a service discovery tool will find the service location/address/URL for you. It is achievable by registering the localization details from our applications at startup time in some service discovery tool. It is a broadly known technique that reduces a lot the responsibilities of a service and might be very handy when we are working with 10, 20 microservices or more. There are some good service discovery tools, such as [Netflix Eureka](https://github.com/Netflix/eureka) and [Consul](https://www.consul.io/) that works well with spring cloud config.
 
-Talking about the security concerns of using spring cloud config, in most of the real world cases a simple git back-end with a symmetric encryption might be enough. If for some particular reason you need a more secure approach, use the [asymmetric key schema with a proper key store](https://cloud.spring.io/spring-cloud-config/reference/html/#_key_management). Spring cloud config also supports [Vault](https://www.vaultproject.io/) as back-end instead of git. Vault is a "secret manager", it is a tool that helps us to protect sensitive data by proving a lot of ACL options, password rotation, and a really fine-grained control over permissions and encryption. I strongly recommend spring cloud config + vault + HTTPS (of course) if you are really worried about security.
+Talking about the security concerns of using spring cloud config, in most of the real-world cases a simple git back-end with symmetric encryption might be enough. If for some particular reason you need a more secure approach, use the [asymmetric key schema with a proper key store](https://cloud.spring.io/spring-cloud-config/reference/html/#_key_management). Spring cloud config also supports [Vault](https://www.vaultproject.io/) as back-end instead of git. Vault is a "secret manager", it is a tool that helps us to protect sensitive data by proving a lot of ACL options, password rotation, and a really fine-grained control over permissions and encryption. I strongly recommend spring cloud config + vault + HTTPS (of course) if you are really worried about security.
 
 
 References and useful links
