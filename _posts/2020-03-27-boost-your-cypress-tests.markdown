@@ -15,10 +15,10 @@ In the previous post I have shared [how to configure continuous integration with
 Now I will share some tips and tricks that may help you to boost the performance and the maintainability of your cypress tests.
   
 
-Parallelize the execution of your tests
+1 . Parallelize the execution of your tests
 -------------
 
-First things first: we all know that these e2e tests take a really long time to run take here as an example of my 169 spec tests:
+First things first: we all know that these e2e tests take a surprisingly long time to run take here as an example of my 169 spec tests:
 
 ![Cypress test taking too much time](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/tests-taking-long-time.png "Cypress test taking too much time")
 
@@ -36,9 +36,9 @@ Here on my workflow file I'm running 10 containers so my tests can run really fa
 From 57 minutes to less than 7 minutes. Awesome!
 
 
-Wait for complete server startup
+2 . Wait for complete server startup
 -------------
-It's important to guarantee that the application being tested is up and running before you cypress test starts to run. Otherwise you may face annoying and nondeterministic timeout errors:
+It's important to guarantee that the application being tested is up and running before your cypress test starts to run. Otherwise you may face annoying and nondeterministic timeout errors:
 
 ![Cypress test timeout error](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cypress-test-timeout.png "Cypress test timeout error")
 
@@ -51,7 +51,7 @@ To avoid this, use the [wait-on npm module](https://github.com/jeffbski/wait-on)
 At the `build` step phase, we install the wait-on npm package. After that, we just ask wait-on to wait for the URL `localhost:8080` and set 2 minutes as a timeout for waiting `wait-on-timeout: 120`. This should be enough to fix all sorts of nondeterministic timeout failures.
 
 
-Change cypress default timeouts
+3 . Change cypress default timeouts
 ----
 All cypress commands have a default time, in milliseconds, to wait until most DOM-based commands to be considered timed out. If you have some components that may take a bit long to load, such as selects and menus, you should consider changing the default timeout. To do this, you simply need to add at the `cypress.json` file the new timeout you want to set:
 
@@ -61,7 +61,7 @@ The `defaultCommandTimeout` affects commands that manipulates DOM: `cy.get()`, `
 `pageLoadTimeout` is the time, in milliseconds, to wait for `page transition events` or [`cy.visit()`](https://docs.cypress.io/api/commands/visit.html), [`cy.go()`](https://docs.cypress.io/api/commands/go.html), [`cy.reload()`](https://docs.cypress.io/api/commands/reload.html) commands to fire their page `load` events.
 
 
-Use Cypress commands to avoid boilerplate code
+4 . Use Cypress commands to avoid boilerplate code
 ----
 Some of the code you write may repeat for all over your test code. Take as an example a autocomplete component that receives an input, and loads a list of filtered options above it. If this component is everywhere on your application, you may have to do this a lot:
 
