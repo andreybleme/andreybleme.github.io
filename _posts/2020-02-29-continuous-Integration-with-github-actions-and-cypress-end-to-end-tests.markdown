@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Continuous Integration with Github Actions and Cypress"
-description: "Easily configuring a CI pipeline to run end-to-end tests with Cypress and Github Actions, posting comments on pull requests with tests results."
+description: "Easily configuring a CI pipeline to run end-to-end tests with Cypress and Github Actions, posting comments on pull requests with test results."
 date:   2020-02-29 17:00:00
 tags: [devops]
 comments: true
@@ -12,9 +12,9 @@ We always need to strive for constant and quick feedback about the quality of th
 
 ![Cypress Integration Feedback](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/cypress-integration-comment.png "Cypress Integration Feedback")
 
-The cypress documentation page provides a good tutorial on how to cnofigure the Github Integration, but it does not provide a good one to operoperly configure the Github Action CI. So here I'll show you how easily to do it by using [Cypress](s) to run end-to-end tests and the new kid on the block: [Github Actions](s), as Continuous Integration (CI) server.
+The cypress documentation page provides a good tutorial on how to configure the Github Integration, but it does not provide a good one to properly configure the Github Action CI. So here I'll show you how easy is to do it by using [Cypress](s) to run end-to-end tests and the new kid on the block: [Github Actions](s), as Continuous Integration (CI) server.
 
-In case you don't know these tools: Cypress is a framework that enables us to write and run end-to-end tests. It provides us APIs to manipulate DOM elements, click buttons, navigate into URLs and perfectly emutales all sorts of end-user behaviors. It has a great documentation and community as well, so I if you're planning to implement e2e tests into your application I recommend you to take a look. You will learn a bit about Cypress on this post as well. Github Actions is the workflow automation tool fully integrated with Github. It works exactly like a continuous integratino serve such as Jenkins, CircleCI or TravisCI. Having its limitations thought, the main advantages are the built-in integration with Github repositories, its simplicity of pipeline setup and the workflow definition syntax.
+In case you don't know these tools: Cypress is a framework that enables us to write and run end-to-end tests. It provides us APIs to manipulate DOM elements, click buttons, navigate into URLs, and perfectly emulates all sorts of end-user behaviors. It has great documentation and community as well, so if you're planning to implement e2e tests into your application I recommend you to take a look. You will learn a bit about Cypress on this post as well. Github Actions is the workflow automation tool fully integrated with Github. It works exactly like a continuous integration server such as Jenkins, CircleCI, or TravisCI. Having its limitations though, the main advantages are the built-in integration with Github repositories, its simplicity of pipeline setup, and the workflow definition syntax.
 
 Let's check the steps we need to follow to accomplish this.
 
@@ -27,9 +27,9 @@ The first thing we need is to create a `.yml` file that describes which steps ou
 
 **2.** Configure Cypress Integration
 
-Having the Github Actinos Done, we need to configure the Cypress integration to out github repository. We'll do that by following some steps through the Cypress Dashboard UI.
+Having the Github Actions Done, we need to configure the Cypress integration to our GitHub repository. We'll do that by following some steps through the Cypress Dashboard UI.
 
-**Note:** The Cypress Integration by itself doest not trigger the tests when the pull request is opened, it only allows Cypress dashboard to output test results in some github repository. If you read the [official cypress github integration documentation](s) it might seem the the it alone will do the job, but we need a CI server to trigger the integration when a push is done into a specific branch or a new pull request is opened.
+**Note:** The Cypress Integration by itself does not trigger the tests when the pull request is opened, it only allows Cypress dashboard to output test results in some Github repository. If you read the [official cypress GitHub integration documentation](s) it might seem that it alone will do the job, but we need a CI server to trigger the integration when a push is done into a specific branch or a new pull request is opened.
 
 
 Configure Github Actions
@@ -41,13 +41,13 @@ Let's check the content of the `.github/worflows/integration-tests.yml` file:
 
 <script src="https://gist.github.com/andreybleme/011902429ef270a63403df51a7e6c4e1.js"></script>
 
-This workflow can be found at the github marketplace: [https://github.com/marketplace/actions/cypress-io](https://github.com/marketplace/actions/cypress-io). The file basically describe that for every push event, we want to perform 2 steps: checkout the test code and run the cypress tests with some parameters (record, start and working directory).
+This workflow can be found at the GitHub marketplace: [https://github.com/marketplace/actions/cypress-io](https://github.com/marketplace/actions/cypress-io). The file basically describe that for every push event, we want to perform 2 steps: check out the test code and run the cypress tests with some parameters (record, start, and working directory).
 
 - The **record** parameter tells that cypress should record videos and take screenshots of each of our tests run. This content will be available after every test run at the cypress dashboard.
 
-- The **start** is the command responsible for starting up our application, so cypress can naviagate into URLs such as `localhost:8080` and find some webpage. Remember: cypress is only a testing tool, it does not serve the application that will be under test.
+- The **start** is the command responsible for starting up our application, so cypress can navigate into URLs such as `localhost:8080` and find some webpage. Remember: cypress is only a testing tool, it does not serve the application that will be under test.
 
-- In a monorepo, the end-to-end test might be placed in a different sub-folder from the application itself. In this case we must use this **working-directory** parameter. My repository for instance has the following folder structure:
+- In a monorepo, the end-to-end test might be placed in a different sub-folder from the application itself. In this case we must use this **working-directory** parameter. My repository, for instance, has the following folder structure:
 
 ```
 repo/
@@ -59,7 +59,7 @@ repo/
   package.json
 ```
 
-So to make sure cypress will run the **start** command in the correct place, we need define the correct path at the working-directory.
+So to make sure cypress will run the **start** command in the correct place, we need to define the correct path at the working-directory.
 
 Having it done, as soon as we perform a push in our repository, we'll see that there is a new tab under the repository called "actions":
 
@@ -67,13 +67,13 @@ Having it done, as soon as we perform a push in our repository, we'll see that t
 
 And now every time a new push is made, the configured steps will run at our `integration-tests` workflow.
 
-At this point, we still don't have the comment at our pull requests with the test results. Let's configure the cypress github integration to achieve this.
+At this point, we still don't have the comment at our pull requests with the test results. Let's configure the cypress GitHub integration to achieve this.
 
 
 Configure Cypress Github Integration
 ---------  
 
-Before starting to configure the github integration, you need the setup our cypress project to record The cypress docs has a great tutorial on how to do that. Follow the steps and after that, get back here to continue:[https://docs.cypress.io/guides/dashboard/projects.html#Set-up-a-project-to-record](https://docs.cypress.io/guides/dashboard/projects.html#Set-up-a-project-to-record).
+Before starting to configure the Github integration, you need the setup our cypress project to record The cypress docs have a great tutorial on how to do that. Follow the steps and after that, get back here to continue:[https://docs.cypress.io/guides/dashboard/projects.html#Set-up-a-project-to-record](https://docs.cypress.io/guides/dashboard/projects.html#Set-up-a-project-to-record).
 
 ### Install the Cypress Github App
 
@@ -89,7 +89,7 @@ Having the project configured, now we'll install the Cypress Github App:
 
 **4.** Click the **Install the Cypress GitHub App** button.
 
-**5.** You will be redirected to github.com to complete the installation. Select the desired github organization or account to integrate with your cypress dashboard organization.
+**5.** You will be redirected to github.com to complete the installation. Select the desired Github organization or account to integrate with your cypress dashboard organization.
 
 ![Select a GitHub organization](https://docs.cypress.io/img/dashboard/github-integration/select-gh-org.31c7ade5.jpg)
 
