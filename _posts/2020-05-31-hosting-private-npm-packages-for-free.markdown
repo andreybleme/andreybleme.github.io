@@ -20,7 +20,7 @@ The first thing you need to do is to generate a Github token with the following 
 
 > *read:packages*, *write:packages*, and *delete:packages*
 
-Here you can find details on how to create the Github Token: https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages#about-tokens.
+Here you can find details on how to create the Github Token: [https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages#about-tokens](https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages#about-tokens).
 
 ### Authenticate your local NPM into Github Packages Registry
 
