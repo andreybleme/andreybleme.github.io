@@ -3,7 +3,7 @@ layout: post
 title:  "Hosting private NPM packages for free"
 description: "A simple and practical way to publish and host private NPM packages for free."
 date:   2020-05-31 18:00:00
-tags: [devops, javascript]
+tags: [javascript]
 comments: true
 share: true
 ---
