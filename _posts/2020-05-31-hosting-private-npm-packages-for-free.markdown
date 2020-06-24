@@ -10,7 +10,7 @@ share: true
 
 If you want to host a private NPM package but do not want to pay US$ 7 per user, per month to host it directly at [https://www.npmjs.com/](https://www.npmjs.com/) this post is for you. Here I will share a very practical way you can host it privately for free at Github Packages Registry + NPM.
 
-**Important:** The instructions presented here are valid as long as Github provides a free private repository.
+**Important:** The instructions presented here are valid as long as Github provides a free plan for private repositories.
 
 ## Publishing the package
 
