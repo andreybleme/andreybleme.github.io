@@ -3,7 +3,7 @@ layout: post
 title:  "The Principles of DevOps"
 description: "Introducing the 3 principles of the DevOps culture, that allows us to deliver software faster and safer."
 date:   2020-06-30 19:00:00
-tags: [javascript]
+tags: [devops]
 comments: true
 share: true
 ---
@@ -50,7 +50,7 @@ Having already increased our effectiveness on moving code into production, we no
 
 To achieve this we must create telemetry into our systems, to be able to see and solve problems based on real data, not on people guesses. When focusing on this second principle, it's important to analyze the best metrics we want to track to make sure we have information not only for engineering teams, but also for operation folks: developers may be interested in getting information about the number of login failures during a specific time period, server CPU usage during a peak and such, but operations teams probably will not take advantage of these data. Instead, operation teams would greatly benefit from data such as the amount of time users used a specific feature that enabled a sell(transaction). This is a simple example that shows us the importance of well analyzing how to include telemetry into our systems instead of simply integration tools into our software.
 
-To increase the quality of our work we should create review processes, by adopting code review practices, pair programming, and peer reviews. These practices are going to be discussed further in detail, but by now, you already have a good idea of duties you should focus on if you want to be able to go serious into running software in production. [Subscribe the newsletter](https://andreybleme.substack.com/) to be notified when the second post is out! (no spam, I promise)
+To increase the quality of our work we should create review processes, by adopting code review practices, pair programming, and peer reviews. These practices are going to be discussed further in detail, but by now, you already have a good idea of duties you should focus on if you want to be able to go serious into running software in production. [Subscribe the newsletter](https://andreybleme.substack.com/) to be notified when the second post is out.
 
 
 The principle of Continual Learning and Experimentation
