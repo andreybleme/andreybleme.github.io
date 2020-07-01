@@ -15,7 +15,7 @@ That's why I have decided to start "The DevOps Journey" series of articles here,
 
 DevOps and its resulting technical and cultural practices represent a convergence of many philosophical and management movements that guides us through the path to overcome important challenges that come with the desire of being able to deliver fast and reliable code.
 
-![DevOps principles](https://blog.4linux.com.br/wp-content/uploads/2018/04/Os-estudiosos-consideram-o-DevOps-como-um-termo-em-evolu%C3%A7%C3%A3o-e-que-n%C3%A3o-deve-ser-limitado.-e1523467724436-1900x978_c.png)
+![DevOps principles](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/devops-principles.png)
 
 Today I' will elaborate toward the 3 DevOps principles that enable us to:
 
