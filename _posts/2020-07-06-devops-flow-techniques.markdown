@@ -8,13 +8,11 @@ comments: true
 share: true
 ---
 
-# Introduction
-
 When we think of the speed in which we are able to deliver software, it seems to be always related to the quality and the correctness. We want to be able to deliver software into production fast, and always being sure that it meets the quality standards so our customers are happy. Of course, we know that this is not easy to achieve given the complexity of systems we use to be working on. To be able to achieve and sustain a fast flow of work from Development into Production (Operations), we need to reduce the risk associated with deploying and releasing changes into the production environment.
 
 ![Deployment pipeline](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/pipeline.png)
 
-Image source: [UThe Deployment Pipeline, by Marin Fowler](https://continuousdelivery.com/implementing/patterns/)
+Image source: [The Deployment Pipeline, by Marin Fowler](https://continuousdelivery.com/implementing/patterns/)
 
 Here I will elaborate on how to achieve this by focusing on implementing a set of technical practices known as continuous delivery. At the end of this article, you will be capable of understanding how to create the foundations of your deployment pipeline, to ensure that you are not entering the chaos by having automated tests that constantly validates that we are in a deployable state allowing developers to integrate code into trunk every day, therefore reducing the lead time to get production-ready code, and getting fast feedback while making people more productive.
 
