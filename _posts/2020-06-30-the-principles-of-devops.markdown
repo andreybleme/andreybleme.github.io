@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The DevOps Journey - The Principles of DevOps"
+title:  "The Principles of DevOps"
 description: "Introducing the 3 principles of the DevOps culture, that allows us to deliver software faster and safer, creating a safe system of work with a hight trust culture."
 date:   2020-06-30 19:00:00
-tags: [devops]
+tags: [devops, devops-journey]
 comments: true
 share: true
 ---
