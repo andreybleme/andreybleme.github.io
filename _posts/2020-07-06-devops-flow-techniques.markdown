@@ -14,7 +14,7 @@ When we think of the speed in which we are able to deliver software, it seems to
 
 Image source: [The Deployment Pipeline, by Marin Fowler](https://continuousdelivery.com/implementing/patterns/)
 
-Here I will elaborate on how to achieve this by focusing on implementing a set of technical practices known as continuous delivery. At the end of this article, you will be capable of understanding how to create the foundations of your deployment pipeline, to ensure that you are not entering the chaos by having automated tests that constantly validates that we are in a deployable state allowing developers to integrate code into trunk every day, therefore reducing the lead time to get production-ready code, and getting fast feedback while making people more productive.
+At this second post of [The DevOps Journey series](https://andreybleme.com/tags/#devops-journey), I will elaborate on how to achieve this by focusing on implementing a set of technical practices known as continuous delivery. At the end of this article, you will be capable of understanding how to create the foundations of your deployment pipeline, to ensure that you are not entering the chaos by having automated tests that constantly validates that we are in a deployable state allowing developers to integrate code into trunk every day, therefore reducing the lead time to get production-ready code, and getting fast feedback while making people more productive.
 
 ## The foundations of a deployment pipeline
 
@@ -47,14 +47,14 @@ This practice we have discussed above has become known as *immutable infrastruct
 
 Now that we already have our solid foundation, everyone must be already using production-like environments in their daily work, integrating and running code for every new feature. After having this, usually, organizations move into a step that consists of assigning QA engineers to start testing the entire deployed software to assure that everything meets the requirements. However, we are likely to get undesired outcomes from this practice: by finding and fixing errors in a separated phase only after all deployments were already completed, developers will learn about their mistakes only weeks or months after they introduced the given features that contain the errors. As expected, the time required to fix them will be way more significant, since developers will now need to perform some "archeology" work to remember how things work for a given piece of code. The relation between cause and effect is thus faded and the productivity goes away.
 
-Automated testing can address this issue! If we can guarantee that we are always checking the health of our automated tests, we will be way more secure on deploying our code with fewer failures. A widely adopted practice to enable this is to integrate our automated tests into our deployment pipeline. Every single time we deploy code into any of our production-like environments, we should run our tests. When any developer commits code, it should automatically run against a suite of automated tests. If the code passes, it is automatically merged into trunk, and deployed into your configured environment (production or production-like). This process will result in a "Release on Green" philosophy, meaning that at any time of the day, we can make a release with the code deployed into one of our environments.
+Automated testing can address this issue! If we can guarantee that we are always checking the health of our automated tests, we will be way more secure on deploying our code with fewer failures. A widely adopted practice to enable this is to **integrate our automated tests into our deployment pipeline**. Every single time we deploy code into any of our production-like environments, we should run our tests. When any developer commits code, it should automatically run against a suite of automated tests. If the code passes, it is automatically merged into trunk, and deployed into your configured environment (production or production-like). This process will result in a "Release on Green" philosophy, meaning that at any time of the day, we can make a release with the code deployed into one of our environments.
 
 This enables a high-trust culture where people can detect and correct issues quickly, immediately after they have submitted the code to the given environment.
 
 
 #### Strive for a reliable validation test suite
 
-We must know what kinds of automated tests must run for our deployment pipeline.
+We must know what kinds of automated tests should run for our deployment pipeline.
 
 When facing deadline pressures, developers may stop creating unit tests as part of their daily work. To detect this we must measure and make visible at our deployment pipeline the test coverage, and ideally set a limit for this coverage to be allowed (80% of all classes must include tests for example).
 
@@ -86,7 +86,7 @@ Image source: [Andon Cords and Practice Environmentalism, by leanvets](https://w
 
 Whenever someone introduces a change that causes our build or tests to fail, no new work should be allowed until it is fixed.
 
-To build a high-trust DevOps culture, you should prioritize team goals over individual goals. If someone needs help to fix a problem at the deployment pipeline, they should be allowed to bring whoever they need to help to solve the problem as fast as possible and move their work forward.
+To build a high-trust DevOps culture, you should **prioritize team goals over individual goals**. If someone needs help to fix a problem at the deployment pipeline, they should be allowed to bring whoever they need to help to solve the problem as fast as possible and move their work forward.
 
 The consequences of not pulling the Andon Cord and immediately fixing deployment pipeline problems are very familiar, but we still ignore it quite often:
 
@@ -100,7 +100,7 @@ Beware and make sure you are not wasting everyone's time and money by not pullin
 
 ## Decouple the release from the deployment
 
-The way that we use to think of a process of launching a software project, we take into consideration some date defined by the marketing team where the ops team performs a deployment the day before, and in the morning after we announce to the world what's new on our product, enabling customers to use the given features. However, quite too often things don't go according to the plan. We may experience production outages due to unexpected and never tested workloads, leading our software to fail both to customers and for the entire company. Restoring this in-production failing services may require a significant amount of work, that needs to be performed as soon as possible, creating this a miserable experience for workers who are typically under a lot of pressure on this kind of situation. As long as these terrible situations keep happening, we tend to associate launching dates with periods of exhaustive work to solve unexpected problems, which is, of course, the opposite direction we need to follow: we want our team to be eager to launch small batches of work with as much frequency as possible.
+The way that we use to think of a process of launching a software project, we take into consideration some date defined by the marketing team where the ops team performs a deployment the day before, and in the morning after we announce to the world what's new on our product, enabling customers to use the given features. However, quite too often things don't go according to the plan. We may experience production outages due to unexpected and never tested workloads, leading our software to fail both to customers and for the entire company. Restoring this in-production failing services may require a significant amount of work, that needs to be performed as soon as possible, making this a miserable experience for workers who are typically under a lot of pressure on this kind of situation. As long as these terrible situations keep happening, we tend to associate launching dates with periods of exhaustive work to solve unexpected problems, which is, of course, the opposite direction we need to follow: we want our team to be eager to launch small batches of work with as much frequency as possible.
 
 To enable our team to keep striving for efficient and frequent deliveries, we must decouple our production deployments from our feature releases. In practice, the deployment and release of the word may be used interchangeably, but let's elaborate a bit on the different purposes of these two events:
 
@@ -127,7 +127,7 @@ Image source: [Using Canary Release Pipelines to Achieve Continuous Testing, by 
 
 #### Application-based release patterns
 
-As the opposite of the environment-base release patterns, here we modify our application so that we can selectively release and expose specific functionalities by applying small configuration changes. We can implement feature flags to make a set of features visible only to a specific group of people, like internal employees, 1% of our customers, and so forth until we feel confident about releasing it to the entire user base. This enables a practice known as *dark launch*, where we can test a set of features with production traffic without actually releasing it. That was exactly what facebook made during their chat feature release in 2008!
+As the opposite of the environment-base release patterns, application-based release patterns require us to modify our application so that we can selectively release and expose specific functionalities by applying small configuration changes. We can implement feature flags to make a set of features visible only to a specific group of people, like internal employees, 1% of our customers, and so forth until we feel confident about releasing it to the entire user base. This enables a practice known as *dark launch*, where we can test a set of features with production traffic without actually releasing it. That was exactly what facebook made during their chat feature release in 2008!
 
 ![Feature Flag](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/feature-flag.jpg)
 
@@ -137,7 +137,7 @@ I will dive deeper into how to implement this, it's advantages and drawbacks in 
 
 -----
 
-In this post, we have covered the main practices and principles we need to pay attention to if we want to enable the fast flow from Dev to Ops. If you make sure to always revisit these principles, you are on the right way to deliver quickly and safely to customers. There is a broad variety of tools we can use to help us on the journey, but remember to focus on the principles first, the motivation behind a new technology adoption, instead of blindly installing any "cool automation tool" and expect that it will really help.
+In this post, we have covered the main practices and principles we need to pay attention to if we want to enable the fast flow from Dev to Ops. If you make sure to always revisit these principles, you are on the right way to deliver quickly and safely to customers. There is a broad variety of tools we can use to help us on the journey, but remember to focus on the principles first, the motivation behind a new technology adoption, instead of blindly installing any "cool automation tool" and expect that it will help.
 
 In the next post of our DevOps Journey series, we will see how to see problems in our software as they occur, and be able to react fast, before our customers are affected by adding telemetry and amplifying the feedback we receive from our system.
 
