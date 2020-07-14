@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use Telemetry to amplify feedback and see problems as they occur"
-description: "Collecting useful information from your system to quickly recover from failures, and being able to detect problems as they occur."
+description: "Collecting useful information from your system to quickly recover from failures, and being able to detect and respond to problems as they occur."
 date:   2020-07-14 19:00:00
 tags: [devops, devops-journey]
 comments: true
@@ -20,6 +20,8 @@ Let's check then the main practices you should keep an eye on to recover faster 
 We often find ourselves in a situation where we are not able to determine if a given issue is due to a problem in our application code, in our environment (e.g. network) or if it is something external to our software (e.g. third-party integrations). To avoid these situations, we need to design our systems so that they are always creating **telemetry**. Telemetry can be defined as "a collection of measurements or other data at remote points and their automatic transmission for monitoring.". 
 
 ![Telemetry](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/telemetry-dashboard.png)
+
+Image source: [Building an IoT dashboard with NASA Open MCT](https://bergie.iki.fi/blog/nasa-openmct-iot-dashboard/)
 
 Our goal is to build telemetry into our application, so we can understand what is going on with our application at any time by collecting metrics: storage capacity, networking, security, database, CPU and so on. But of course, we also need to collect important telemetry information not only useful for developers, but also for operation's people that needs to be able to understand what is happening on the system. To achieve this, the first step is to understand how a modern monitoring architecture looks like. In ["The Art of Monitoring"](https://amzn.to/2Ct5ArE), James Turnbull describes the components that compose a common monitoring architecture:
 
