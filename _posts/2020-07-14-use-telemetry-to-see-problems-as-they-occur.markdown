@@ -88,7 +88,7 @@ Having the monitoring system continually collecting data from our application, w
 
 It's also possible and useful to use the telemetry data analysis to take automatic actions that affect directly out system functioning. Netflix has been great using this technique to perform [predictive auto-scaling actions](https://netflixtechblog.com/scryer-netflixs-predictive-auto-scaling-engine-a3f8fc922270).
 
-![Netflix predictive Auto-scaling(https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/netflix-auto-scalling.png)
+![Netflix predictive Auto-scaling](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/netflix-auto-scalling.png)
 
 Image source: [Scryer: Netflix’s Predictive Auto Scaling Engine, by Daniel Jacobson, Danny Yuan, and Neeraj Joshi](https://netflixtechblog.com/scryer-netflixs-predictive-auto-scaling-engine-a3f8fc922270)
 
