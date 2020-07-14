@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deliver faster by applying the DevOps Flow techniques"
-description: "Creating the foundations of your deployment pipeline and adopting the practices of the Flow to deliver software faster and safer"
+description: "Creating the foundations of your deployment pipeline and adopting the practices of the Flow to deliver software faster and safer."
 date:   2020-07-06 19:00:00
 tags: [devops, devops-journey]
 comments: true
@@ -12,7 +12,7 @@ When we think of the speed in which we are able to deliver software, it seems to
 
 ![Deployment pipeline](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/pipeline.png)
 
-Image source: [The Deployment Pipeline, by Marin Fowler](https://continuousdelivery.com/implementing/patterns/)
+Image source: [The Deployment Pipeline, by Martin Fowler](https://continuousdelivery.com/implementing/patterns/)
 
 At this second post of [The DevOps Journey series](https://andreybleme.com/tags/#devops-journey), I will elaborate on how to achieve this by focusing on implementing a set of technical practices known as continuous delivery. At the end of this article, you will be capable of understanding how to create the foundations of your deployment pipeline, to ensure that you are not entering the chaos by having automated tests that constantly validates that we are in a deployable state allowing developers to integrate code into trunk every day, therefore reducing the lead time to get production-ready code, and getting fast feedback while making people more productive.
 
