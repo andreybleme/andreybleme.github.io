@@ -103,5 +103,4 @@ When focusing on this second principle of Constant Feedback, the tools you choos
 
 I hope that this post helped you to have a better idea on things you should focus on to be able to efficiently respond to incidents and collect feedback from your system. [Subscribe to the newsletter](https://andreybleme.substack.com/) to be notified when new posts come here and also to get some exclusive content related to DevOps.
 
-
-
+If you liked this post, consider sharing it.
