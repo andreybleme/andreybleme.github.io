@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Running Cypress end-to-end tests in parallel using AWS Codepipeline CI"
-description: "Implementing a, AWS Codepipeline for running end-to-end tests with AWS Cloudwatch scheduled events"
+description: "Implementing an AWS Codepipeline for running end-to-end tests with AWS Cloudwatch scheduled events"
 date:   2020-11-28 19:00:00
 tags: [devops]
 comments: true
@@ -26,13 +26,17 @@ To invoke our pipeline, we will create an **AWS Cloudwatch** event that will wor
 Code pipeline is the AWS CI tool, it allows us to create flexible pipelines with many different steps. Here we will have a pipeline with two simple steps:
 
 **1.** Clone our Github repository
+
 **2.** Run the Cypress e2e tests
 
 Where the second step will be composed by the processes:
 
 **1.** Install the project dependencies
+
 **2.** Authenticate Cypress into Cypress dashboard using its secret and access keys (this is required so we can check the test execution results at [dashboard.cypress.com](https://dashboard.cypress.io/) with video records and screenshots)
+
 **3.** Startup the frontend application
+
 **4.** Run the Cypress tests against it
 
 The cloud formation template to provision such a pipeline looks like this:
@@ -73,7 +77,9 @@ It's also important to mention that the `RoleArn` defined in the `Target` of thi
 
 ---
 
-Having a scheduled event for running all your end-to-end tests might be a good solution if you want to save costs and still keep track of your overall quality. By the end, your pipeline will look like this in the AWS console:
+Having a scheduled event for running all your end-to-end tests might be a good solution if you want to save costs and still keep track of your overall quality.
+
+By the end, your pipeline will look like this in the AWS console (ignore the fact I'm using 10 Codebuild instances instead of only 2 as shown during this post):
 
 ![Code pipeline e2e tests](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/aws_e2e_pipeline.png)
 
