@@ -25,19 +25,19 @@ To invoke our pipeline, we will create an **AWS Cloudwatch** event that will wor
 
 Code pipeline is the AWS CI tool, it allows us to create flexible pipelines with many different steps. Here we will have a pipeline with two simple steps:
 
-**1.** Clone our Github repository
+**1.** Clone our Github repository.
 
-**2.** Run the Cypress e2e tests
+**2.** Run the Cypress e2e tests.
 
 Where the second step will be composed by the processes:
 
-**1.** Install the project dependencies
+**1.** Install the project dependencies.
 
-**2.** Authenticate Cypress into Cypress dashboard using its secret and access keys (this is required so we can check the test execution results at [dashboard.cypress.com](https://dashboard.cypress.io/) with video records and screenshots)
+**2.** Authenticate Cypress into Cypress dashboard using its secret and access keys (this is required so we can check the test execution results at [dashboard.cypress.com](https://dashboard.cypress.io/) with video records and screenshots).
 
-**3.** Startup the frontend application
+**3.** Startup the frontend application.
 
-**4.** Run the Cypress tests against it
+**4.** Run the Cypress tests against it.
 
 The cloud formation template to provision such a pipeline looks like this:
 
@@ -53,7 +53,7 @@ By giving a deeper look at the "EndToEndTests" Codebuild project at line E2EGrou
 
 Here we define the Node 12 runtime, install all the project dependencies (in this case it's installed with the `npm install -g typescript lerna`, but it could be anything like `maven install`), then we are exporting the Cypress access and secret keys as environment variables (lines 13 and 14) to allow Cypress to store the screenshots and record the test execution at [dashboard.cypress.com](https://dashboard.cypress.io/).
 
-At line 22 we simply start our frontend project, using wait-on to make sure our execution environment will wait until the app is available at localhost:8080 before running any other command. After that, we have at line 25 the execution of the e2e test itself, with some important parameters:
+At line 22 we simply start our frontend project, using [wait-on](https://github.com/jeffbski/wait-on) to make sure our execution environment will wait until the app is available at localhost:8080 before running any other command. After that, we have at line 25 the execution of the e2e test itself, with some important parameters:
 
 - `--record --key=${CYPRESS_RECORD_KEY}` used to record our tests and upload it to the Cypress dashboard.
 - `--parallel --browser electron` used to indicate our tests will run in parallel, in electron browser.
