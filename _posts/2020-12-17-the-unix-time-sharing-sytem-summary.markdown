@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-> Original paper: [https://dl.acm.org/doi/10.1145/361011.361061](https://dl.acm.org/doi/10.1145/361011.361061)
+> Original paper from 1974: [https://dl.acm.org/doi/10.1145/361011.361061](https://dl.acm.org/doi/10.1145/361011.361061)
 
 The paper "The UNIX Time-Sharing System" written by Dennis M. Ritchie and Ken Thompson, presents the main aspects of the UNIX Operating System, exposing the details on how its file system works and how it was implemented, highlighting the folder's structure, permissions, special files and, the shell, the interface used by users to interact with the UNIX system.
 
