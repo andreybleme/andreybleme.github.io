@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Summary: The Evolution of the Unix Time-sharing System"
-description: "Summay of the paper published by Dennis M. Ritchie in 1984. The paper concentrates on the evolution of UNIX file system, the process-control mechanism, and the idea of pipelined commands."
+description: "The paper written in 1984, concentrates on the evolution of UNIX file system, the process-control mechanism, and the idea of pipelined commands."
 date:   2020-12-29 22:00:00
 tags: [operating systems, paper summary]
 comments: true
 share: true
 ---
 
-> Original paper from 1984: [http://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf](http://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf)
+> Original paper by Dennis M. Ritchie: [http://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf](http://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf)
 
 Dennis M. Ritchie presents in this paper the evolution of the UNIX operating system, from its initial implementation running in the PDP-7 until its later days in PDP-11. The paper approaches not only the technical aspects of the evolution of the system but also the social events that somehow influenced the system's evolution.
 
