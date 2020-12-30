@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Summary: The Evolution of the Unix Time-sharing System"
+title:  "The Evolution of the Unix Time-sharing System"
 description: "The paper written in 1984, concentrates on the evolution of UNIX file system, the process-control mechanism, and the idea of pipelined commands."
 date:   2020-12-29 22:00:00
 tags: [operating systems, paper summary]
