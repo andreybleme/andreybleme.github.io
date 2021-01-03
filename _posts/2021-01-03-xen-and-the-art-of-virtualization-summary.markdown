@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-> Original paper by Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho, Rolf Neugebauer†, Ian Pratt and Andrew Warfield: [https://dl.acm.org/doi/10.1145/1165389.945462](https://dl.acm.org/doi/10.1145/1165389.945462)
+> Original paper from 2003, by Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho, Rolf Neugebauer, Ian Pratt and Andrew Warfield: [https://dl.acm.org/doi/10.1145/1165389.945462](https://dl.acm.org/doi/10.1145/1165389.945462)
 
 Among the numerous systems that have been designed using virtualization to subdivide the resources of computers, this paper presents Xen, a virtual machine monitor that allows multiple operating systems to share hardware safely without sacrificing performance. The authors present three main challenges to achieving this: isolate virtual machines from each other, support a good variety of operating systems, and lastly, not add a performance overhead that usually is introduced by the virtualization process.
 
