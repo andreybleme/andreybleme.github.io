@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Non-scalable locks are dangerous"
-description: "This paper shows that non-scalable locks can cause dramatic collapse in the performance of real workloads, even for very short critical sections, and demonstrates a replacement of the offending nonscalable spin locks with scalable ones."
+description: "This paper shows that non-scalable locks can cause dramatic collapse in the performance of real workloads, even for very short critical sections, and demonstrates a replacement of the offending nonscalable spin locks with MCS scalable locks."
 date:   2021-01-24 14:00:00
 tags: [operating systems, paper summary]
 comments: true
