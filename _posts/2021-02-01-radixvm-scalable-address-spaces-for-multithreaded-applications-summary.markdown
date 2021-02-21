@@ -3,7 +3,7 @@ layout: post
 title:  "RadixVM: Scalable address spaces for multithreaded applications"
 description: "Paper from MIT CSAIL presenting RadixVM: a new virtual memory system design that enables fully concurrent operations on shared address spaces for multithreaded processes."
 date:   2021-02-06 19:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

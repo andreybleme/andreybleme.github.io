@@ -3,7 +3,7 @@ layout: post
 title:  "The Singularity system"
 description: "This paper shows how safe, modern programming languages let Microsoft rethink the architectural trade-offs in a experimental operating system."
 date:   2021-01-05 21:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Exokernel: An Operating System Architecture for Application-level Resource Management"
 description: "The paper written in 1995, presents the exokernel architecture an alternative OS architecture to address traditional kernel limitations."
 date:   2020-12-30 20:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

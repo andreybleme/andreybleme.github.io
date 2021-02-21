@@ -3,7 +3,7 @@ layout: post
 title:  "Eraser: A Dynamic Data Race Detector for Multithreaded Programs"
 description: "This paper presents the design and implementation of Eraser, a tool for dynamically detecting racing conditions (data race) in lock-based multithreaded programs."
 date:   2021-01-21 19:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "The Google File System"
 description: "This paper presents GFS, the scalable distributed file system implemented at Google to support data-intensive applications with fault tolerance mechanisms and high aggregate performance to a large number of clients."
 date:   2021-02-21 18:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

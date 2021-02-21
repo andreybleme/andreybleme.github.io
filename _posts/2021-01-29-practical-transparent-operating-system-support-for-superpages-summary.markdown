@@ -3,7 +3,7 @@ layout: post
 title:  "Practical, transparent operating system support for superpages"
 description: "Paper presented on the 5th Symposium on Operating Systems Design and Implementation, describing a superpage management system that improves the performance of applications by increasing the TLB coverage and reducing TLB misses."
 date:   2021-01-29 21:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

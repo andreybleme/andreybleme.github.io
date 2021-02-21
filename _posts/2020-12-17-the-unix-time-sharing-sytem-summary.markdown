@@ -3,7 +3,7 @@ layout: post
 title:  "The UNIX Time-Sharing System"
 description: "The paper written in 1974, presents the main aspects of the UNIX Operating System with its file system, I/O operations, process synchronization, and the shell implementation."
 date:   2020-12-17 19:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

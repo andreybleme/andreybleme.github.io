@@ -3,7 +3,7 @@ layout: post
 title:  "Xen and the Art of Virtualization"
 description: "This paper presents Xen, an x86 virtual machine monitor which allows multiple operating systems to share conventional hardware in a safe and resource managed fashion."
 date:   2021-01-03 15:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

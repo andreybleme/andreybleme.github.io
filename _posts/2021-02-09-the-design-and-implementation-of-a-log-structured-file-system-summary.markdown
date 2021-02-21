@@ -3,7 +3,7 @@ layout: post
 title:  "The Design and Implementation of a Log-Structured File System"
 description: "Paper presenting Sprite LFS, a sytem implementing a new technique for disk storage management that speeds up both file writing and crash recovery."
 date:   2021-02-09 21:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

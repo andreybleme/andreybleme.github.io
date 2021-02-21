@@ -3,7 +3,7 @@ layout: post
 title:  "Serverless Computation with OpenLambda"
 description: "This paper presents the advantages and main challenges of implementing OpenLambda, a platform for building applications using the serverless computation model."
 date:   2021-01-07 19:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---

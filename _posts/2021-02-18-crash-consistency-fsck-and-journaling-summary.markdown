@@ -3,7 +3,7 @@ layout: post
 title:  "Crash Consistency: FSCK and Journaling"
 description: "Paper presenting the Journaling implementation in Linux file systems, along with the techniques used for allowing robust crash recovery from disasters during disk operations."
 date:   2021-02-18 16:00:00
-tags: [operating systems, paper summary]
+tags: [operating-systems, paper-summary]
 comments: true
 share: true
 ---
