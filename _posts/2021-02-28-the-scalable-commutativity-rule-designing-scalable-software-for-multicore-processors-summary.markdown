@@ -10,8 +10,7 @@ share: true
 
 > Original paper by Austin T. Clements, M. Frans Kaashoek, Nickolai Zeldovich, Robert T. Morris, and Eddie Kohler: [https://www.read.seas.harvard.edu/~kohler/pubs/clements13scalable.pdf](https://www.read.seas.harvard.edu/~kohler/pubs/clements13scalable.pdf)
 
-Identifying opportunities for improving a system's scalability before any implementation exists would create high benefits for both developers and the system itself. This paper introduce the commutativity rule, meaning that "Whenever interface operations commute,
-they can be implemented in a way that scales".
+Identifying opportunities for improving a system's scalability before any implementation exists would create high benefits for both developers and the system itself. This paper introduce the commutativity rule, meaning that "Whenever interface operations commute they can be implemented in a way that scales".
 
 The definition of operations that scale is also upfront defined as operations that have conflict-free memory accesses on its implementation, where no core writes a cache line that was read or written by another core. To allow developers to identify these operations, the authors created the Commuter tool to automate the reasoning for detecting operations that scale.
 
