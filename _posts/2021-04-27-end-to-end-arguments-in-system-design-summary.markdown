@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "End-to-end Arguments in System Design"
-description: "This paper presents the end-to-end argument, which comprehends most of networks applications"
+description: "This paper presents the end-to-end argument, which comprehends most network applications and plays an important part in balancing the tradeoffs between low and high-level implementations."
 date:   2021-04-27 23:40:00
 tags: [networking, paper-summary]
 comments: true
