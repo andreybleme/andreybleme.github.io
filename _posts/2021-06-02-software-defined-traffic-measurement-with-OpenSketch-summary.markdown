@@ -10,7 +10,7 @@ share: true
 
 > Original article by Minlan Yu, Lavanya Jose and Rui Miao: [http://stanford.edu/~lavanyaj/papers/opensketch12.pdf](http://stanford.edu/~lavanyaj/papers/opensketch12.pdf)
 
-Current SDN research has been typically focusing on the control plane. To further explore measurement APIs in software-defined network contexts, the authors propose a software-defined architecture that separates the measurement data plane from the control place: OpenSketch.
+Current SDN research has been typically focusing on the control plane. To further explore measurement APIs in software-defined network contexts, the authors propose a software-defined architecture that separates the measurement data plane from the control plane: OpenSketch.
 
 For supporting a  broad variety of measurement tasks, OpenSketch provides a simple three-stage pipeline that hashes, filters, and counts, built on top of sketch data structures that can be combined to flexibly provide implementation possibilities.
 
