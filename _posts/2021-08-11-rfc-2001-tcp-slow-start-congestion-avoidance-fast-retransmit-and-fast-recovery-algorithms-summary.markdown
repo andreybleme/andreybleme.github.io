@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-> Original article by Dah-Ming Chiu and Raj Jain: [https://datatracker.ietf.org/doc/html/rfc2001](https://datatracker.ietf.org/doc/html/rfc2001)
+> Original RFC: [https://datatracker.ietf.org/doc/html/rfc2001](https://datatracker.ietf.org/doc/html/rfc2001)
 
 The RFC 2001 presents the solutions for TCP implementations across the Internet to handle package transmissions. The first is the Slow Start, the algorithm that runs observing that the rate at which new packets should be injected into the network is the rate at which the ACKs are returned by the other network end.
 
