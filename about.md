@@ -10,6 +10,6 @@ Welcome to my blog. Here I share my thoughts about software engineering, new tec
 
 I have been designing and building software since 2014. In the past years I have worked at many different companies' projects, and at my own startup for one year building a [job search web platform](https://vulpi.com.br/).
 
-You can find my research on Distributed Systems, Operating Systems and Networks in my [Google Scholar page](https://scholar.google.com/citations?user=Yt9LrFoAAAAJ).
+You can find my research on Distributed Systems, Operating Systems and Networks in my [Google Scholar page](https://scholar.google.com/citations?user=Yt9LrFoAAAAJ), and view my presentations on [Speaker Deck](https://speakerdeck.com/).
 
 Feel free to send me an email or messaging [@andreybleme](https://twitter.com/andreybleme).
