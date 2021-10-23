@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-> Original paper by Costin Raiciu, Sebastien Barre, Christopher Pluntke, Adam Greenhalgh†, Damon Wischik, Mark Handley: [http://vincen.tl/cis700sp17/mptcp-sigcomm11.pdf](http://vincen.tl/cis700sp17/mptcp-sigcomm11.pdf)
+> Original paper by Costin Raiciu, Sebastien Barre, Christopher Pluntke, Adam Greenhalgh†, Damon Wischik and Mark Handley: [http://vincen.tl/cis700sp17/mptcp-sigcomm11.pdf](http://vincen.tl/cis700sp17/mptcp-sigcomm11.pdf)
 
 Single path transport can be ill-suited for networks containing multiple paths in their core. This paper presents Multipath TCP, a TCP replacement that improves throughput and better fairness on different datacenter topologies.
 
