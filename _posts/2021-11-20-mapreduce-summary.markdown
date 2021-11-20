@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MapReduce: Simplified Data Processing on Large Clusters"
-description: "Paper from Google engineers presenting MapReduce, a model providing a robust yet simples interface for processing large datasets in distributed environments."
+description: "Paper from Google engineers presenting MapReduce, a model providing a robust yet simple interface for processing large datasets in distributed environments."
 date:   2021-11-20 12:00:00
 tags: [big-data, paper-summary]
 comments: true
