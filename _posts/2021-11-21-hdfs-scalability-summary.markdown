@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HDFS scalability: the limits to growth"
-description: "Article presenting Hadoop distributed file system HDFS and its scalability limitations."
+description: "Summary of Shvachko's article presenting Hadoop distributed file system HDFS and its scalability limitations."
 date:   2021-11-21 14:00:00
 tags: [big-data, paper-summary]
 comments: true
