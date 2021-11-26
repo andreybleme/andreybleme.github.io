@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing"
-description: "Summary of the paper published by University of California Berkeley researches, presenting RDD, a distributed memory abstraction for computations on large clusters."
+description: "Summary of the paper published by University of California Berkeley researchers, presenting RDD, a distributed memory abstraction for computations on large clusters."
 date:   2021-11-25 22:00:00
 tags: [big-data, paper-summary]
 comments: true
