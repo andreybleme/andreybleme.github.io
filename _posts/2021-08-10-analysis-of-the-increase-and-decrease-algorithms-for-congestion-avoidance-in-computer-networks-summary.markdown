@@ -3,7 +3,7 @@ layout: post
 title:  "Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks"
 description: "Summary of the paper published in 1989 presenting different algorithms for Congestion Avoidance in computer networks."
 date:   2021-08-10 23:40:00
-tags: [networking, paper-summary]   
+tags: [networks, paper-summary]   
 comments: true
 share: true
 ---

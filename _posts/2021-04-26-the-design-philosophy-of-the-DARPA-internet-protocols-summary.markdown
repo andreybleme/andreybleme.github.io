@@ -3,7 +3,7 @@ layout: post
 title:  "The Design Philosophy of the DARPA Internet Protocols"
 description: "Paper from 1988 by David Clark, demonstrating the main motivations behind the early internet protocols design."
 date:   2021-04-26 23:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

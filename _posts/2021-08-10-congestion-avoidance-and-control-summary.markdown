@@ -3,7 +3,7 @@ layout: post
 title:  "Congestion avoidance and control"
 description: "Paper presenting an efficient algorithm for network congestion avoidance and control, as a response to the first Internet congestion collapses that happened back in 1986."
 date:   2021-08-10 23:40:00
-tags: [networking, paper-summary]   
+tags: [networks, paper-summary]   
 comments: true
 share: true
 ---

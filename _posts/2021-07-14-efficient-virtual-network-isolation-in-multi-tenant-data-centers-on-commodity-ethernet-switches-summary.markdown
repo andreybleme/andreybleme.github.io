@@ -3,7 +3,7 @@ layout: post
 title:  "Efficient virtual network isolation in multi-tenant data centers on commodity ethernet switches"
 description: "This paper presents LANES, a system that provides network isolation for multi-tenant data center environments."
 date:   2021-07-14 22:40:00
-tags: [networking, paper-summary]   
+tags: [networks, paper-summary]   
 comments: true
 share: true
 ---

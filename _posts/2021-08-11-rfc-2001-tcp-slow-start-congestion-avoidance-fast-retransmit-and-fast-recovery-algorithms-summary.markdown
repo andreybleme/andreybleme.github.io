@@ -3,7 +3,7 @@ layout: post
 title:  "TCP Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery Algorithms"
 description: "Summary of the RFC 2001, discussing the TCP mechanisms to handle package transmissions during network congestion."
 date:   2021-08-11 23:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

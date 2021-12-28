@@ -3,7 +3,7 @@ layout: post
 title:  "Ethanol: Software Defined Networking for 802.11 Wireless Networks"
 description: "This paper presents Ethanol, an SDN architecture for dense wireless networks, enabling vendor-agnostic service-aware control algorithms and network-wide control of QoS, user mobility, and access point virtualization."
 date:   2021-05-28 22:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

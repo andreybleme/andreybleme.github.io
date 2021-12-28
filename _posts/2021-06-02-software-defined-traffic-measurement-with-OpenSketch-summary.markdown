@@ -3,7 +3,7 @@ layout: post
 title:  "Software Defined Traffic Measurement with OpenSketch"
 description: "This paper presents a measurement architecture and prototype API for software-defined networks. It provides programmable measurement task implementations while maintaining high memory accuracy."
 date:   2021-06-02 03:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

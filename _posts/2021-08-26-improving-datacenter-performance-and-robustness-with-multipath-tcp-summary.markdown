@@ -3,7 +3,7 @@ layout: post
 title:  "Improving Datacenter Performance and Robustness with Multipath TCP"
 description: "Paper presenting the MPTCP protocol which improves the performance on datacenters, providing an alternative for single-path transport."
 date:   2021-08-26 23:59:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

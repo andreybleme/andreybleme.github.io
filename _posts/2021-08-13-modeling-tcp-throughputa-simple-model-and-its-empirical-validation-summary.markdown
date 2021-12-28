@@ -3,7 +3,7 @@ layout: post
 title:  "Modeling TCP Throughput: A Simple Model and its Empirical Validation"
 description: "Summary of the paper published in 1998 describing a TCP throughput prediction model that take timeouts into account."
 date:   2021-08-13 22:00:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

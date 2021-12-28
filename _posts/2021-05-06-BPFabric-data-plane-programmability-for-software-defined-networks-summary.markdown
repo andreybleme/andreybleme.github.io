@@ -3,7 +3,7 @@ layout: post
 title:  "BPFabric: Data Plane Programmability for Software-Defined Networks"
 description: "Paper published at IEEE Xplore presenting a new protocol for allowing increased programmability for software-defined networks data plane."
 date:   2021-05-06 22:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

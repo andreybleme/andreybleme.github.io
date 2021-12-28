@@ -4,7 +4,7 @@ title:  "Software-Defined Networks: a systematic approach to
 the development of research in Computer Networks"
 description: "Mini-course pubished at SBRC providing an overview on Software Defined Networks (SDN) with practical examples and applicabilities."
 date:   2021-05-02 14:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

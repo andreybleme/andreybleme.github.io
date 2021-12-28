@@ -3,7 +3,7 @@ layout: post
 title:  "SoftRAN: Software-Defined Radio Access Network"
 description: "Current distributed control plane for RANs are suboptimal on managing resources of dense wireless networks. SoftRAN presents as a software-defined, fundamental rethink of the radio access layer."
 date:   2021-05-20 20:40:00
-tags: [networking, paper-summary]
+tags: [networks, paper-summary]
 comments: true
 share: true
 ---

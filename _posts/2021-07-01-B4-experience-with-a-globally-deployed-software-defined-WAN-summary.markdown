@@ -3,7 +3,7 @@ layout: post
 title:  "B4: Experience with a Globally-Deployed Software-Defined WAN"
 description: "Paper presenting Google's private WAN connecting its data centers through an SDN solution, allowing near 100% of hardware utilization."
 date:   2021-07-01 03:40:00
-tags: [networking, paper-summary]   
+tags: [networks, paper-summary]   
 comments: true
 share: true
 ---
