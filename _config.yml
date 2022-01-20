@@ -40,12 +40,12 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
+  - name:           "Talks"
+    url:            "/talks"
   - name:           "Tags"
     url:            "/tags"
   - name:           "Archive"
     url:            "/archive"
-  - name:           "Talks"
-    url:            "/talks"
 
 # Sass
 sass:
