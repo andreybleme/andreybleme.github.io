@@ -44,6 +44,8 @@ nav:
     url:            "/tags"
   - name:           "Archive"
     url:            "/archive"
+  - name:           "Talks"
+    url:            "/talks"
 
 # Sass
 sass:
