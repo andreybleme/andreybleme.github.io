@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Autoscaling Tiered Cloud Storage in Anna"
-description: "Summary the paper presenting Anna, a distribuited KVS system designed to balance cost and latency requirements."
+description: "Summary of the paper presenting Anna, a distribuited KVS system designed to balance cost and latency requirements."
 date:   2022-02-12 15:00:00
 tags: [big-data, paper-summary]
 comments: true
