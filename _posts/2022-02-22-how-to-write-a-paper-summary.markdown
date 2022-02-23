@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-Writing a proper paper summary is something I have learned in the past year. After writing more than 50 summaries, in this post, I'll share a base structure I have been using so you can try applying it in your future article summaries.
+Writing a proper paper summary is something I have learned in the past year. After writing more than [50 summaries](https://andreybleme.com/tags/#paper-summary), in this post, I'll share a base structure I have been using so you can try applying it in your future article summaries.
 
 The purpose of a scientific paper summary is to give the reader a clear and objective picture of the original text, hiding its non-important details. You can use just a few paragraphs, or an entire page, the crucial aspect of a good summary relies on its capability of providing the reader all the necessary information so he can comprehend a paper's core ideas.
 
