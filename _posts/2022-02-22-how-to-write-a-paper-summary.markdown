@@ -30,9 +30,10 @@ There are always similar papers presented before aiming to address the same prob
 #### Your evaluation
 Finally, what are your thoughts on the paper? Tell the readers why do you believe the paper provides a great contribution or not, in which aspects the paper could be better.
 
-This is the base skeleton I have been using to write my summaries. When I'm summarizing a paper about the research field I am interested in, the text tends to get larger. The opposite is also true: summarizing papers describing research on areas I'm not really into often increases the difficulty of providing a personal evaluation.
 
 -------------
+
+This is the base skeleton I have been using to write my summaries. When I'm summarizing a paper about a research field I am interested in, the text tends to get larger. The opposite is also true: summarizing papers describing research on areas I'm not really into often increases the difficulty of providing a personal evaluation. This is why is so important to stick to the structure!
 
 References and useful links
 -------------
