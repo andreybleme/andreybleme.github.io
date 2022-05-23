@@ -3,7 +3,7 @@ layout: post
 title:  "Running eBPF programs on Docker containers"
 description: "Creating a Docker image to run BPF programs with libbpf, and troubleshooting Ubuntu issues."
 date:   2022-05-22 23:20:00
-tags: [bpf, operating-systems]
+tags: [bpf, operating-systems, docker]
 comments: true
 share: true
 ---
@@ -47,10 +47,10 @@ That should be enough to have your output generated on `/sys/kernel/debug/tracin
 
 ```
 root@5a50f0aa1eae:/src/libbpf-bootstrap/examples/c# cat /sys/kernel/debug/tracing/trace_pipe
-        logwrite-376     [005] d... 17262.366392: bpf_trace_printk: BPF triggered from PID 373.
-        logwrite-376     [005] d... 17262.366452: bpf_trace_printk: BPF triggered from PID 373.
-        logwrite-376     [005] d... 17272.364335: bpf_trace_printk: BPF triggered from PID 373.
-        logwrite-376     [005] d... 17272.364370: bpf_trace_printk: BPF triggered from PID 373.
+    logwrite-376     [005] d... 17262.366392: bpf_trace_printk: BPF triggered from PID 373.
+    logwrite-376     [005] d... 17262.366452: bpf_trace_printk: BPF triggered from PID 373.
+    logwrite-376     [005] d... 17272.364335: bpf_trace_printk: BPF triggered from PID 373.
+    logwrite-376     [005] d... 17272.364370: bpf_trace_printk: BPF triggered from PID 373.
 ```
 
 ## CONFIG_BPF_SYSCALL and RLIMIT_MEMLOCK issues

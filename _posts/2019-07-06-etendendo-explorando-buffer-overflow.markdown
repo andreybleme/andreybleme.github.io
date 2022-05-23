@@ -3,7 +3,7 @@ layout: post
 title:  "Entendendo e explorando Buffer Overflow"
 description: "Como explorar e como funcionam vulnerabilidades Buffer Overflow em programas C e C++."
 date:   2019-07-06 17:00:00
-tags: [security, blackhat]
+tags: [security]
 comments: true
 share: true
 ---

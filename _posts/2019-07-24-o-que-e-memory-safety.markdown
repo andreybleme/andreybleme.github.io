@@ -3,7 +3,7 @@ layout: post
 title:  "O que é Memory Safety"
 description: "Entendendo o significado de Memory Safety em linguagens e programas, com exemplos em C."
 date:   2019-07-24 22:00:00
-tags: [security, whitehat]
+tags: [security]
 comments: true
 share: true
 ---
