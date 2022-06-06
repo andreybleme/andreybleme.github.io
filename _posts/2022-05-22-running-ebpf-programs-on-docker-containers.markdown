@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-eBPF [is an amazing technology](https://ebpf.io/what-is-ebpf) that allows us to extend the capabilities of the Linux kernel without requiring to change kernel source code or load kernel modules. It gives us the power to experiment with how kernel function works without kernel development experiment, and without having to spend dozens of hours setting things up for kernel development.
+eBPF [is an amazing technology](https://ebpf.io/what-is-ebpf) that allows us to extend the capabilities of the Linux kernel without requiring to change kernel source code or load kernel modules. It gives us the power to experiment how kernel function works without kernel development experience, and without having to spend dozens of hours setting things up for kernel development.
 
 Unfortunately, getting started with BPF can still be a bit intimidating. To run a simple "hello world" we must ensure the OS is all set up having some permissions set, build dependencies, and a bunch of kernel capabilities. Because of that, I have been using Docker containers to run BPF experiments and take leverage of its isolated aspect (cgroups, namespaces, and OS virtualization) to quickly start running BPF code.
 
