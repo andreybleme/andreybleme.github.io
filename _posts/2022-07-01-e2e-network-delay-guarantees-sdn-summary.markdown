@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-> Original paper by Rakesh Kumar, Monowar Hasan, Smruti Padhy, Konstantin Evchenko, Lavanya Piramanayagamk, Sibin Mohan and Rakesh B. Bobban: [https://arxiv.org/pdf/1703.01641.pdf]https://arxiv.org/pdf/1703.01641.pdf)
+> Original paper by Rakesh Kumar, Monowar Hasan, Smruti Padhy, Konstantin Evchenko, Lavanya Piramanayagamk, Sibin Mohan and Rakesh B. Bobban: [https://arxiv.org/pdf/1703.01641.pdf](https://arxiv.org/pdf/1703.01641.pdf)
 
 Safety-critical systems that have to rely on a network mostly require an exclusively dedicated network, designed for supporting a deterministic and very specific RTS use case. AFDX and CAN are examples of proprietary, complex, expensive, custom hardware to support this. None of these solutions support sharing resources very well, which means, handling critical flows (with required delay guarantees) and non-critical flows at the same time.
 
