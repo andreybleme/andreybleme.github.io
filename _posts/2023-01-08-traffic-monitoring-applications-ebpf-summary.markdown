@@ -2,7 +2,7 @@
 layout: post
 title:  "Traffic monitoring applications using eBPF programmable networks"
 description: "Summary of a paper demonstrating that network traffic monitoring tools can be efficiently implemented using an SDN approach with an eBPF/BPFabric data-plane."
-date:   2023-01-08 23:59:00
+date:   2023-01-08 10:59:00
 tags: [networks, paper-summary]
 comments: true
 share: true
