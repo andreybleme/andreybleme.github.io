@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-> Original paper published in PT-BR by Elerson R. S. Santos, Eduardo P. M. Câmara úunior, Marcos A. M. Vieira, Luiz F. M. Vieira: [https://sol.sbc.org.br/index.php/sbrc/article/view/7376](https://sol.sbc.org.br/index.php/sbrc/article/view/7376)
+> Original paper published in PT-BR by Elerson R. S. Santos, Eduardo P. M. Câmara Júnior, Marcos A. M. Vieira, Luiz F. M. Vieira: [https://sol.sbc.org.br/index.php/sbrc/article/view/7376](https://sol.sbc.org.br/index.php/sbrc/article/view/7376)
 
 Network traffic monitoring has increasingly become a critical aspect of software solutions nowadays. Traffic engineering, anomaly detection, and quality of service are examples of things that are only provided at a high level when applications are somehow monitored. However, traffic monitoring has gained little attention in SDN (software-defined networks) architectures.
 
