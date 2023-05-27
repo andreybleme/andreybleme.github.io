@@ -76,9 +76,9 @@ André Staltz - [https://staltz.com/](https://staltz.com/)
 Vídeos e documentários
 ---
 
-- [Competition is for losers](https://www.youtube.com/watch?v=3Fx5Q8xGU8k)**Atualização 26/05/2023P:** Esta palestra segue a linha do livro "Zero to One". Serve bem pra entender como pensam super ricos VCs, apresenta boas ideias pra pessoas procurando organizar pela primeira vez ideias sobre como funcionam tech startups, mas é altamente enviesada por uma visão de mundo moldada por exceções (empresas outliers). 
+- [Competition is for losers](https://www.youtube.com/watch?v=3Fx5Q8xGU8k) **Atualização 26/05/2023:** Esta palestra segue a linha do livro "Zero to One". Serve bem pra entender como pensam super ricos VCs, apresenta boas ideias pra pessoas procurando organizar pela primeira vez ideias sobre como funcionam tech startups, mas é altamente enviesada por uma visão de mundo moldada por exceções (empresas outliers). 
 
-Para uma visão mais realista, honesta, saudável, menos ambiciosa, e que mesmo assim vai te inspirar, recomendo as duas próximas palestras do DHH:
+Para uma visão mais realista, honesta, saudável, menos ambiciosa, e que mesmo assim vai te inspirar, recomendo as duas palestras descritas abaixo, ambas do DHH:
 
 - [Dismantling the myth of hustle culture](https://www.youtube.com/watch?v=2fyT5E9PvbU)
 
