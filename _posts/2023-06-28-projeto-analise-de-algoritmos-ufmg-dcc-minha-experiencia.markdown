@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-Projeto e Análise de Algoritmos, também conhecida como PAA, é a única disciplina obrigatória do programa de Mestrado em Ciência da Computação na UFMG. Isto significa que qualquer aluno que deseja obter o título de Mestre em Ciência da Computação, independente da sua área de pesquisa (IA, redes, sistemas distribuídos, engenharia de software, etc) precisa cursar esta disciplina.
+Projeto e Análise de Algoritmos, também conhecida como PAA, é a única disciplina obrigatória do programa de Mestrado em Ciência da Computação na UFMG. Isto significa que qualquer aluno que deseja obter o título de Mestre em Ciência da Computação, independente da sua área de pesquisa (IA, Redes, Sistemas Distribuídos, Engenharia de Software, etc.) precisa cursar esta disciplina.
 
 A disciplina tem fama no departamento pela sua densidade e complexidade, unindo conceitos de álgebra e estrutura de dados. Na minha experiência em 2023/01 essa foi de longe a disciplina mais desafiadora que já cursei. Assim a ideia neste post é compartilhar como foi minha experiência, dando uma visão geral do conteúdo na esperança de que seja útil para outras pessoas também.
 
@@ -99,7 +99,7 @@ Se esforçar pra cursar essa disciplina com qualidade é um investimento que pod
 
 O conteúdo é muito denso, e apesar de ter acabado de concluir a disciplina, já não me lembro de todos os algoritmos e teoremas. Mas acredito que este não é o ponto e nem o objetivo do curso. A intuição que construímos com o tempo transforma nosso processo de raciocínio ao encontrarmos um novo problema. Esta intuição é o que acredito ter maior valor, e sempre estará à disposição na minha “caixa de ferramentas”.
 
-Quando estamos no meio do curso, a rotina é muito corrida e às vezes fica difícil valorizar a oportunidade de estar no DCC da UFMG. O departamento possui excelentes professores, muitos são destaque em suas respectivas áreas na comunidade internacional, e estão todos ali acessíveis (bom, quase todos). Os professores de PAA por exemplo são todos muito bons, e recomendo a todos interessados em um mestrado em Ciência da Computação que tenham a experiência de cursar essa disciplina.
+Quando estamos no meio do curso a rotina é tão corrida que às vezes fica difícil valorizar a oportunidade de estar no DCC da UFMG. O departamento possui excelentes professores, muitos são destaque em suas respectivas áreas na comunidade internacional, e estão todos ali acessíveis (bom, quase todos). Os professores de PAA são muito bons, e recomendo a todos que puderem que tenham a experiência de cursar essa disciplina.
 
 ![Graduation](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/paa-graduation.jpeg "Graduation")
 
