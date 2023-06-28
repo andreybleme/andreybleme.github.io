@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Projeto e Análise de Algoritmos, minha experiência"
-description: "Compartilhando minha experiência cursando a disciplina Projeto e Análise de Algoritmos (PAA) durante o programa de mestrado em Ciência da Computação (DCC/UFMG)"
+description: "Compartilhando minha experiência cursando a disciplina Projeto e Análise de Algoritmos (PAA) durante o programa de mestrado em Ciência da Computação (DCC/UFMG)."
 date:   2023-06-28 11:00:00
 tags: [offtopic]
 comments: true
@@ -52,7 +52,7 @@ No módulo 01 são apresentados alguns algoritmos simples de ordenação e sele�
 
 Neste primeiro módulo usamos muitas notações matemáticas e manipulações algébricas. Se você saiu da graduação há muito tempo e não se lembra de propriedades básicas de funções, polinômios, indução matemática, teoria de conjuntos, e propriedades de logaritmos, recomendo fortemente que faça antes uma revisão com exercícios focados nas suas dificuldades.
 
-Pessoalmente achei este o módulo mais difícil da disciplina. A combinação de Algebrismo com Estrutura de dados foi bem desafiadora, mas com muito estudo é possível ter boas notas. Um livro recomendado pelos professores que me ajudou bastante é o “Matemática Discreta e Suas Aplicações, 6a edição” Kenneth H. Rosen, especialmente o capítulo 04 sobre indução matemática, indução completa e boa ordenação.
+Pessoalmente achei este o módulo mais difícil da disciplina. A combinação de Algebrismo com Estrutura de dados foi bem desafiadora, mas com muito estudo é possível ter boas notas. Um livro recomendado pelos professores que me ajudou bastante é o [“Matemática Discreta e Suas Aplicações”. Kenneth H. Rosen](https://a.co/d/0vC7wD9), especialmente o capítulo 04 sobre indução matemática, indução completa e boa ordenação.
 
 ### Algoritmos em grafos
 
@@ -103,7 +103,7 @@ Quando estamos no meio do curso, a rotina é muito corrida e às vezes fica dif�
 
 ![Graduation](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/paa-graduation.jpeg "Graduation")
 
-Figura 2. Albumn Graduation, Ye
+Figura 2. Álbum Graduation, Ye
 
 Cursar PAA foi certamente uma experiência desafiadora, mas bastante enriquecedora. O sentimento de orgulho no fim é recompensador.
 
