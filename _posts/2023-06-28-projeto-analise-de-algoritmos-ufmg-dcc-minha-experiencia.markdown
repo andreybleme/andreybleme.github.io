@@ -108,4 +108,5 @@ Figura 2. Álbum Graduation, Ye
 Cursar PAA foi certamente uma experiência desafiadora, mas bastante enriquecedora. O sentimento de orgulho no fim é recompensador.
 
 Se tiver alguma dúvida fique à vontade para me escrever, terei prazer em ajudar.
+
 Bons estudos!
