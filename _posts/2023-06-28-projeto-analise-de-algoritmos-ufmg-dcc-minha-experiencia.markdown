@@ -60,15 +60,15 @@ O segundo módulo é dedicado ao estudo de algoritmos em grafos. São apresentad
 
 Além de entender como estes algoritmos funcionam, é importante saber utilizar as técnicas de análise apresentadas no módulo 01 para analisar e comparar estes algoritmos. Como podemos demonstrar a corretude de um algoritmo que encontra caminho mínimo em um grafo? Este é um exemplo de pergunta que estamos interessados em responder no módulo 02. São estudados neste módulo:
 
-- Algoritmos elementares BFS e DFS, ordenação topológica
-- Árvore geradora mínima (MST) com os algoritmos gulosos de Prim e Kruskal
-- Caminhos mínimos 1 to all com os algoritmos de Bellman Ford e Dijkstra
-- Caminhos mínimos all pairs com os algoritmos de Floyd Warshall e Johnson
-- Fluxo máximo e corte mínimo com os algoritmos de Ford Fulkerson e Edmonds Karp
+- Algoritmos elementares [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/) e [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/), [ordenação topológica](https://www.geeksforgeeks.org/topological-sorting/?ref=lbp)
+- Árvore geradora mínima (MST) com os algoritmos gulosos de [Prim](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/) e [Kruskal](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/?ref=lbp)
+- Caminhos mínimos 1 to all com os algoritmos de [Bellman Ford](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/) e [Dijkstra](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+- Caminhos mínimos all pairs com os algoritmos de [Floyd Warshall](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/) e [Johnson](https://www.geeksforgeeks.org/johnsons-algorithm/?ref=lbp)
+- Fluxo máximo e corte mínimo com os algoritmos de [Ford Fulkerson](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/) e [Edmonds Karp](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
 
 Aqui é apresentada uma grande variedade de algoritmos, e pode parecer desesperador ter que entender o funcionamento de todos com suas respectivas complexidades em apenas um módulo (1 mês). Mas quase todos estes algoritmos compartilham características fundamentais que, uma vez identificadas, podem ajudar muito na compreensão do funcionamento básico boa parte deles.
 
-Os algoritmos de Bellman Ford e Dijkstra que encontram caminhos mínimos, por exemplo, ambos se valem do mecanismo nomeado “relaxation” que compara o custo atual com o novo custo obtido ao utilizar uma nova aresta descoberta do grafo. Compreender estes princípios que fundamentam os algoritmos ajudam a construir a intuição que nos permite identificar como estes algoritmos se comportam com diferentes entradas. 
+Os algoritmos de Bellman Ford e Dijkstra que encontram caminhos mínimos, por exemplo, ambos se valem do mecanismo nomeado [*relaxation*](https://www.geeksforgeeks.org/edge-relaxation-property-for-dijkstras-algorithm-and-bellman-fords-algorithm/) que compara o custo atual com o novo custo obtido ao utilizar uma nova aresta descoberta do grafo. Compreender estes princípios que fundamentam os algoritmos ajudam a construir a intuição que nos permite identificar como estes algoritmos se comportam com diferentes entradas. 
 
 Neste módulo é importante completar uma boa variedade de exercícios para se familiarizar com as muitas implicações de alguns teoremas.
 
@@ -76,9 +76,9 @@ Neste módulo é importante completar uma boa variedade de exercícios para se f
 
 O módulo 03 apresenta diferentes paradigmas que utilizamos para projetar algoritmos. Aqui rapidamente revisamos alguns paradigmas utilizados nos algoritmos que já foram apresentados, e logo começamos a ver implementações para novos problemas que utilizam destes mesmo paradigmas: guloso, divisão e conquista, e programação dinâmica.
 
-Aqui desenvolvemos a intuição para projetar novos algoritmos a partir de ideias que já conhecemos e vimos aplicadas em exemplos clássicos. Estudamos algoritmos famosos que usam divisão e conquista, como: 3-way partitioning, randomized quicksort, closest pair of points e multiplicação de matrizes. 
+Aqui desenvolvemos a intuição para projetar novos algoritmos a partir de ideias que já conhecemos e vimos aplicadas em exemplos clássicos. Estudamos algoritmos famosos que usam divisão e conquista, como: [3-way partitioning](https://www.geeksforgeeks.org/three-way-partitioning-of-an-array-around-a-given-range/), [randomized quicksort](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/), [closest pair of points](https://www.geeksforgeeks.org/closest-pair-of-points-using-divide-and-conquer-algorithm/) e [multiplicação de matrizes](https://www.geeksforgeeks.org/c-program-multiply-two-matrices/). 
 
-O mesmo acontece quando conhecemos algoritmos de programação dinâmica. A ideia de reutilizar valores previamente computados é apresentada e exemplificada em diversos problemas. Assim espera-se que sejamos capazes de aplicar esta ideia de memoização a novos problemas. Os algoritmos estudados incluem: interval scheduling, knapsack problem (também conhecido como “problema da mochila”), maximum subarray sum, e detecção de ciclos negativos em um grafo.
+O mesmo acontece quando conhecemos algoritmos de programação dinâmica. A ideia de reutilizar valores previamente computados é apresentada e exemplificada em diversos problemas. Assim espera-se que sejamos capazes de aplicar esta ideia de memoização a novos problemas. Os algoritmos estudados incluem: [interval scheduling](https://www.geeksforgeeks.org/scheduling-in-greedy-algorithms/), [knapsack problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) (também conhecido como “problema da mochila”), [maximum subarray sum](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/), e detecção de [ciclos negativos em um grafo](https://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/).
 
 Neste módulo é esperado que sejamos capazes de utilizar estes paradigmas para implementar novos algoritmos, então a criatividade também é importante. Fazer muitos exercícios é o que te coloca em contato com problemas de diferentes tipos e te prepara para as avaliações.
 
@@ -88,7 +88,7 @@ A última parte da disciplina apresenta o conceito de tratabilidade computaciona
 
 São apresentadas reduções polinomiais de Cook e estabelecidos conceitos de equivalência entre problemas. As categorias de problemas P e NP são introduzidas, bem como os conjuntos NP-completo, NP-difícil e CO-NP. Aprendemos reduções entre problemas de satisfabilidade como SAT/3-SAT, vertex-cover, independent set e set cover, e também problemas de sequenciamento como ciclo-hamiltoniano e clique em grafos.
 
-O assunto P vs NP é um velho conhecido da comunidade científica. É um problema em aberto da Ciência da Computação, e tem também relevância em outras áreas de conhecimento. Trata-se basicamente de problemas matemáticos cuja resposta pode ser verificada em tempo polinomial, mas não podem ser resolvidos em tempo polinomial. Pode ser bem confuso entender a diferença entre verificar instâncias de um problema e efetivamente resolver o problema, por isso essa última parte pode ser um pouco confusa.
+O assunto [P vs NP](https://pt.wikipedia.org/wiki/P_versus_NP) é um velho conhecido da comunidade científica. É um problema em aberto da Ciência da Computação, e tem também relevância em outras áreas de conhecimento. Trata-se basicamente de problemas matemáticos cuja resposta pode ser verificada em tempo polinomial, mas não podem ser resolvidos em tempo polinomial. Pode ser bem confuso entender a diferença entre verificar instâncias de um problema e efetivamente resolver o problema, por isso essa última parte pode ser um pouco confusa.
 
 Muitos colegas acreditam que seria melhor se esse módulo sobre intratabilidade fosse parte de outra disciplina. É um assunto denso e complexo por si só, encaixar este conteúdo em PAA torna a experiência geral da disciplina ainda mais complicada. Minha dica é: não deixe pra levar a disciplina a sério só no final.
 
