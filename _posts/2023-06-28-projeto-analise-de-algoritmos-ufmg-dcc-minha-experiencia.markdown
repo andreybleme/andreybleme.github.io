@@ -31,7 +31,7 @@ Se você tem formação em outras áreas, ou veio de uma universidade que te per
 
 Muitos alunos optam por cursar exclusivamente esta disciplina durante o semestre, e pessoalmente, acho uma boa ideia evitar a sobrecarga de estudos tentando conciliar PAA com outras matérias. Isso também não é uma regra, conheço pessoas que cursaram PAA junto com outras disciplinas e foram aprovadas sem problemas. Na minha experiência como estudante em dedicação parcial, conciliar o trabalho de 8h fora da universidade com os estudos já é bem complicado. Conciliar PAA com outra disciplina seria, pra mim, uma missão impossível. Só consegui ser aprovado me dedicando exclusivamente a PAA durante o semestre.
 
-A matéria exige muito tempo para estudo. Se você se formou em uma universidade particular como eu e era um aluno com notas boas, aqui você provavelmente vai descobrir que precisa estudar bem mais para manter as notas dentro da média. Este é, na minha opinião, o grande desafio da disciplina. A dificuldade do conteúdo em si varia durante o semestre a depender do seu background. Então em alguns módulos você pode se dar bem se tiver facilidade com manipulações algébricas, estatística, e lembrar de propriedades de logaritmos, por exemplo. Mas manter o ritmo intenso de estudos, fazer todos os exercícios com diferentes níveis de dificuldade, reler trechos de capítulos do livro depois da aula pra conseguir fazer exercícios, e manter essa mentalidade durante o semestre inteiro, este é o grande desafio.
+A matéria exige muito tempo para estudo. Se você se formou em uma universidade particular como eu e era um aluno com notas boas, aqui você provavelmente vai descobrir que precisa estudar bem mais para manter as notas dentro da média. Este é, na minha opinião, o grande desafio da disciplina. A dificuldade do conteúdo em si varia durante o semestre a depender do seu *background*. Então em alguns módulos você pode se dar bem se tiver facilidade com manipulações algébricas, estatística, e lembrar de propriedades de logaritmos, por exemplo. Mas manter o ritmo intenso de estudos, fazer todos os exercícios com diferentes níveis de dificuldade, reler trechos de capítulos do livro depois da aula pra conseguir fazer exercícios, e manter essa mentalidade durante o semestre inteiro, este é o grande desafio.
 
 
 ## Conteúdo
@@ -105,4 +105,7 @@ Quando estamos no meio do curso, a rotina é muito corrida e às vezes fica dif�
 
 Figura 2. Albumn Graduation, Ye
 
-É certamente uma experiência desafiadora, e bastante enriquecedora. O sentimento de orgulho no fim é recompensador. Qualquer dúvida, fique à vontade para me escrever, terei prazer em ajudar. Bons estudos!
+Cursar PAA foi certamente uma experiência desafiadora, mas bastante enriquecedora. O sentimento de orgulho no fim é recompensador.
+
+Se tiver alguma dúvida fique à vontade para me escrever, terei prazer em ajudar.
+Bons estudos!
