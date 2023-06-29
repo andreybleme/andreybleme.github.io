@@ -66,7 +66,7 @@ Além de entender como estes algoritmos funcionam, é importante saber utilizar 
 - Caminhos mínimos all pairs com os algoritmos de [Floyd Warshall](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/) e [Johnson](https://www.geeksforgeeks.org/johnsons-algorithm/?ref=lbp)
 - Fluxo máximo e corte mínimo com os algoritmos de [Ford Fulkerson](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/) e [Edmonds Karp](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
 
-Aqui é apresentada uma grande variedade de algoritmos, e pode parecer desesperador ter que entender o funcionamento de todos com suas respectivas complexidades em apenas um módulo (1 mês). Mas quase todos estes algoritmos compartilham características fundamentais que, uma vez identificadas, podem ajudar muito na compreensão do funcionamento básico boa parte deles.
+Aqui é apresentada uma grande variedade de algoritmos, e pode parecer desesperador ter que entender o funcionamento de todos com suas respectivas complexidades em apenas um módulo (1 mês). Mas quase todos estes algoritmos compartilham características fundamentais que, uma vez identificadas, podem ajudar muito na compreensão do funcionamento básico de boa parte deles.
 
 Os algoritmos de Bellman Ford e Dijkstra que encontram caminhos mínimos, por exemplo, ambos se valem do mecanismo nomeado [*relaxation*](https://www.geeksforgeeks.org/edge-relaxation-property-for-dijkstras-algorithm-and-bellman-fords-algorithm/) que compara o custo atual com o novo custo obtido ao utilizar uma nova aresta descoberta do grafo. Compreender estes princípios que fundamentam os algoritmos ajudam a construir a intuição que nos permite identificar como estes algoritmos se comportam com diferentes entradas. 
 
@@ -95,7 +95,7 @@ Muitos colegas acreditam que seria melhor se esse módulo sobre intratabilidade 
 
 ## Vale a pena?
 
-Se esforçar pra cursar essa disciplina com qualidade é um investimento que pode sim valer muito a pena. Os conhecimentos adquiridos aqui certamente ficarão comigo por toda minha jornada profissional e acadêmica. Independente da área de pesquisa ou atuação na indústria fora da universidade, algoritmos estão sempre presentes e desempenham papel fundamental em diversas áreas. 
+Se esforçar pra cursar essa disciplina com qualidade é um investimento que pode sim valer muito a pena. Independente da área de pesquisa ou atuação na indústria fora da universidade, algoritmos estão sempre presentes e desempenham papel fundamental em diversas áreas. Os conhecimentos adquiridos aqui certamente ficarão comigo por toda minha jornada profissional e acadêmica. 
 
 O conteúdo é muito denso, e apesar de ter acabado de concluir a disciplina, já não me lembro de todos os algoritmos e teoremas. Mas acredito que este não é o ponto e nem o objetivo do curso. A intuição que construímos com o tempo transforma nosso processo de raciocínio ao encontrarmos um novo problema. Esta intuição é o que acredito ter maior valor, e sempre estará à disposição na minha “caixa de ferramentas”.
 
