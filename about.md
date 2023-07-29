@@ -10,7 +10,7 @@ Here I share my thoughts about computer science and software engineering.
 
 I'm currently building [Research Scale](https://researchscale.io), a toolbox for managing everything in a research project.
 
-✨ [Stay up-to-date by subscribing to the newsletter](https://andreybleme.substack.com/) ✨. 
+✨ [Stay up-to-date by subscribing to the newsletter](https://andreybleme.substack.com/) ✨
 
 --- 
 
