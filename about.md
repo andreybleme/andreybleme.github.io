@@ -10,8 +10,6 @@ Here I share my thoughts about computer science and software engineering.
 
 I'm currently building [Research Scale](https://researchscale.io), a toolbox for managing everything in a research project.
 
-✨ [Stay up-to-date, subscribe to newsletter](https://andreybleme.substack.com/) ✨
-
 --- 
 
 I'm currently doing research on fast packet-processing technologies: eBPF, XDP, DPDK, and also software-defined networks (Open-Flow).
