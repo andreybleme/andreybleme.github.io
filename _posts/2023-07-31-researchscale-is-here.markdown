@@ -53,4 +53,4 @@ We are on Beta. It means there are many more things we want to build to make res
 
 I have plans to share milestones and details on the journey of building it.
 
-Sign up now you and be the first to try it out: [researchscale.io](https://researchscale.io/) ✨
+Sign up now and be the first to try it out: [researchscale.io](https://researchscale.io/) ✨
