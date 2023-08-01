@@ -25,7 +25,7 @@ After publishing my first paper at a conference during my Master's Degree, we ha
 
 I wanted to reuse stuff from my previous work, but where was it? **All over the place**.
 
-Related work references were PDF links bookmarked spread across folders in my browser. Article versions I had written before were stored on my google drive. Experiment scripts were mostly on github, some in repositories others saved in gists. Image files were found on my laptop and in a shared Dropbox folder.
+Related work references were PDF links bookmarked across folders in my browser. Article versions I had written before were stored on my google drive. Experiment scripts were mostly on github, some in repositories others saved in gists. Image files were found on my laptop and in a shared Dropbox folder.
 
 It took me days to gather everything together. **It was a mess**. 
 
@@ -51,6 +51,6 @@ Nobody is building a good experience to get research organized.
 
 We are on Beta. It means there are many more things we want to build to make research more enjoyable. 
 
-I have plans to share milestones and details on the journey of building it. [Subscribe](https://andreybleme.substack.com/) if you don’t want to miss it.
+I have plans to share milestones and details on the journey of building it.
 
-[Signing up now](https://app.researchscale.io/signup) you could be our first user ✨
+Sign up now you and be the first to try it out: [researchscale.io](https://researchscale.io/) ✨
