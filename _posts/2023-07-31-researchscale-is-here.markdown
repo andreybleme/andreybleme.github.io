@@ -12,7 +12,7 @@ Winter break is over. It was great to have time off from university to rest and 
 
 Jokes aside, I can’t complain. I spent most days playing Ori, reading good stuff, and being outside with friends and family.
 
-I could finally build the first version of Research Scale.
+Between all that, I could finally build the first version of Research Scale.
 
 
 ## What is Research Scale?
@@ -49,7 +49,7 @@ Nobody is building a good experience to get research organized.
 
 ## Join me
 
-We are on Beta. It means there are many more things we want to build to make research more enjoyable. 
+We are in Beta. It means there are many more things we want to build to make research more enjoyable. 
 
 I have plans to share milestones and details on the journey of building it.
 
