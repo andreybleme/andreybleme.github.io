@@ -12,7 +12,7 @@ Winter break is over. It was great to have time off from university to rest and 
 
 Jokes aside, I can’t complain. I spent most days playing Ori, reading good stuff, and being outside with friends and family.
 
-I felt so good I could finally build the first version of Research Scale.
+I could finally build the first version of Research Scale.
 
 
 ## What is Research Scale?
