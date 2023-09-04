@@ -8,11 +8,11 @@ Welcome! I'm Lucas, a software engineer and MSc student.
 
 Here I share my thoughts about computer science and software engineering.
 
-I'm currently building [Research Scale](https://researchscale.io), a toolbox for managing everything in a research project.
-
 --- 
 
-I'm currently doing research on fast packet-processing technologies: eBPF, XDP, DPDK, and also software-defined networks (Open-Flow).
+I'm currently building [Research Scale](https://researchscale.io), a toolbox for managing everything in a research project.
+
+I'm doing research on fast packet-processing technologies: eBPF, XDP, DPDK, and software-defined networks, using probabilistic data structures to allow network monitoring tasks.
 
 I'm mostly interested in Distributed Systems, Networks, and Operating Systems.
 
