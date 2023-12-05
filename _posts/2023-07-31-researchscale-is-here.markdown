@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Research Scale is here"
+title:  "ResearchScale is here"
 description: "The all-in-one tool to get your research organized."
 date:   2023-07-31 05:00:00
 tags: [offtopic]
@@ -12,12 +12,12 @@ Winter break is over. It was great to have time off from university to rest and 
 
 Jokes aside, I can’t complain. I spent most days playing Ori, reading good stuff, and being outside with friends and family.
 
-Between all that, I could finally build the first version of Research Scale.
+Between all that, I could finally build the first version of ResearchScale.
 
 
 ## What is Research Scale?
 
-[Research Scale](https://researchscale.io/) is an all-in-one tool to get research organized.
+[ResearchScale](https://researchscale.io/) is an all-in-one tool to get research organized.
 
 I started it because I grew tired of juggling around with my research projects for 1.5 years.
 

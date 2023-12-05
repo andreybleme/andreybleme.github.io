@@ -16,7 +16,7 @@ Unfortunately, getting started with BPF can still be a bit intimidating. To run 
 
 BPF is a relatively new technology and it is constantly evolving, which means you will need newer kernel versions and different dependencies depending on the BPF new features you want to use. BPF programs are usually written in C language, with some code conventions that could also vary depending on which context you are using BPF: security, networking, profiling, observability, etc. 
 
-That being said, to run a trivial BPF program with a minimal setup we need Clang to compile BPF code, llvm, zlib and libelf (libelf-dev). Most of these are dependencies of the [libbpf](https://github.com/libbpf/libbpf) library, used to load, unload, check and relocate BPF programs. A simple Docker to install all these dependencies would look like this:
+That being said, to run a trivial BPF program with a minimal setup we need Clang to compile BPF code, llvm, zlib and libelf (libelf-dev). Most of these are dependencies of the [libbpf](https://github.com/libbpf/libbpf) library, used to load, unload, check and relocate BPF programs. A simple Dockerfile to install all these dependencies would look like this:
 
 <script src="https://gist.github.com/andreybleme/fd62a2a277d0babb619152c9708e8433.js"></script>
 
