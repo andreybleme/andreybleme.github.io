@@ -10,7 +10,7 @@ share: true
 
 I have been recently talking to friends about processes and things we often focus on at our works to improve our daily job. It seems to me that every developer has a strong desire to be able to say that they work on a company that ships good code, with high quality, that the company they work for can deliver features fast. They want to feel safe that things they are building will go to production, and so they can see the outcome of their work. Given that scenario, I realized that we get ourselves too often attached to technologies and tools that help us to achieve these goals, when we should instead, focus on practices that enable agility, high quality, and increase safety and confidence in our software release processes.
 
-That's why I have decided to start [The DevOps Journey](https://andreybleme.com/tags/#devops-journey) series of articles here, where I will post every week one "pill" that will help you to understand how to improve your outcomes and increase the effectiveness of you daily work by applying DevOps techniques. There are a bunch of articles, videos, and talks around there describing the principles, the practices, the path through the DevOps journey... This series is about my own thoughts that is defined by my influences(The DevOps Handbook, SRE, Continuous Delivery book series, Hello Startup), and mainly my daily work. Starting today with an overall introduction to the principles of DevOps, The DevOps Journey series of posts are going to be released every week, so [subscribe the newsletter](https://andreybleme.substack.com/) if you want to be notified when a new article is out.
+That's why I have decided to start [The DevOps Journey](https://andreybleme.com/tags/#devops-journey) series of articles here, where I will post every week one "pill" that will help you to understand how to improve your outcomes and increase the effectiveness of you daily work by applying DevOps techniques. There are a bunch of articles, videos, and talks around there describing the principles, the practices, the path through the DevOps journey... This series is about my own thoughts that is defined by my influences(The DevOps Handbook, SRE, Continuous Delivery book series, Hello Startup), and mainly my daily work. Starting today with an overall introduction to the principles of DevOps, The DevOps Journey series of posts are going to be released every week, [stay tuned](https://andreybleme.com/tags/#devops-journey).
 
 
 DevOps and its resulting technical and cultural practices represent a convergence of many philosophical and management movements that guides us through the path to overcome important challenges that come with the desire of being able to deliver fast and reliable code.
@@ -41,8 +41,6 @@ You should focus on embracing the practices from the principle of the flow whene
 
 We will approach the technical practices of the flow in another article, where I will dive deeper into how you should create the foundations of your deployment pipeline, integrate automated tests into your workflow and architect for low-risk releases.
 
-[Subscribe the newsletter](https://andreybleme.substack.com/) to be notified when new articles are posted.
-
 
 The principle of Constant Feedback
 ---
@@ -51,7 +49,7 @@ Having already increased our effectiveness on moving code into production, we no
 
 To achieve this we must create telemetry into our systems, to be able to see and solve problems based on real data, not on people guesses. When focusing on this second principle, it's important to analyze the best metrics we want to track to make sure we have information not only for engineering teams, but also for operation folks: developers may be interested in getting information about the number of login failures during a specific time period, server CPU usage during a peak and such, but operations teams probably will not take advantage of these data. Instead, operation teams would greatly benefit from data such as the amount of time users used a specific feature that enabled a sell(transaction). This is a simple example that shows us the importance of well analyzing how to include telemetry into our systems instead of simply integration tools into our software.
 
-To increase the quality of our work we should create review processes, by adopting code review practices, pair programming, and peer reviews. These practices are going to be discussed further in detail, but by now, you already have a good idea of duties you should focus on if you want to be able to go serious into running software in production. [Subscribe the newsletter](https://andreybleme.substack.com/) to be notified when new articles are posted.
+To increase the quality of our work we should create review processes, by adopting code review practices, pair programming, and peer reviews. These practices are going to be discussed further in detail, but by now, you already have a good idea of duties you should focus on if you want to be able to go serious into running software in production.
 
 
 The principle of Continual Learning and Experimentation

@@ -46,8 +46,6 @@ nav:
     url:            "/tags"
   - name:           "Archive"
     url:            "/archive"
-  - name:           "✨ Subscribe ✨"
-    url:            "https://andreybleme.substack.com/"
 
 # Sass
 sass:

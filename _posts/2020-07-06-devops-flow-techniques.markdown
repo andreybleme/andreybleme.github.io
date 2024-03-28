@@ -117,7 +117,7 @@ To make this a reality, we may pay attention to two categories of release patter
 
 These are strategies where we have two or more environments that we deploy into, but only one of them receives production traffic from real customers. The new code is deployed first into a non-production environment, and the release is performed moving traffic to this environment. These kinds of patterns are very powerful and require little or no change to our existing application code.
 
-As the most used release environment-based patterns are: *blue-green deployments*, *canary releases* and *cluster immune systems*. To get hands-on into these patterns and learn how to apply them successfully in practice, [subscribe the newsletter](https://andreybleme.substack.com/)!
+As the most used release environment-based patterns are: *blue-green deployments*, *canary releases* and *cluster immune systems*.
 
 
 ![Canary Release](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/canary-release.png)
@@ -132,8 +132,6 @@ As the opposite of the environment-base release patterns, application-based rele
 ![Feature Flag](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/feature-flag.jpg)
 
 Image source: [Why Leading Companies Dark Launch, by Justin Baker](https://dzone.com/articles/why-leading-companies-dark-launch)
-
-I will dive deeper into how to implement this, it's advantages and drawbacks in another post. Remember [subscribe the newsletter](https://andreybleme.substack.com/) so you won't miss it.
 
 -----
 
