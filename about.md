@@ -6,7 +6,7 @@ comments: true
 
 Welcome! I'm Lucas Bleme, a software engineer and MSc student. Here I share my thoughts about computer science and software engineering.
 
-I'm currently doing research on fast packet-processing technologies: eBPF, XDP, DPDK, software-defined networks, and datacenter workloads. My areas of interest are Networks, Operating Systems and Distributed Systems.
+I'm currently doing research on fast packet-processing technologies (eBPF, XDP, DPDK), software-defined networks, and datacenter workloads. My areas of interest are Networks, Operating Systems and Distributed Systems.
 
 
 You can get in touch via [email](mailto:andreybleme1@gmail.com) or [twitter](https://twitter.com/andreybleme).
