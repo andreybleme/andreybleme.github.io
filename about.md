@@ -1,10 +1,10 @@
 ---
-title: About
+title: about
 permalink: /about/
 comments: true
 ---
 
-My name is lucas andrey bleme (andreybleme)
+my name is lucas andrey bleme (andreybleme)
 
 ## currently
 
@@ -23,4 +23,6 @@ researching datacenter workloads and high-performance packet processing (DPDK, e
 [linkedin](https://www.linkedin.com/in/andreybleme) – past working experiences, responsive to dms
 
 [github](https://github.com/andreybleme) – hit me with a pull request
+
+[scholar](https://scholar.google.com/citations?user=Yt9LrFoAAAAJ) – published research papers
 
