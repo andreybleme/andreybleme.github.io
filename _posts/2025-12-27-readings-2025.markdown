@@ -15,7 +15,7 @@ It’s been a long time since I wanted to share more about things I’ve been re
 ### Writing for Computer Science - Justin Zobel
 This book was my companion throughout the year. I’ve spent most of my time outside work writing my Master’s thesis and preparing papers for academic conferences. This book contains everything a researcher needs to write and speak about their work. The book is so good that I wish I had found this in my early college days.
 
-![Writing for Computer Science by Justin Zobel](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-zobel.jpg "Writing for Computer Science")
+![Writing for Computer Science by Justin Zobel](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-zobel.jpg "Writing for Computer Science"){width=150px height=250px}
 
 It talks about the entire research process in computer science. From developing your first ideas and shaping proper research questions, to finding, reading, and evaluating other people’s research, to publishing and presenting your own research work. Even if you don’t work with research, the book has valuable insights on how to assess the quality of a published work and ask yourself the right questions. To what extent is the work innovative? What would disprove the hypothesis presented? What exactly is the phenomenon being investigated? The book provides the tools for you to detect bad science. You’d be surprised by the number of papers out there where authors invent a problem, a solution to the problem, and a measure of the solution, all without proper justification and demonstration of relevance.
 
@@ -27,7 +27,7 @@ It talks about the entire research process in computer science. From developing 
 ### Modern Operating Systems, 4th ed. – Andrew S. Tanenbaum
 I revisited the classic “Modern Operating Systems” this year. Tanenbaum is a genius, and this book, along with “Computer Networks,” should be a mandatory reading for every software engineer. There are many reviews of this book out there since it's a widely used book in Operating Systems graduation programs, so I’ll talk specifically about my recent reading experience.
 
-![Modern Operating Systems by Andrew Tanenbaum](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-tanenbaum.jpg "Modern Operating Systems")
+![Modern Operating Systems by Andrew Tanenbaum](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-tanenbaum.jpg "Modern Operating Systems"){width=150px height=250px}
 
 ​I wanted to review a few concepts that are relevant to OS programming. I’ve been working with DPDK to implement packet processing in userspace, and such systems interact a lot directly with threads, processes, and memory. That’s when I decided to revisit this book to see what I could find. To my surprise, the knowledge in this book is still valuable, and these concepts are very well explained. 
 
@@ -40,7 +40,7 @@ Memory management is also presented in a very instructive way in Chapter 3, “M
 ### Show Your Work: 10 Ways to Share Your Creativity and Get Discovered – Austin Kleon
 I got this one after reading the famous “steal like an artist” from the same author. Honestly, I found this one way better. Austin Kleon writes very well. He has a way of constructing sentences and paragraphs that makes you feel that everything in there is valuable advice. I finished reading this one in a week or less, but I don’t regret buying it. 
 
-![Show Your Work: 10 Ways to Share Your Creativity and Get Discovered by Austin Kleon](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-kleon.jpg "Show Your Work: 10 Ways to Share Your Creativity and Get Discovered")
+![Show Your Work: 10 Ways to Share Your Creativity and Get Discovered by Austin Kleon](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-kleon.jpg "Show Your Work: 10 Ways to Share Your Creativity and Get Discovered"){width=150px height=250px}
 
 ​This book is a New York Times bestseller because everyone, sooner or later, will want to become better at sharing their work. The book shows how you can be found and how you can let others discover your work. I like the overall mindset presented in this book: it’s not too focused on self-promotion, but on self-discovery. The single most important advice I take from this book is that you can’t find your own voice if you don’t use it. **You have to try things, start small, and share stuff you find genuinely interesting with others.** There is no other way to be discovered or get people’s attention: you have to spread the word.
 
@@ -48,7 +48,7 @@ I got this one after reading the famous “steal like an artist” from the same
 ### Liquid Modernity – Zygmunt Bauman
 This was the first book I’ve read by Bauman. I know he is very famous for “Liquid Love”, and I bet you heard of this one from your therapist. I had so many people talking to me about “Liquid Love” that I felt I was familiarized with the central idea of that book already. So I decided to start fresh with "Liquid Modernity”.
 
-![Liquid Modernity by Zygmunt Bauman](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-bauman.jpg "Liquid Modernity")
+![Liquid Modernity by Zygmunt Bauman](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-bauman.jpg "Liquid Modernity"){width=150px height=250px}
 
 ​I really enjoyed reading this book. His concept of “liquid” describes the shift in many parts of society from stable, institutionally guaranteed life to a society of extreme uncertainty and flexibility. This paradigm change has a significant impact on career paths, social bonds, and the way we live our lives. 
 
@@ -59,7 +59,7 @@ This was the first book I’ve read by Bauman. I know he is very famous for “L
 ### Kicking Away the Ladder: Development Strategy in Historical Perspective – Ha-Joon Chang
 That’s another provocative book on macroeconomics. A friend referred me to this one, and I immediately jumped into it. The central question the book attempts to answer is “How did the rich countries really become rich?” The author suggests that rich countries got there by doing things they later recommend developing countries not to do. This hypothesis is backed by numerous historical data demonstrating the decisions these countries have made in the past to guarantee their economic development.
 
-![Kicking Away the Ladder: Development Strategy in Historical Perspective by Ha-Joon Chang](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-chang.jpg "Ha-Joon Chang")
+![Kicking Away the Ladder: Development Strategy in Historical Perspective by Ha-Joon Chang](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-chang.jpg "Ha-Joon Chang"){width=150px height=250px}
 
 ​Rich countries climbed to the top with aggressive protectionism, export promotion, and state-led industrial policies to nurture their nascent industries. This is exactly the opposite of what they currently prescribe for developing countries, forcing a liberal agenda with free-market and free-trade dogma. The book shows that it happened especially in the UK and the U.S.
 
@@ -72,7 +72,7 @@ I enjoyed reading this one, but some chapters can be difficult to read with many
 ### The New York Trilogy – Paul Auster
 I had a professor who loved Paul Auster’s books. When Paul Auster died in 2024, I decided to buy this trilogy. It was just a year later that I took it from the shelf to start reading it. I started reading this with zero expectations or presumptions about his work. I was not familiar with his style, and by the time I reached the end of the first story, “City of Glass,” I was really confused. It looked a lot like a detective story, but as the story reached the final pages, I noticed it was not all about solving a mystery, but about the randomness of daily life.
 
-![The New York Trilogy by Paul Auster](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-auster.jpg "The New York Trilogy")
+![The New York Trilogy by Paul Auster](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-auster.jpg "The New York Trilogy"){width=150px height=250px}
 
 ​With my expectations a bit frustrated, I moved on to the second story, “Ghosts”. This one has a different tone, and you can quickly notice it’s an urban story about an ongoing investigation. There’s a fun play of words where the characters are named colors: Blue is trained by Brown to catch a man named Black. The naming makes the story a bit confusing, but it’s fun to read.
 
@@ -81,7 +81,7 @@ I had a professor who loved Paul Auster’s books. When Paul Auster died in 2024
 ### Triple – Ken Follett
 This is another brilliant spy thriller by Ken Follett. Previously, I have read “Jackdaws” and “Fall of Giants”, great historical novels with good characters and surprising plot twists, so my expectations for "Triple” were high from the beginning.
 
-![Triple by Ken Follett](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-follett.jpg "Triple – Ken Follett")
+![Triple by Ken Follett](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-follett.jpg "Triple – Ken Follett"){width=150px height=250px}
 
 ​Triple is not fast paced as Jackdaws, but it still delivers a straightforward writing style. The plot can become a bit complex at times, with double agents and undercover spies from the KGB, the Mossad, and a nuclear bomb to be developed.
 
@@ -90,7 +90,7 @@ This is another brilliant spy thriller by Ken Follett. Previously, I have read �
 ### The Factory – Hiroko Oyamada
 I really liked the central idea of the book. The Factory follows the story of three employees of an industrial factory. They each focus on their specific jobs until their life are entirely absorbed by their work.
 
-![The Factory by Hiroko Oyamada](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-factory.jpg "The Factory by Hiroko Oyamada")
+![The Factory by Hiroko Oyamada](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/book-factory.jpg "The Factory by Hiroko Oyamada"){width=150px height=250px}
 
 It makes you question your contribution to our capitalist society, and the meaning your life gets (or loses) while you're on the 9-5 job. But it was not a very pleasant read. I think the format is the problem. The story is told in three alternating first-person narratives. It took me a while to fully understand that the different chapters were narrated by different characters.
 
