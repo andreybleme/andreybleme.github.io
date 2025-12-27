@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "My 2025 reading list"
+description: "A quick rewind of the books I've read in 2025."
+date: 2025-12-27 16:00:00
+tags: [offtopic]
+comments: true
+share: true
+---
+
+It’s been a long time since I wanted to share more about things I’ve been reading here. In 2025, my personal life was very busy, so I couldn’t find the time to read as much as I wanted. Still, these are the good readings I would like to share. This is a quick rewind of the books I've read in 2025.
+​
+## Tech books
+
+### Writing for Computer Science - Justin Zobel
+This book was my companion throughout the year. I’ve spent most of my time outside work writing my Master’s thesis and preparing papers for academic conferences. This book contains everything a researcher needs to write and speak about their work. The book is so good that I wish I had found this in my early college days.
+
+It talks about the entire research process in computer science. From developing your first ideas and shaping proper research questions, to finding, reading, and evaluating other people’s research, to publishing and presenting your own research work. Even if you don’t work with research, the book has valuable insights on how to assess the quality of a published work and ask yourself the right questions. To what extent is the work innovative? What would disprove the hypothesis presented? What exactly is the phenomenon being investigated? The book provides the tools for you to detect bad science. You’d be surprised by the number of papers out there where authors invent a problem, a solution to the problem, and a measure of the solution, all without proper justification and demonstration of relevance.
+
+​Every chapter finishes with a checklist of practical action items you can immediately apply to your process. Chapter 3, “Reading and Reviewing,” is one of the chapters I liked the most. It talks about how to identify contributions and shortcomings of research, as opposed to the process of reading a paper from one end to the other. Chapter 13 “Editing” discusses the process of editing work. It makes clear how important it is to rewrite, and makes you appreciate even more every well-written work there is out there. This chapter contains real examples of rewritten pieces of text with a focus on consistency, style, and good discussions around the impact of the choice of words an author has to make.
+
+​**This was my favorite reading of the year.** I’m recommending this book to all my friends. I wish there were a cheaper version available for people outside the US or Europe.
+
+
+## Modern Operating Systems, 4th ed. – Andrew S. Tanenbaum
+I revisited the classic “Modern Operating Systems” this year. Tanenbaum is a genius, and this book, along with “Computer Networks,” should be a mandatory reading for every software engineer. There are many reviews of this book out there since it's a widely used book in Operating Systems graduation programs, so I’ll talk specifically about my recent reading experience.
+
+​I wanted to review a few concepts that are relevant to OS programming. I’ve been working with DPDK to implement packet processing in userspace, and such systems interact a lot directly with threads, processes, and memory. That’s when I decided to revisit this book to see what I could find. To my surprise, the knowledge in this book is still valuable, and these concepts are very well explained. 
+
+**C​hapter 2, “processes and threads,” is a gem.** Seriously, if you could read only one chapter, I’d recommend this one. Threads are not only explained, but presented with real working C language code. Processes and strategies for communication between processes are also demonstrated in great detail. Some classic IPC problems, like the Dining Philosopher, are presented and provide good insights on how to handle racing conditions in real-world scenarios. 
+
+Memory management is also presented in a very instructive way in Chapter 3, “Memory Management”. Virtual memory, memory pages, and segmentation are important concepts to understand well when working with operating systems development. The knowledge I acquired here helped a lot to navigate the challenges of programming and modifying an OS myself. I highly recommend this book, and I have a feeling that I will be revisiting this many more times in the future. 
+
+## Non-fiction books
+
+### Show Your Work: 10 Ways to Share Your Creativity and Get Discovered – Austin Kleon
+I got this one after reading the famous “steal like an artist” from the same author. Honestly, I found this one way better. Austin Kleon writes very well. He has a way of constructing sentences and paragraphs that makes you feel that everything in there is valuable advice. I finished reading this one in a week or less, but I don’t regret buying it. 
+
+​This book is a New York Times bestseller because everyone, sooner or later, will want to become better at sharing their work. The book shows how you can be found and how you can let others discover your work. I like the overall mindset presented in this book: it’s not too focused on self-promotion, but on self-discovery. The single most important advice I take from this book is that you can’t find your own voice if you don’t use it. **You have to try things, start small, and share stuff you find genuinely interesting with others.** There is no other way to be discovered or get people’s attention: you have to spread the word.
+
+
+### Liquid Modernity – Zygmunt Bauman
+This was the first book I’ve read by Bauman. I know he is very famous for “Liquid Love”, and I bet you heard of this one from your therapist. I had so many people talking to me about “Liquid Love” that I felt I was familiarized with the central idea of that book already. So I decided to start fresh with "Liquid Modernity”.
+
+​I really enjoyed reading this book. His concept of “liquid” describes the shift in many parts of society from stable, institutionally guaranteed life to a society of extreme uncertainty and flexibility. This paradigm change has a significant impact on career paths, social bonds, and the way we live our lives. 
+
+​It’s an incredible book that makes you question the limits of the capitalist structure in our society, and the part you play in all this. The idea is that we now have to individually construct our identities every day, and continually adapt to everything, as opposed to just accepting what life gives us. The trust we used to have in institutions built by the ones that came before us no longer exists. **The modern system that created the freedom we enjoy also created new forms of precarity and isolation.**
+
+​This book is a must-read for everyone interested in the dynamics of modern life. After reading it, I feel like I have acquired new lenses to observe everyday life. How we occupy common spaces, how we approach work and individuality, how we consume, all this is discussed with a rich background of historical facts, and an enjoyable prose.
+
+### Kicking Away the Ladder: Development Strategy in Historical Perspective – Ha-Joon Chang
+That’s another provocative book on macroeconomics. A friend referred me to this one, and I immediately jumped into it. The central question the book attempts to answer is “How did the rich countries really become rich?” The author suggests that rich countries got there by doing things they later recommend developing countries not to do. This hypothesis is backed by numerous historical data demonstrating the decisions these countries have made in the past to guarantee their economic development.
+
+​Rich countries climbed to the top with aggressive protectionism, export promotion, and state-led industrial policies to nurture their nascent industries. This is exactly the opposite of what they currently prescribe for developing countries, forcing a liberal agenda with free-market and free-trade dogma. The book shows that it happened especially in the UK and the U.S.
+
+​The ladder metaphor works perfectly: they achieve the top and want to be there alone, so they kick away the ladder. We all know that, but the book makes it crystal clear: **rich countries are actively preventing developing countries from adopting policies and institutions that they themselves have used.**
+
+I enjoyed reading this one, but some chapters can be difficult to read with many citations and dates, and are loaded with historical data. I highly recommend it to people interested in history, economics, and politics. 
+
+## Fiction books
+
+### The New York Trilogy – Paul Auster
+I had a professor who loved Paul Auster’s books. When Paul Auster died in 2024, I decided to buy this trilogy. It was just a year later that I took it from the shelf to start reading it. I started reading this with zero expectations or presumptions about his work. I was not familiar with his style, and by the time I reached the end of the first story, “City of Glass,” I was really confused. It looked a lot like a detective story, but as the story reached the final pages, I noticed it was not all about solving a mystery, but about the randomness of daily life.
+
+​With my expectations a bit frustrated, I moved on to the second story, “Ghosts”. This one has a different tone, and you can quickly notice it’s an urban story about an ongoing investigation. There’s a fun play of words where the characters are named colors: Blue is trained by Brown to catch a man named Black. The naming makes the story a bit confusing, but it’s fun to read.
+
+​I didn’t read the third story, “The Locked Room”. I really wanted to like this book, and I tried my best, but it feels too experimental. If you are reading this post, Prof. Thiago, I’m sorry, but I couldn’t even finish this one. Everyone seems to love this book; it has lots of positive reviews everywhere, so maybe it’s just not for me.
+
+### Triple – Ken Follett
+This is another brilliant spy thriller by Ken Follett. Previously, I have read “Jackdaws” and “Fall of Giants”, great historical novels with good characters and surprising plot twists, so my expectations for "Triple” were high from the beginning.
+
+​Triple is not fast paced as Jackdaws, but it still delivers a straightforward writing style. The plot can become a bit complex at times, with double agents and undercover spies from the KGB, the Mossad, and a nuclear bomb to be developed.
+
+​I liked reading this one. Follett is the master of presenting different facets of historical events and connecting personal lives to grand narratives. The ending is rushed, though. I felt like something happened way too fast at the end. But still, great reading, and Follett is becoming one of my favorite fiction authors. 
+
+### The Factory – Hiroko Oyamada
+I really liked the central idea of the book. The Factory follows the story of three employees of an industrial factory. They each focus on their specific jobs until their life are entirely absorbed by their work.  
+
+It makes you question your contribution to our capitalist society, and the meaning your life gets (or loses) while you're on the 9-5 job. But it was not a very pleasant read. I think the format is the problem. The story is told in three alternating first-person narratives. It took me a while to fully understand that the different chapters were narrated by different characters.
+
+​I've read a review that says this book is **"the Seinfeld of a factory novel"**, and I couldn't agree more. Nothing actually happens; everything is there just to cause a feeling that, just like the characters, you might be wasting your time.
+
+​It was a difficult read, but I like to read different stuff sometimes. It is a bit experimental too. Maybe the Japanese translation contributes to the feeling that the narrative is very dry. Definitely not a page-turner, and probably that was never the author’s intention. I rated this one as a 3 / 5 in Goodreads, but I’m still digesting this book.
+
+​----
+
+​The year was full of good movies, too, but that’s for another post.
+
+I couldn’t find much time to read outside of the master’s degree, but next year I will have more time to read and hopefully write here.
