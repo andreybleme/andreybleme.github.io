@@ -21,8 +21,16 @@ layout: default
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
+<!-- workaround to filter out the "paper-summaries" from the home page without hurting pagination -->
+{% assign current_page = paginator.page | default: 1 %}
+{% assign page_size = site.paginate %}
+{% assign page_start = current_page | minus: 1 | times: page_size %}
+{% assign page_end = page_start | plus: page_size %}
+{% assign visible_posts = 0 %}
+{% for candidate in site.posts %}
+  {% unless candidate.tags contains "paper-summary" %}
+    {% if visible_posts >= page_start and visible_posts < page_end %}
+    {% assign post = candidate %}
   <div class="list-post">
     {% if post.link %}
     <a href="{{ post.link }}">
@@ -44,12 +52,21 @@ layout: default
 
 
   </div>
+    {% endif %}
+    {% assign visible_posts = visible_posts | plus: 1 %}
+  {% endunless %}
 {% endfor %}
   <!-- Pagination links -->
+  {% assign total_pages = visible_posts | plus: page_size | minus: 1 | divided_by: page_size %}
   <div class="list-pagination">
     <span class="list-pagination-previous">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+      {% if current_page > 1 %}
+        {% assign previous_page = current_page | minus: 1 %}
+        {% if previous_page == 1 %}
+        <a href="{{ site.baseurl }}/" class="previous">
+        {% else %}
+        <a href="{{ site.baseurl }}/page{{ previous_page }}/" class="previous">
+        {% endif %}
           &#xE000; previous
         </a>
       {% else %}
@@ -58,8 +75,9 @@ layout: default
     </span>
 
     <span class="list-pagination-next">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+      {% if current_page < total_pages %}
+        {% assign next_page = current_page | plus: 1 %}
+        <a href="{{ site.baseurl }}/page{{ next_page }}/" class="next">
           next &#xE001;
         </a>
       {% else %}
