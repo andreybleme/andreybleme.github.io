@@ -321,6 +321,18 @@ body {
   Archive
   -------------- */
 .archive {
+  &-year {
+    margin-bottom: 2rem;
+
+    h2 {
+      margin: 0 0 .5rem;
+      padding-bottom: .25rem;
+      border-bottom: 1px solid $divider-color;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+  }
+
   &-list {
     &-post {
       padding: 0.1rem;
