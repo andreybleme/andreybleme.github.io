@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Huge Pages, TLB, and the cost of memory access"
-description: ""
+title:  "Huge pages, TLB, and the cost of memory access"
+description: "Measuring the impact of huge pages on TLB misses and memory-access performance"
 tags: [operating-systems, perf]
 date:   2026-08-31 13:13:52
 comments: true
@@ -160,15 +160,15 @@ Performance counter stats for './normal_pages' (5 runs):
 
 Here are the results for normal 4 KiB pages, 2 MiB huge pages, and 1 GiB huge pages.
 
-[TLB misses](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/dtlb_load_misses.png "TLB misses")
+![TLB misses](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/dtlb_load_misses.png "TLB misses")
 
 Figure 1. Graph presenting number of TLB misses by memory page sizes
 
-[TLB page faults](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/page_faults.png "TLB page faults")
+![TLB page faults](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/page_faults.png "TLB page faults")
 
 Figure 2. Graph presenting number of memory page faults by page sizes
 
-[Execution time](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/execution_time.png "Execution time")
+![Execution time](https://raw.githubusercontent.com/andreybleme/andreybleme.github.io/master/assets/img/execution_time.png "Execution time")
 
 Figure 3. Graph presenting the CPU execution time in seconds for each memory page size
 
