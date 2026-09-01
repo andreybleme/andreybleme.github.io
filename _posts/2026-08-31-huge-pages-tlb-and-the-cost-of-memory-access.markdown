@@ -191,7 +191,7 @@ One example is [TCmalloc](https://github.com/google/tcmalloc), a huge-page-aware
 
 [2] Huge pages kernel documentation [https://www.kernel.org/doc/Documentation/vm/transhuge.txt](https://www.kernel.org/doc/Documentation/vm/transhuge.txt)
 
-[3] Perf demonstration with Rust using 4GiB pages [https://github.com/evanj/hugepagedemo](https://github.com/evanj/hugepagedemo)
+[3] Perf demonstration with Rust [https://github.com/evanj/hugepagedemo](https://github.com/evanj/hugepagedemo)
 
 [4] Beyond malloc efficiency to fleet efficiency: a hugepage-aware memory allocator [https://www.usenix.org/conference/osdi21/presentation/hunter](https://www.usenix.org/conference/osdi21/presentation/hunter)
 
