@@ -4,7 +4,7 @@ permalink: /about/
 comments: true
 ---
 
-Hi, I'm Lucas Bleme, a software engineer interested in systems and networking.
+Hi, I'm Lucas Bleme, a software engineer interested in systems and networks.
 
 Over the past decade I've worked on backend systems, APIs, and cloud infrastructure, while researching topics such as Linux networking (eBPF, XDP, DPDK), and low-latency datacenter systems.
 

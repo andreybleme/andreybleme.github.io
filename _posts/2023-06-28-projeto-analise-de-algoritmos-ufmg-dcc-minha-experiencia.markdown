@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Projeto e Análise de Algoritmos, minha experiência"
-description: "Compartilhando minha experiência cursando a disciplina Projeto e Análise de Algoritmos (PAA) durante o programa de mestrado em Ciência da Computação (DCC/UFMG)."
+description: "Compartilhando minha experiência com a disciplina Projeto e Análise de Algoritmos (PAA) durante o programa de mestrado em Ciência da Computação (DCC/UFMG)."
 date:   2023-06-28 11:00:00
 tags: [offtopic]
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Running eBPF programs on Docker containers"
-description: "Creating a Docker image to run BPF programs with libbpf, and troubleshooting Ubuntu issues."
+description: "Creating a Docker image to run BPF programs with libbpf."
 date:   2022-05-22 23:20:00
 tags: [bpf, operating-systems, docker]
 comments: true

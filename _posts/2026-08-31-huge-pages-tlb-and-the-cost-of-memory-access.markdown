@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Huge pages, TLB, and the cost of memory access"
-description: "Measuring the impact of huge pages on TLB misses and memory-access performance"
+description: "Measuring the impact of huge pages on TLB misses and memory-access performance."
 tags: [operating-systems, perf]
 date:   2026-08-31 13:13:52
 comments: true
