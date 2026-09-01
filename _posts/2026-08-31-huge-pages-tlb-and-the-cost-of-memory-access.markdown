@@ -172,7 +172,7 @@ Figure 2. Graph presenting number of memory page faults by page sizes
 
 Figure 3. Graph presenting the CPU execution time in seconds for each memory page size
 
-> If you are wondering why **KiB** and **GiB** are used here instead of the more common KB and GB, they stand for kibibyte and gibibyte. This is a representation of data using powers of two, where **1 KiB is 1,024 bytes**. By contrast, KB (kilobyte) and GB (gigabyte) measure data using powers of ten, so **1 KB is 1,000 bytes**. Assim 1 KB as 1,024 bytes may produce different results when reproducing performance tests. 
+> If you are wondering why **KiB** and **GiB** are used here instead of the more common KB and GB, they stand for kibibyte and gibibyte. This is a representation of data using powers of two, where **1 KiB is 1,024 bytes**. By contrast, KB (kilobyte) and GB (gigabyte) measure data using powers of ten, so **1 KB is 1,000 bytes**. Assuming 1 KB as 1,024 bytes may produce different results when reproducing performance tests. 
 
 
 ## Discussion
