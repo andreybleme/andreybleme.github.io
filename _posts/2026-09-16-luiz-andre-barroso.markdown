@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Luiz Andre Barroso and the datacenter as a computer"
+title:  "Luiz André Barroso and the datacenter as a computer"
 description: "From a room full of servers, to a single super computer."
 tags: [offtopic]
-date:   2026-08-16 13:13:52
+date:   2026-09-16 13:13:52
 comments: true
 share: true
 ---
