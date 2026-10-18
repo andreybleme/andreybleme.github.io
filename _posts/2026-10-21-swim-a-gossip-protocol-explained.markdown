@@ -3,7 +3,7 @@ layout: post
 title:  "SWIM: a gossip protocol explained through code"
 description: "Explaining how cluster membership works with the SWIM protocol and a real production implementation."
 tags: [distributed-systems]
-date:   2026-10-16 06:00:52
+date:   2026-10-21 06:00:52
 comments: true
 share: true
 ---
@@ -21,7 +21,7 @@ In this post I explain how the SWIM protocol works, using [memberlist](https://g
 ## The SWIM protocol
 Previous literature [[3]](#references) describe four properties that need to be balanced in distributed failure detector protocols: the first is strong completeness, meaning that any failure of a member is detected by all other members of the group. The second is speed of detection, the time interval between a failure and its detection by some members of the group. The third is the accuracy of its failure detection mechanism. The last is the network message load, in bytes per second, that the protocol imposes while operating.
 
-SWIM is composed of two key components: the failure detector, and the dissemination component that propagates changes about nodes joining and leaving the cluster. For a detailed theoretical description of the protocol and formalities around how each component works, I recommend reading the original SWIM paper. 
+SWIM is composed of two key components: the  **failure detector**, and the  **dissemination component** that propagates changes about nodes joining and leaving the cluster. For a detailed theoretical description of the protocol and formalities around how each component works, I recommend reading the original SWIM paper. 
 
 In the following section I describe how SWIM is implemented in Memberlist, a production open source library written in Go.
 
