@@ -681,6 +681,24 @@ func (m *Memberlist) pushPull() {
 
 ```
 
+## Visualizing the process
+
+I used Codex to generate interactive animations showing the two main operations described in the above sections: failure detection and membership updates. The animation style is heavily inspired by [Sam Rose's beautiful interactive essays about software](https://samwho.dev/).
+
+### Failure detection
+
+The first animation demonstrates a direct ping, indirect checks through three helper nodes, and the transition from suspicion to dead when acknowledgment doesn't arrive. The animation shows how an indirect probe can prevent false failures.
+
+<swim-animation kind="failure"></swim-animation>
+
+### Membership updates
+
+The second animation shows the membership update spreading cross the cluser. Using the menu, you can compare the scenarios seeing how a new member gets added, a failure update is pread, or a newer incarnation number is generate to refute suspicion.
+
+<swim-animation kind="membership"></swim-animation>
+
+<script src="{{ '/assets/swim.js' | relative_url }}" defer></script>
+
 ## My learning process and final notes
 
 I've always liked reading open source code to understand how things work. A friend once introduced me to the book [The Architecture of Open Source Applications](https://aosabook.org/en/), and I was fascinated to discover some of the internals of CMake, Mercurial, and Eclipse. I've been using AI a lot to explore large codebases that I'm not familiar with, and that's what I did to learn how Memberlist implements SWIM. I cloned the repo and asked Codex to show me where I could find the implementation of the two main components of SWIM: failure detection and membership dissemination. Once I had the list of files and function names, I started navigating the files and reading the code myself. From there, I started having more questions and kept iterating, asking about things I couldn't find on my own.
