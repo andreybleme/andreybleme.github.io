@@ -3,7 +3,7 @@ layout: post
 title:  "SWIM: a gossip protocol explained through code"
 description: "Explaining how cluster membership works with the SWIM protocol and a real production implementation."
 tags: [distributed-systems]
-date:   2026-10-21 06:00:52
+date:   2026-10-19 02:00:52
 comments: true
 share: true
 ---
