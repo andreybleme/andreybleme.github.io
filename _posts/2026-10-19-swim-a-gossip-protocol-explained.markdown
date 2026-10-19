@@ -683,7 +683,7 @@ func (m *Memberlist) pushPull() {
 
 ## Visualizing the process
 
-I used Codex to generate interactive animations showing the two main operations described in the above sections: failure detection and membership updates. The animation style is heavily inspired by [Sam Rose's beautiful interactive essays about software](https://samwho.dev/).
+I have generated interactive animations showing the two main operations described in the above sections: failure detection and membership updates. The animation style is heavily inspired by [Sam Rose's beautiful interactive essays about software](https://samwho.dev/). I used Codex to generate the animations with [PixiJS](https://layout.pixijs.io/), and used  the memberlist files on my prompts so that the visual animations match the exact operations we have described in the functions detailed on previous sections.
 
 ### Failure detection
 
